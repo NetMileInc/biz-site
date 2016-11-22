@@ -1,0 +1,292 @@
+@charset "utf-8";
+
+.floatReset {
+	font-size:0px;
+	line-height:0px;
+	height:0px;
+	clear:both;
+}
+
+hr,
+.hidden {
+	display:none;
+}
+
+a:link {
+	color:#14a4d4;
+	text-decoration:underline;
+}
+
+a:visited {
+	color:#14a4d4;
+	text-decoration:underline;
+}
+
+a:hover {
+	color:#54C7FE;
+	text-decoration:underline;
+}
+
+a:active {
+	color:#B6E7FE;
+	text-decoration:underline;
+}
+
+h3 {
+	background:url(../images/h3_bg.gif) no-repeat left top;
+	min-height:16px;
+	line-height:16px;
+	margin:0px;
+	padding:0px 0px 0px 21px;
+	font-size:120%;
+	font-weight:bold;
+	color:#14a4d4;
+}
+
+body {
+	height:100%;
+	width:100%;
+}
+
+div#page {
+	background:transparent url(http://biz-dev.netmile.co.jp/images/common/wrapper_bg.gif) repeat-y scroll left top;
+	margin:0 auto;
+	width:750px;
+	padding:0px 4px;
+}
+
+p#topTitle {
+	color:#999;
+	font-size:80%;
+	background-color: #eee;
+	padding:5px;
+}
+
+/* top
+========================================== */
+div#top {
+	width:726px;
+	padding:6px 12px 4px 12px;
+}
+
+div#top img.companyname {
+	width:219px;
+	float:left;
+}
+
+div.headerR {
+	float:right;
+	text-align:right;
+	font-size:90%;
+}
+
+div#top li {
+	display:inline;
+	margin:0px 0px 0px 10px;
+}
+
+
+/* header
+========================================== */
+div#header {
+	background:url(/blog/images/header_back.jpg) no-repeat left top;
+	width:730px;
+	height:138px;
+	margin:0px auto;
+	padding:0px 0px 0px 20px;
+}
+
+div#header h1 {
+	padding:40px 0px 10px 0px;
+	font-size:32px;
+	font-weight:bold;
+	color:#14a4d4;
+	margin:0px;
+	background:none;
+}
+
+div#header h1 a {
+	color:#14a4d4;
+	text-decoration:none;
+	
+}
+
+div#header div.description {
+	font-size:12px;
+	color:#14a4d4;
+}
+
+* html div#header div.description {
+	margin:0px 0px 34px 0px;
+}
+
+p.lead {
+	height:30px;
+	padding:10px;
+	font-size:12px;
+	color:#ffffff;
+	font-weight:600;
+	background-color:#6dbad5;
+}
+
+div.shadow {
+	height:24px;
+	background:transparent url(../images/lead_line.gif) repeat-x scroll left top;
+}
+
+
+/* contentsInner
+========================================== */
+div#contentsInner {
+	width:720px;
+	background:transparent url(../images/container_back.gif) repeat-y scroll left top;
+	margin:0px 15px 45px 15px;
+}
+
+
+/* sidebar
+========================================== */
+div#sidebar {
+	width:180px;
+	float:left;
+	padding:0px 0px 10px 0px;
+	font-size:85%;
+}
+
+div#sidebar h2 {
+	margin:18px 0px 10px 0px;
+	padding:0px 0px 0px 30px;
+	background:url(../images/menu_title.gif) no-repeat left top;
+	font-size:130%;
+	font-weight:bold;
+	line-height:20px;
+	color:#39902f;
+	letter-spacing:2px;
+}
+
+div#sidebar div.textwidget img {
+	width:140px;
+	margin:0px auto;
+	display:block;
+	border:1px solid #CCCCCC;
+}
+
+* html div#sidebar div.textwidget img {
+	margin:0px 19px;
+}
+
+div#sidebar div.textwidget p {
+	margin:8px 0px 0px 10px;
+}
+
+div#sidebar form#searchform {
+	margin:10px auto;
+	padding:5px 3px;
+	text-align:center;
+}
+
+#sidebar #searchform #s {
+	width: 108px;
+	padding: 2px;
+	}
+
+#sidebar #searchsubmit {
+	padding: 1px;
+	}
+
+div#sidebar .widget ul {
+	margin:5px 0px 0px 10px;
+}
+
+div#sidebar .widget a.tag-link-3 {
+	margin:5px 0px 0px 10px;
+}
+
+/* narrowcolumn
+========================================== */
+div.narrowcolumn {
+	width:510px;
+	min-height:580px;
+	float:right;
+	padding:20px 10px 0px 10px;
+	border-bottom:7px solid #dddddd;
+}
+
+div.narrowcolumn h2 {
+	height:32px;
+	margin:0px 0px 5px 0px;
+	padding:0px 0px 0px 34px;
+	background:url(../images/entry_title.gif) no-repeat left top;
+	font-size:130%;
+	font-weight:bold;
+	line-height:28px;
+	color:#14a4d4;
+}
+
+div.narrowcolumn small {
+	font-size:100%;
+}
+
+div.narrowcolumn div.post {
+}
+
+div.narrowcolumn div.entry {
+	line-height:1.7;
+	margin:15px 0px;
+}
+
+p.postmetadata {
+	margin:5px 0px 40px 0px;
+	padding:10px 0px 0px 0px;
+	border-top:2px solid #14a4d4;
+	text-align:left;
+	color:#CCC;
+	line-height:1.5;
+	font-size:85%;
+}
+
+p.postmetadata ul li {
+	display:inline;
+}
+
+
+
+
+/* footer
+========================================== */
+div#footer p {
+	margin:5px 0px 50px 0px;
+	text-align: center;
+}
+
+div#footer {
+	clear:both;
+	width:100%;
+	font-size:82%;
+	min-height:12px;
+}
+
+div#footer ul {
+	text-align:center;
+}
+
+div#footer li {
+	display:inline;
+	margin:0px 5px;
+}
+
+/* copyRight
+========================================== */
+div#copyRight {
+	background-color:#0066ff;
+	min-height:24px;
+	margin:7px 0px 0px 0px;
+	font-size:85%;
+}
+
+div#copyRight address {
+	color:#FFFFFF;
+	text-align:center;
+	min-height:24px;
+	line-height:24px;
+}
