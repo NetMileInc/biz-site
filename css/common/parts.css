@@ -1,0 +1,375 @@
+﻿@charset "utf-8";
+
+/* General Settings
+========================================== */
+h2 {
+	margin:0px 0px 20px 0px;
+	font-weight:bold;
+}
+
+h3 {
+	background:url(/images/common/icon/icon_h3.gif) 0% 0% no-repeat;
+	font-size:100%;
+	font-weight:bold;
+	padding:0px 0px 0px 17px;
+	margin:0px 0px 10px 0px;
+	min-height:14px;
+}
+
+h4 {
+	background:url(/images/common/icon/icon_h4.gif) 0% 0% no-repeat;
+	font-size:100%;
+	font-weight:bold;
+	padding:0px 0px 0px 17px;
+	margin:0px 0px 10px 0px;
+	min-height:13px;
+}
+
+.floatL {
+	float:left;
+}
+
+.floatR {
+	float:right;
+}
+.floatReset {
+	font-size:0px;
+	line-height:0px;
+	height:0px;
+	clear:both;
+}
+
+.withBorder {
+	border:solid 1px #CCCCCC;
+}
+
+a {
+	color:#0066ff;
+}
+
+a:hover {
+	color:#00c0ff;
+}
+
+table {
+	border:solid 1px #CCCCCC;
+}
+
+table th {
+	background-color:#ebf9fa;
+	font-weight:bold;
+	vertical-align:middle;
+}
+
+table td {
+	background-color:#FFFFFF;
+	border-bottom:solid 1px #CCCCCC;
+	border-left:solid 1px #CCCCCC;
+	vertical-align:middle;
+}
+
+/* infoBtn
+========================================== */
+a.infoBtn {
+	display:block;
+	background:url(/images/common/btn/btn_info.gif) left top no-repeat;
+	text-indent:-9999px;
+	width:219px;
+	height:40px;
+	margin:0px auto 10px auto;
+}
+
+* html a.infoBtn {
+	margin:0px 157px 10px 157px;
+}
+
+a.infoBtn:hover {
+	background:url(/images/common/btn/btn_info_ov.gif) left top no-repeat;
+}
+
+/* info
+========================================== */
+div#info {
+	width:100%;
+	margin:30px auto 25px auto;
+}
+
+div#info p {
+	text-align:center;
+	color:#959191;
+	font-weight:bold;
+	font-size:100%;
+	margin:0px 0px 5px 0px;
+}
+
+div#info p.user {
+	text-align:center;
+	color:#000000;
+	font-weight:normal;
+	font-size:90%;
+	margin:5px 0px 0px 0px;
+}
+
+
+/* linkText
+========================================== */
+div.linkText {
+	float:right;
+	margin:5px 0px 10px 0px;
+}
+
+div.linkText a {
+	display:block;
+	background:url(/images/common/icon/arrow_right.gif) 0% 50% no-repeat;
+	min-height:13px;
+	text-indent:16px;
+	color:#0066ff;
+	font-size:90%;
+}
+
+div.linkText a:hover {
+	background:url(/images/common/icon/arrow_right_ov.gif) 0% 50% no-repeat;
+	color:#00c0ff;
+}
+
+/* linkTextNext
+========================================== */
+div.linkTextNext {
+	float:right;
+	margin:5px 0px 10px 0px;
+}
+
+div.linkTextNext a {
+	display:block;
+	background:url(/images/common/icon/arrow_right.gif) 100% 50% no-repeat;
+	min-height:13px;
+	padding:0px 16px 0px 0px;
+	color:#0066ff;
+	font-size:90%;
+}
+
+div.linkTextNext a:hover {
+	background:url(/images/common/icon/arrow_right_ov.gif) 100% 50% no-repeat;
+	color:#00c0ff;
+}
+
+/* linkTextBack
+========================================== */
+div.linkTextBack {
+	float:left;
+	margin:5px 0px 10px 0px;
+}
+
+div.linkTextBack a {
+	display:block;
+	background:url(/images/common/icon/arrow_left.gif) 0% 50% no-repeat;
+	min-height:13px;
+	text-indent:16px;
+	color:#0066ff;
+	font-size:90%;
+}
+
+div.linkTextBack a:hover {
+	background:url(/images/common/icon/arrow_left_ov.gif) 0% 50% no-repeat;
+	color:#00c0ff;
+}
+
+
+/* pageEnd
+========================================== */
+div.pageEnd {
+	float:right;
+	margin:0px 0px 0px 0px;
+}
+
+div.pageEnd a {
+	display:block;
+	background:url(/images/common/icon/arrow_top.gif) 0% 50% no-repeat;
+	min-height:13px;
+	text-indent:16px;
+	font-size:90%;
+	color:#0066ff;
+}
+
+div.pageEnd a:hover {
+	background:url(/images/common/icon/arrow_top_ov.gif) 0% 50% no-repeat;
+	color:#00c0ff;
+}
+
+
+/* pageLink
+========================================== */
+ul.pageLink {
+	margin:0px 0px 0px 0px;
+}
+
+ul.pageLink li {
+	display:inline;
+	margin:0px 20px 0px 0px;
+}
+
+ul.pageLink li a {
+	background:url(/images/common/icon/arrow_down.gif) 0% 50% no-repeat;
+	min-height:13px;
+	padding:0px 0px 0px 16px;
+	font-size:90%;
+	color:#0066ff;
+}
+
+ul.pageLink li a:hover {
+	background:url(/images/common/icon/arrow_down_ov.gif) 0% 50% no-repeat;
+	color:#00c0ff;
+}
+
+
+
+/* dotsList
+========================================== */
+ul.dotsList {
+	left:0px;
+	margin:0px 0px 0px 0px;
+	overflow:hidden;
+	padding:0px;
+	position:relative;
+}
+
+ul.dotsList li {
+	list-style-type:disc;
+	margin:0.25em 0em 0.25em 1.5em;
+}
+
+/* numList
+========================================== */
+ul.numList {
+	left:0px;
+	margin:0px 0px 0px 0px;
+	overflow:hidden;
+	padding:0px;
+	position:relative;
+}
+
+ul.numList li {
+	list-style-type:decimal;
+	margin:0.25em 0em 0.25em 1.5em;
+}
+
+* html ul.numList li {
+	margin:0.25em 0em 0.25em 2em;
+}
+
+*+html body ul.numList li {
+	margin:0.25em 0em 0.25em 2em;
+}
+
+
+/* main
+========================================== */
+p.mainLead {
+	font-size:90%;
+	line-height:1.5;
+	margin:0px 0px 0px 0px;
+}
+
+
+/* category
+========================================== */
+div.category {
+	margin:30px 0px 10px 0px;
+}
+
+p.categoryLead {
+	font-size:90%;
+	line-height:1.5;
+}
+
+p.categoryLead span {
+	color:#ff0033;
+	font-weight:bold;
+}
+
+div.imgWithLead {
+	width:100%;
+}
+
+div.imgWithLead img {
+	width:334px;
+	float:left;
+}
+
+div.imgWithLead div.leadR,
+div.imgWithLead p.leadR {
+	width:198px;
+	float:right;
+}
+
+
+.leadR li {
+	list-style-type:disc;
+	font-size:90%;
+	line-height:1.5;
+	font-weight:bold;
+}
+
+/* fullTable
+========================================== */
+div.fullTable {
+	width:100%;
+}
+
+div.fullTable table th,
+div.fullTable table td {
+	height:32px;
+	font-size:90%;
+	padding:5px;
+	line-height:1.4;
+}
+
+div.fullTable table th {
+	border-bottom:solid 1px #CCCCCC;
+}
+
+
+/* caution
+========================================== */
+div#caution {
+	width:100%;
+}
+
+div#caution ul {
+	margin:5px -3em 1em 0;
+	padding:0px;
+	position:relative;
+	left:-3em;
+	overflow:hidden;
+	font-size:80%;
+	line-height:1.4;
+}
+
+div#caution li{
+	margin-top:0.25em;
+	margin-bottom:0.25em;
+	list-style-type:disc;
+}
+
+div#caution ul ul {
+	margin-left:1em;
+	padding-left:0;
+}
+
+div#caution ul li {
+	margin-left:5em;
+}
+
+div#caution li li{
+	margin-left:1em;
+}
+
+* html div#caution ul {
+	height:0;
+	overflow:visible;
+}
+
+* html div#caution ul li {
+	height:1%;
+	list-style-type:disc;
+}

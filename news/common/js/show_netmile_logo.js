@@ -1,0 +1,1 @@
+﻿document.write('<a href="/" name="top"><img src="../common/images/logo.jpg" alt="ネットマイル" width="152" height="41" border="0" /></a>');

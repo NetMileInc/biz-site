@@ -1,0 +1,495 @@
+@charset "Windows-31J";
+
+/* === Filename is "font.css" ===
+
+### basic fonts settings
+
+*/
+
+
+/* === page anchor link === */
+ul.anchorLink {
+	clear: both;
+	margin-bottom: 15px;
+	text-align: left;
+}
+
+ul.anchorLink li {
+	margin-left: 15px;
+	display: inline;
+}
+
+ul.anchorLink li a {
+	padding-left: 13px;
+	background-image: url(/common/images/icon/delta-btm.gif);
+	background-position: center left;
+	background-repeat: no-repeat;
+}
+
+/* === pagetop === */
+p.pagetop {
+	clear: both;
+	margin: 30px 15px 30px 0;
+	text-align: right;
+}
+
+div#pageEnd {
+	clear: both;
+}
+
+div#pageEnd p.pagetop {
+	margin-bottom: 0;
+}
+
+p.pagetop a {
+	padding-left: 13px;
+	background-image: url(/common/images/icon/delta-top.gif);
+	background-position: center left;
+	background-repeat: no-repeat;
+}
+
+
+/* === pagetop at middle (ページ途中に出てきた場合) === */
+p.pagetop-m {
+	clear: both;
+	margin-right: 3px;
+	margin: 0 3px 20px 0;
+	text-align: right;
+	line-height: 1;
+}
+
+p.pagetop-m a {
+	padding-left: 13px;
+	background-image: url(/common/images/icon/delta-top.gif);
+	background-position: center left;
+	background-repeat: no-repeat;
+}
+
+
+p.pagetop a:link,
+p.pagetop-m a:link,
+p.pagetop a:visited,
+p.pagetop-m a:visited {
+	text-decoration: none;
+}
+p.pagetop a:hover,
+p.pagetop-m a:hover,
+p.pagetop a:active,
+p.pagetop-m a:active {
+	text-decoration: underline;
+}
+
+/* === previous === */
+p.previous {
+	clear: both;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	text-align: right;
+}
+
+p.previous a {
+	padding-left: 14px;
+	background-image: url(/common/images/icon/delta-blue-left.gif);
+	background-position: center left;
+	background-repeat: no-repeat;
+}
+
+/* === text === */
+
+/* font-size */
+
+/* normal size = 10px */
+
+/* 12px size */
+.m {
+	font-size: 80%;
+}
+
+/* 14px size */
+.l {
+	font-size: 90%;
+}
+
+/* paragraph */
+p.paragraph {
+	margin-bottom: 10px;
+}
+
+/* **-san */
+.san {
+	font-size: 70% !important;
+	vertical-align: baseline !important;
+}
+
+
+
+
+/* lead margin bold */
+p.lead {
+	margin-bottom: 10px;
+	margin-right: 15px;
+	margin-left: 15px;
+	font-size: 80%;
+	line-height: 1.3;
+	font-weight: bold;
+}
+
+/* lead no left margin */
+p.lead2 {
+	margin-bottom: 10px;
+	font-size: 80%;
+	line-height: 1.3;
+	font-weight: bold;
+}
+
+/* lead no left margin normal */
+p.lead3 {
+	margin-bottom: 10px;
+	font-size: 80%;
+	line-height: 1.3;
+	font-weight: normal;
+}
+
+/* lead no left no margin bold */
+p.lead4 {
+	margin-bottom: 5px;
+	font-size: 80%;
+	line-height: 1.3;
+	font-weight: bold;
+}
+
+/* lead center bold */
+p.lead5 {
+	margin-bottom: 10px;
+	font-size: 80%;
+	line-height: 1.3;
+	font-weight: bold;
+	text-align: center;
+}
+
+/* lead center normal */
+p.lead6 {
+	margin-bottom: 10px;
+	font-size: 80%;
+	line-height: 1.3;
+	font-weight: normal;
+	text-align: center;
+}
+
+/* lead left margin normal */
+p.lead7 {
+	margin-bottom: 10px;
+	margin-left: 15px;
+	font-size: 80%;
+	line-height: 1.3;
+	font-weight: normal;
+}
+
+/* lead left margin no bottom margin normal */
+p.lead8 {
+	margin-left: 15px;
+	font-size: 80%;
+	line-height: 1.3;
+	font-weight: normal;
+}
+
+/* 選択・未選択 */
+.choice {
+	font-weight: bold;
+}
+
+.noChoice {
+	color: #ccc;
+}
+
+/* 注意（赤）テキスト */
+p.attention {
+	color: #ff0000;
+}
+
+strong.attention {
+	color: #ff0000;
+}
+
+/* mile */
+p.mile,
+li.mile,
+em.mile,
+dl.mile dt {
+	color: #ff6600;
+	font-weight: bold;
+	letter-spacing: -0.05em;
+}
+
+dl.mile dd img {
+	vertical-align: top;
+}
+
+/* campaign text banner */
+.txtbn {
+	margin-bottom: 5px;
+	line-height: 1.1;
+}
+
+
+
+/* input form text */
+
+
+table.sheet th,
+table.sheet td {
+	vertical-align: top;
+}
+
+table.sheet th p {
+	font-size: 80%;
+}
+
+table.sheet td p {
+	font-size: 80%;
+}
+
+
+th p input,
+td p input,
+th p select,
+td p select {
+	font-size: 100%;
+}
+
+
+
+/* note */
+div#body div#content p.note {
+	text-align: right;
+}
+
+/* sample word */
+table.sheet .sample {
+	margin-top: 2px;
+	font-size: 70%;
+}
+
+/* must for input */
+em.must,
+em.attention {
+	margin: 0 1em 0 0.5em;
+	font-size: 85%;
+	color: #ff6600;
+	font-style: normal;
+	font-weight: normal;
+}
+
+.error {
+	color: #ff0000;
+	font-style: normal;
+	font-weight: bold;
+}
+
+p.error {
+	font-size: 70%;
+}
+
+.errorMessage p {
+	text-align: center;
+}
+
+/* === link text === */
+
+/* instruction */
+.inline {
+	padding-left: 12px;
+	background-image: url(/common/images/icon/delta-blue.gif);
+	background-position: left 0.3em;
+	background-repeat: no-repeat;
+}
+
+span.inline {
+	margin: 0 5px;
+}
+
+h2 span.inline {
+	float: right;
+	display: block;
+	margin: 9px 15px 0 0;
+	font-size: 70%;
+	font-weight: normal;
+	line-height: 1.5;
+}
+
+
+ul.inline li {
+	display: inline;
+	margin-right: 5px;
+}
+
+ul.inline li a {
+	padding-left: 12px;
+	background-image: url(/common/images/icon/delta-blue.gif);
+	background-position: center left;
+	background-repeat: no-repeat;
+}
+
+.inline-prev a {
+	padding-left: 14px;
+	background-image: url(/common/images/icon/delta-blue-left.gif);
+	background-position: center left;
+	background-repeat: no-repeat;
+}
+
+
+
+/* blank */
+.blank a {
+	padding-left: 15px;
+	background-image: url(/common/images/icon/blank.gif);
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+
+span.blank {
+	margin: 0 5px;
+}
+
+h2 span.blank {
+	float: right;
+	display: block;
+	margin: 12px 15px 0 0;
+	font-size: 70%;
+	font-weight: normal;
+}
+
+ul.blank li {
+	display: inline;
+	margin-right: 5px;
+}
+
+ul.blank li a {
+	padding-left: 15px;
+	background-image: url(/common/images/icon/blank.gif);
+	background-position: center left;
+	background-repeat: no-repeat;
+}
+
+
+
+div#body div#content p.more-inline {
+	clear: both;
+	margin-right: 15px;
+	margin-bottom: 20px;
+	text-align: right;
+	line-height: 1.3;
+}
+
+div#body div#content p.more-inline a {
+	padding-left: 10px;
+	background-image: url(/common/images/icon/delta-blue.gif);
+	background-position: center left;
+	background-repeat: no-repeat;
+}
+
+
+* html body div#body div#content p.more-inline a {
+	background-position: 2px left;
+
+}
+/* for ie6 hack */
+
+div#body div#content ul.more-inline {
+	clear: both;
+	float: right;
+	margin: 0 0 20px 0;
+}
+
+
+
+div#body div#content ul.more-inline li {
+	display: inline;
+	margin-right: 15px;
+}
+
+div#body div#content ul.more-inline li {
+	padding-left: 10px;
+	background-image: url(/common/images/icon/delta-blue.gif);
+	background-position: center left;
+	background-repeat: no-repeat;
+}
+
+
+div#body div#content p.more-blank {
+	clear: both;
+	float: right;
+	margin-bottom: 20px;
+	margin-right: 15px;
+}
+
+div#body div#content p.more-blank a {
+	padding-left: 15px;
+	background-image: url(/common/images/icon/blank.gif);
+	background-position: center left;
+	background-repeat: no-repeat;
+}
+
+
+div#body div#content ul.more-blank {
+	clear: both;
+	float: right;
+	margin: 0 0 20px 0;
+}
+
+div#body div#content ul.more-blank li {
+	display: inline;
+	margin-right: 15px;
+}
+
+div#body div#content ul.more-blank li a {
+	padding-left: 15px;
+	background-image: url(/common/images/icon/blank.gif);
+	background-position: center left;
+	background-repeat: no-repeat;
+}
+
+
+
+/* PR */
+.pr {
+	margin-bottom: 10px;
+	line-height: 1.1;
+}
+
+.pr img {
+	margin-right: 3px;
+	margin-bottom: 2px;
+	vertical-align: middle;
+}
+
+
+
+/* #page footer  Area */
+
+div#pageEnd-linkArea ul#guide-list {
+	width: 680px;
+	margin: 0 0 20px 0;
+	border-top: 1px dashed #d6d6d6;
+}
+
+div#pageEnd-linkArea ul#guide-list li {
+	float: left;
+	width: 50%;
+	padding: 5px 0;
+	border-bottom: 1px dashed #d6d6d6;
+}
+
+div#pageEnd-linkArea ul#guide2lcm-list li p.inline {
+	margin: 0 15px;
+}
+
+div#pageEnd-linkArea ul#guide2lcm-list {
+	border-top: 1px dashed #d6d6d6;
+}
+
+div#pageEnd-linkArea ul#guide2lcm-list li {
+	padding: 5px 0;
+	border-bottom: 1px dashed #d6d6d6;
+}
+

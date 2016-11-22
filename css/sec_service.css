@@ -1,0 +1,1406 @@
+@charset "utf-8";
+
+
+/* -------------------------------------------------------------------
+SERVICE
+--------------------------------------------------------------------*/
+.SvcBox {
+	padding:0px 10px 0;
+	margin-bottom:50px;
+}
+.SvcBox .inbox {
+	margin-bottom:50px;
+}
+.SvcBox .inbox h3 {
+	border-bottom:2px solid #31309C;
+	color:#31309C;
+	font-size:131%;
+	margin:0 -5px 15px;
+	padding:5px 5px;
+	line-height:1;
+	position:relative;
+}
+.SvcBox .inbox p.txt {
+	margin-bottom:15px;
+}
+
+.SvcBox .inbox p.pic-index {
+	text-align:center;
+	margin-bottom:20px;
+}
+
+.SvcBox div.svcIndex h4 {
+	border-bottom:1px solid #666;
+	font-size:116%;
+	margin:0 -5px 15px;
+	padding:5px 5px;
+	line-height:1;
+	position:relative;
+}
+.SvcBox div.svcIndex dl {
+	clear:both;
+	padding:8px 8px 0;
+	margin-bottom:20px;
+}
+.SvcBox div.svcIndex dl dt {
+	float:left;
+	width:200px;
+}
+.SvcBox div.svcIndex dl dd {
+	float:right;
+	width:440px;
+}
+.SvcBox div.svcIndex dl dd span {
+	display:block;
+	padding-top:5px;
+}
+
+/* -------------------------------------------------------------------
+SERVICE - SMO
+--------------------------------------------------------------------*/
+/* SMO-index
+--------------------------------------------------------------------*/
+.SvcBox div.SMOIndex {
+	margin-bottom:25px;
+}
+.SvcBox div.SMOIndex h4 {
+	border-bottom:1px solid #666;
+	font-size:116%;
+	margin:0 -5px 10px;
+	padding:5px 5px;
+	line-height:1;
+	position:relative;
+}
+.SvcBox div.SMOIndex div.smoBox {
+	background:#EDF3F8;
+	border:1px solid #7FB4EA;
+	margin-bottom:15px;
+	padding:10px;
+}
+
+.SvcBox div.SMOIndex div.smoBoxG {
+	background:#e7ffe7;
+	border:1px solid #95d495;
+	margin-bottom:15px;
+	padding:10px;
+}
+
+.SvcBox div.SMOIndex div.smoBox dl dt,.SvcBox div.SMOIndex div.smoBoxG dl dt {
+	font-size:116%;
+	font-weight:bold;
+}
+.SvcBox div.SMOIndex table.price {
+	border-collapse:collapse;
+	border-spacing:0;
+	empty-cells:show;
+	margin-bottom:10px;
+	width:50%;
+}
+.SvcBox div.SMOIndex table.price th,
+.SvcBox div.SMOIndex table.price td {
+	border:1px solid #BBBBBB;
+	padding:7px 13px;
+	width:50%;
+}
+.SvcBox div.SMOIndex table.price th {
+background:#F6F6F6;
+font-weight:normal;
+
+}
+.SvcBox div.SMOIndex table.price td {
+	text-align:right;
+}
+/* POINT alliedBox
+--------------------------------------------------------------------*/
+div.SvcBox div.alliedBox {
+	margin-bottom:25px;
+}
+div.SvcBox div.alliedBox div.inbox {
+	margin-bottom:40px;
+}
+div.SvcBox div.alliedBox h4 {
+	border-bottom:1px solid #666;
+	font-size:116%;
+	margin:0 -5px 10px;
+	padding:5px 5px;
+	line-height:1;
+	position:relative;
+}
+div.SvcBox div.alliedBox h5 {
+	background:#fff;
+	font-size:28px;
+	font-size:2.8rem;
+	margin:0 0 10px;
+	padding:4px 10px;
+	line-height:1;
+}
+div.SvcBox div.alliedBox ul.dotsList {
+	float:left;
+	width:45%;
+	margin:0 0px 15px;
+	padding-left:5%;
+	list-style-type:disc;
+}
+div.SvcBox div.alliedBox ul.dotsList li {
+	padding:2px 5px 2px 0;
+}
+
+div.SvcBox div.alliedBox::after {
+ content: "";
+	display: block;
+	height: 0;
+	line-height:0;
+	visibility: hidden;
+	clear: both; }
+div.SvcBox div.alliedBox {display: inline-block;} 
+* div.SvcBox div.alliedBox {height: 1%;}
+div.SvcBox div.alliedBox {display: block;}
+
+div.SvcBox ul.allied-pageLink {
+	margin:0 5px 20px;
+}
+div.SvcBox ul.allied-pageLink li {
+	display:inline;
+	margin:0 20px 0 0;
+}
+div.SvcBox ul.allied-pageLink li a {
+background:url(/images/arw_dwn.gif) no-repeat 0 50%;
+min-height:13px;
+padding:0 0 0 18px;
+}
+div.SvcBox div.alliedBox div.category {
+	padding-bottom:15px;
+}
+
+
+/* service
+タイトルエリア
+--------------------------------------*/
+.serviceAreaBox{
+	border-top: 2px solid #004573;
+	border-bottom: 2px solid #004573;
+}
+.serviceAreaTitle{
+	background-image: url('../images/common/back_img_service.png');
+	background-repeat: repeat;
+	background-size:10px;
+}
+#serviceAreaPoint .serviceAreaTitle,
+#serviceAreaPointGift .serviceAreaTitle{
+	background-color:#036ace;
+	color: #fff;
+}
+#serviceAreaCont .serviceAreaTitle{
+	background-color:#1ea939;
+	color: #fff;
+}
+#serviceAreaProm .serviceAreaTitle{
+	background-color:#f96a32;
+	color: #fff;
+}
+#serviceAreaPoint .serviceAreaTitle .innerBox,
+#serviceAreaPointGift .serviceAreaTitle .innerBox,
+#serviceAreaCont .serviceAreaTitle .innerBox,
+#serviceAreaProm .serviceAreaTitle .innerBox{
+	position: relative;
+	z-index: 0;
+}
+#serviceAreaPoint .serviceAreaTitle .innerBox.exchangeImg,
+#serviceAreaPoint .serviceAreaTitle .innerBox.mediaImg,
+#serviceAreaPointGift .serviceAreaTitle .innerBox.giftImg{
+	background-image: url('../images/common/serviceAreaTitle_back_exchange.png');
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-size: 20%;
+}
+#serviceAreaPoint .serviceAreaTitle .innerBox.mediaImg{
+	background-image: url('../images/common/serviceAreaTitle_back_media.png');
+}
+#serviceAreaPointGift .serviceAreaTitle .innerBox.giftImg{
+	background-image: url('../images/common/serviceAreaTitle_back_gift.png');
+}
+#serviceAreaPoint .serviceAreaTitle .innerBox::after,
+#serviceAreaPointGift .serviceAreaTitle .innerBox::after,
+#serviceAreaCont .serviceAreaTitle .innerBox::after,
+#serviceAreaProm .serviceAreaTitle .innerBox::after{
+	content:"";
+	display:block;
+	background: #fff;
+	width: 50%;
+	margin: 0 auto;
+	position:absolute;
+	height:500px;
+	top:20px;
+	left:25%;
+	border-radius:50% 50% 0 0;
+	z-index: 2;
+}
+#serviceAreaPoint .serviceAreaTitle .innerBox::before,
+#serviceAreaPointGift .serviceAreaTitle .innerBox::before,
+#serviceAreaCont .serviceAreaTitle .innerBox::before,
+#serviceAreaProm .serviceAreaTitle .innerBox::before{
+	content:"";
+	display:block;
+	background: #fff;
+	width: 56%;
+	margin: 0 auto;
+	position:absolute;
+	height:545px;
+	top:-0px;
+	left:22%;
+	border-radius:50% 50% 0 0;
+	z-index: 1;
+	opacity: 0.3;
+}
+#serviceAreaIndex .serviceAreaTitle{
+	background-color:#004573;
+	color: #fff;
+	font-size: 28px;
+	font-size: 2.8rem;
+	line-height:1.2em;
+}
+#serviceAreaIndex .serviceAreaTitle h1{
+	font-weight: normal;
+	padding: 30px 0;
+	text-align: center;
+}
+#serviceAreaPoint .serviceAreaTitle h1,
+#serviceAreaPointGift .serviceAreaTitle h1,
+#serviceAreaCont .serviceAreaTitle h1,
+#serviceAreaProm .serviceAreaTitle h1{
+	font-weight: normal;
+	padding: 40px 0;
+	font-size: 28px;
+	font-size: 2.8rem;
+	line-height: 1.1em;
+}
+#serviceAreaPoint .serviceAreaTitle h1 .enText,
+#serviceAreaPointGift .serviceAreaTitle h1 .enText,
+#serviceAreaCont .serviceAreaTitle h1 .enText,
+#serviceAreaProm .serviceAreaTitle h1 .enText{
+	font-size: 14px;
+	font-size: 1.4rem;
+	display: block;
+}
+.serviceAreaTitle_ServiceName{
+	text-align: center;
+	margin: -70px auto 40px;
+	position:relative;
+	z-index:3;
+}
+.serviceAreaTitle_ServiceName h3{
+	font-weight: normal;
+	font-size: 28px;
+	font-size: 2.8rem;
+	line-height: 1.1em;
+}
+.serviceAreaTitle_ServiceName.pointColor h3{
+	color: #036ace;
+}
+.serviceAreaTitle_ServiceName.giftColor h3{
+	color: #fabd00;
+}
+.serviceAreaTitle_ServiceName.contColor h3{
+	color: #1ea939;
+}
+.serviceAreaTitle_ServiceName.promColor h3{
+	color: #f96a32;
+}
+.serviceAreaTitle_ServiceName h3 .enText{
+	font-size: 14px;
+	font-size: 1.4rem;
+	display: block;
+}
+.serviceAreaTitle_ServiceName .serviceAreaRead{
+	padding: 10px 0 20px;
+	font-size: 14px;
+	font-size: 1.4rem;
+	line-height: 1.8em;
+}
+.serviceAreaTitle_keyV{
+	margin: 0 auto;
+}
+/* デジタルギフト
+--------------------------------------*/
+.meritArea{
+    margin:30px auto 20px;
+}
+.meritArea ul::after{
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+.meritArea > ul{
+    width:100%;
+}
+.meritArea > ul > li{
+    width: 32%;
+    float: left;
+    margin-right:1%;
+    position: relative;
+}
+.meritArea > ul > li:last-child{
+    margin-right:0;
+}
+.meritArea ul li.merit1,
+.meritArea ul li.merit2,
+.meritArea ul li.merit3{
+    position: relative;
+    background: #fff;
+    box-sizing:border-box;
+}
+.meritArea ul li.merit1{
+    border:2px solid #8fc31f;
+}
+.meritArea ul li.merit2{
+    border:2px solid #96c2e8;
+}
+.meritArea ul li.merit3{
+    border:2px solid #f097be;
+}
+.meritKeytext{
+	color:#fff;
+    width: 100%;
+    margin: 0 auto;
+    padding: 5% 0 10%;
+    text-align:center;
+}
+.meritKeytext dt{
+	border-bottom:1px solid #fff;
+	padding:20px 0 10px;
+	margin: 0 15px 10px;
+	font-size: 18px;
+	font-size: 1.8rem;
+	line-height: 1.4em;
+}
+.meritKeytext dt img{
+	width:100%;
+	height:auto;
+}
+.meritKeytext dd{
+	text-align:left;
+	margin: 0 15px;
+}
+.meritArea ul li.merit1 .meritKeytext,
+.meritArea ul li.merit1 p.meritIcon{
+    background: #8fc31f;
+}
+.meritArea ul li.merit2 .meritKeytext,
+.meritArea ul li.merit2 p.meritIcon{
+    background: #96c2e8;
+}
+.meritArea ul li.merit3 .meritKeytext,
+.meritArea ul li.merit3 p.meritIcon{
+    background: #f097be;
+}
+.meritTitle{
+    margin:0 auto;
+    font-size: 18px;
+    font-size: 1.8rem;
+    line-height: 1.3em;
+    text-align: center;
+    padding:55px 0 10px;
+    font-weight: normal;
+    position:relative;
+}
+.meritTitle::after {
+	content: "";
+	position: absolute;
+	bottom: -184px;
+	margin:auto;
+	display: block;
+	width:0;
+	height: 0;
+	border: 155px solid transparent;
+	border-top: 30px solid #fff;
+}
+.meritArea ul li.merit1 .meritTitle{
+	color: #8fc31f;
+}
+.meritArea ul li.merit2 .meritTitle{
+	color: #96c2e8;
+}
+.meritArea ul li.merit3 .meritTitle{
+	color: #f097be;
+}
+.meritArea ul li p.meritIcon{
+	color: #fff;
+	font-size: 24px;
+	font-size: 2.4rem;
+	padding: 1% 2%;
+	position:absolute;
+	top: 0; left: 0;
+}
+.meritArea ul li p.meritIcon::after {
+	content: "";
+	position: absolute;
+	bottom: 0; right: -20px;
+	display: block;
+	width: 0px;
+	height: 0px;
+	border-top: 25px solid transparent;
+	border-bottom: 0px solid transparent; 	
+ 	border-right: none;
+}
+.meritArea ul li p.meritIcon::before {
+	content: "";
+	position: absolute;
+	top: 0; right: -20px;
+	display: block;
+	width: 0px;
+	height: 0px;
+ 	border-bottom: 25px solid transparent;
+	border-top: 0px solid transparent; 	 
+  	border-right: none;
+}
+.meritArea ul li.merit1 p.meritIcon::after,
+.meritArea ul li.merit1 p.meritIcon::before{
+	border-left: 20px solid #8fc31f;
+
+}
+.meritArea ul li.merit2 p.meritIcon::after,
+.meritArea ul li.merit2 p.meritIcon::before{
+	border-left: 20px solid #96c2e8;
+
+}
+.meritArea ul li.merit3 p.meritIcon::after,
+.meritArea ul li.merit3 p.meritIcon::before{
+	border-left: 20px solid #f097be;
+
+}
+.meritArea h3.meritMaintext{
+	text-align: center;
+	margin:20px auto; 
+	padding: 20px 0;
+	font-size: 24px;
+	font-size: 2.4rem;
+	line-height: 1.6em;
+	border-top: 3px solid #fabd00;
+	border-bottom: 3px solid #fabd00;
+	color: #333;
+}
+/* 他社比較
+----------------------------------------- */
+.comparisonTable{
+    width: 100%;
+    border-collapse: 0;
+    border-spacing: 0;
+    margin-bottom: 40px;
+    background:#fff;
+    border:1px solid #fabd00;
+}
+.comparisonTable th{
+	font-weight:normal;
+    background-color:#fff2ca;
+    background-image: url('../images/common/back_img_service.png');
+	background-repeat: repeat;
+	background-size:10px;
+}
+.comparisonTable td,
+.comparisonTable th{
+    border:1px solid #fabd00;
+    padding: 1% 2%;
+    vertical-align:top;
+}
+.comparisonTable td{
+    text-align: center;
+}
+.comparisonTable td:first-child{
+    text-align: left;
+    font-size:20px;
+    font-size:2.0rem;
+    vertical-align:middle;
+}
+.nmgiftTable td:first-child{
+	font-size:14px;
+    font-size:1.4rem;
+    padding-bottom:30px; 
+}
+.nmgiftTable td:first-child img{
+	margin-bottom:-20px;
+	margin-left:-10px;
+}
+.nmgiftTable td p{
+	padding-top:10px;
+}
+.grate,
+.good,
+.bad,
+.poor{
+    font-size: 60px;
+    font-size: 6.0rem;
+    line-height: 1em;
+    font-weight: bold;
+    color:#fabd00;
+}
+/* デジタルギフトのメリット
+----------------------------------------- */
+.DigitalMeritArea{
+	margin-top:20px;
+}
+.DigitalMeritAreaTitle{
+	font-size: 30px;
+    font-size: 3.0rem;
+    line-height: 1em;
+    color: #fabd00;
+    font-weight:normal;
+    border-bottom: 6px double #fbcf47;
+    padding-bottom:15px;
+    padding-left:70px;
+    margin-bottom:20px;
+    position:relative;
+}
+.DigitalMeritAreaTitle::after{
+	content:"";
+	display:block;
+	background-image: url('../images/common/icon_service.png');
+	background-repeat:no-repeat;
+	background-position:-10px -130px;
+	background-size:80px;
+	width:80px;
+	height:70px;
+	position:absolute;
+	bottom:0px; left:0;
+}
+.bizMerit.DigitalMeritAreaTitle::after{
+	background-position:-8px -195px;
+}
+.bizMerit.DigitalMeritAreaTitle{
+	margin-top:80px;
+}
+.DigitalMeritAreaSearch{
+	width: 100%;
+	position: relative;
+}
+.DigitalMeritAreaSearch::after{
+	content: "";
+	clear: both;
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+.DigitalMeritAreaSearch li{
+	float: left;
+}
+.DigitalMeritAreaSearch li:first-child{
+	width: 60%;
+}
+.DigitalMeritAreaSearch li:last-child{
+	width: 40%;
+	padding-bottom:20px
+}
+.DigitalMeritAreaSearch li:last-child img{
+	width: 100%;
+	height: auto;
+}
+.DigitalMeritAreaSearch li dl dt{
+	font-size: 28px;
+    font-size: 2.8rem;
+    line-height: 1.4em;
+    padding-bottom: 20px;
+}
+.DigitalMeritAreaSearch li dl dt strong{
+	font-size: 48px;
+    font-size: 4.8rem;
+    line-height: 1.4em;
+    font-weight: normal;
+}
+.DigitalMeritAreaSearch li dl dd{
+	font-size: 16px;
+    font-size: 1.6rem;
+    line-height: 1.8em;
+}
+.DigitalMeritArrowBox{
+	position: relative;
+}
+.DigitalMeritArrowBox::before{
+	position: absolute;
+	content: '';
+	bottom:-50px;
+	left:112px;
+	width: 0;
+	height: 0;
+	border: 33px solid transparent;
+	border-top-color: #fbcf47;
+	z-index:2;
+}
+.DigitalMeritArrowBox::after{
+	position: absolute;
+	content: '';
+	bottom: 0px;
+	left: 130px;
+	width: 30px;
+	height: 80px;
+	background: #fbcf47;
+	z-index:2;
+}
+.DigitalMeritAreaConclusion{
+	border: 1px solid #fbcf47;
+	padding: 0.5%;
+}
+.DigitalMeritAreaConclusion_inner{
+	border: 1px solid #fbcf47;
+	padding: 3% 6%;
+}
+.DigitalMeritAreaConclusionTitle{
+	font-size: 28px;
+    font-size: 2.8rem;
+    line-height: 1.4em;
+    padding-bottom: 20px;
+    text-align: center;
+    font-weight: normal;
+}
+.DigitalMeritAreaConclusion p{
+	width: 100%;
+	margin-bottom:10px;
+}
+.DigitalMeritAreaConclusion p img{
+	width: 100%;
+	height: auto;
+}
+/* 導入の流れ
+----------------------------------------- */
+.DigitalIntroductionArea::after{
+	content: "";
+	clear: both;
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+.DigitalIntroductionArea{
+	width: 100%;
+}
+.DigitalIntroductionArea > li{
+	float: left;
+	width: 49%;
+	box-sizing: border-box;
+	border: 2px solid #fbcf47;
+	background: #fff;
+	height:500px;
+}
+.DigitalIntroductionArea > li:last-child{
+	margin-left: 2%;
+}
+.DigitalIntroductionAreaTitle{
+	background: #fbcf47;
+	text-align: center;
+	padding: 2%;
+	font-size: 18px;
+    font-size: 1.8rem;
+    line-height: 1.4em;
+    font-weight: normal;
+}
+.DigitalIntroductionArea ol > li{
+	position: relative;
+	text-align: center;
+	border-bottom:2px solid #fbcf47;
+}
+
+.DigitalIntroductionArea ol li:last-child::before,
+.DigitalIntroductionArea ol li:last-child::after{
+	display:none;
+	border:0;
+}
+.DigitalIntroductionArea ol li:last-child{
+	border:0;
+}
+.DigitalIntroductionAreaStep{
+	background: #fbcf47;
+	color: #fff;
+	position:absolute;
+	top:20px;
+	left:5%;
+	text-align:center;
+	width:60px;
+	padding:2% 0;
+	font-family: 'Noto Sans', sans-serif;
+}
+.DigitalIntroductionAreaStep::after{
+	width:0;
+	height:0;
+	content: "";
+	border:12px solid transparent;
+	border-left: 30px solid #fbcf47;
+	border-right: 30px solid #fbcf47;
+	position: absolute;
+	z-index:5;
+	left: 0;
+	bottom: -12px;
+}
+.DigitalIntroductionArea ol li:first-child .DigitalIntroductionAreaStep{
+	top:10px;
+}
+.DigitalIntroductionArea ol li:first-child dl{
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.DigitalIntroductionArea ol li dl{
+	margin-left: 20%;
+	margin-right: 5%;
+	text-align:left;
+	padding-top:30px;
+	padding-bottom:10px;
+}
+.DigitalIntroductionArea ol li dl dt{
+	font-size: 24px;
+    font-size: 2.4rem;
+    line-height: 1.4em;
+    font-weight: normal;
+    padding-bottom:10px;
+}
+.DigitalIntroductionArea ol li dl dt small{
+	font-size: 12px;
+    font-size: 1.2rem;
+    line-height: 1em;
+    font-weight: normal;
+    display: block;
+}
+/* よくある質問
+----------------------------------------- */
+.DigitaFaqArea li{
+	position: relative;
+	padding-bottom:20px;
+	margin-bottom:20px;
+	border-bottom:1px solid #fbcf47;
+}
+.DigitaFaqAreaNo{
+	background: #fbcf47;
+	color: #fff;
+	position:absolute;
+	top:0;
+	left:0;
+	text-align:center;
+	width:60px;
+	padding:5px 0;
+	font-family: 'Noto Sans', sans-serif;
+}
+.DigitaFaqAreaNo::after{
+	width:0;
+	height:0;
+	content: "";
+	border:12px solid transparent;
+	border-left: 30px solid #fbcf47;
+	border-right: 30px solid #fbcf47;
+	position: absolute;
+	z-index:5;
+	left: 0;
+	bottom: -12px;
+}
+.DigitaFaqArea li dl{
+	margin-left:8%;
+}
+.DigitaFaqArea li dl dt{
+	font-size: 20px;
+    font-size: 2.0rem;
+    line-height: 1.4em;
+    padding-bottom:5px;
+}
+@-moz-document url-prefix() {
+	.DigitalIntroductionAreaStep::after,
+	.DigitaFaqAreaNo::after{
+	border-left: 31px solid #fbcf47;
+}
+}
+/* コンテンツゲーム
+--------------------------------------*/
+.serviceAreaContentsGameKeyV{
+	width: 100%;
+}
+.serviceAreaContentsGameKeyV li{
+	width: 100%;
+	position: relative;
+	z-index: 1;
+}
+.serviceAreaContentsGameKeyV li::after{
+	content: "";
+	clear: both;
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+.serviceAreaContentsGameKeyV li::before{
+	content: "";
+	width: 200px;
+	height: 200px;
+	background: #e3f7e7;
+	position: absolute;
+	top: 0; right: 40%;
+	z-index: 0;
+	border-radius:50%;
+}
+.serviceAreaContentsGameKeyV li p{
+	float: left;
+	position:relative;
+	z-index: 1;
+}
+.serviceAreaContentsGameKeyV li dl{
+	float: left;
+	position:relative;
+	z-index: 1;
+	width:40%;
+	text-align:left;
+	margin-top:20px;
+}
+.serviceAreaContentsGameKeyV li dl dt{
+	font-size: 60px;
+    font-size: 6.0rem;
+    line-height: 1.4em;
+    padding-bottom:5px;
+    font-family: 'Noto Sans', sans-serif;
+}
+.serviceAreaContentsGameKeyV li dl dd{
+	color:#333;
+}
+.serviceAreaContentsGameKeyV li dl dd h4{
+	font-size: 24px;
+    font-size: 2.4rem;
+    line-height: 1.4em;
+    font-weight:normal;
+    padding-bottom:10px;
+}
+.ContentsGameDetailImg{
+	margin: 0 auto;
+	text-align:center;
+}
+/* プロモーション事業
+--------------------------------------*/
+.PromAdmenuArea{
+	background: #fff;
+	padding:3%;
+}
+.PromAdmenuAreaMedia ul::after{
+	content: "";
+	clear: both;
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+.PromAdmenuAreaMedia ul{
+	width: 100%;
+}
+.PromAdmenuAreaMedia ul li{
+	float: left;
+	width:37.5%;
+	margin-left:2%;
+}
+.PromAdmenuAreaMedia ul li a{
+	width:80%;
+}
+.PromAdmenuAreaMedia ul li:first-child{
+	width:20%;
+	margin-left:0;
+}
+.PromAdmenuAreaMedia ul li:first-child img{
+	width:100%;
+	height:auto;
+	margin-top:-20px;
+}
+.PromAdmenuAreaTitle{
+	font-size: 24px;
+    font-size: 2.4rem;
+    line-height: 1.4em;
+    font-weight:normal;
+    text-align: center;
+    color: #f96a32;
+    position:relative;
+    z-index:0;
+    margin-bottom:20px;
+}
+.PromAdmenuAreaTitle::after{
+	content:"";
+	display:block;
+	width:100%;
+	height:1px;
+	border-top:1px solid #f96a32;
+	position:absolute;
+	top:50%; left:0;
+	z-index:-2;
+}
+.PromAdmenuAreaTitle::before{
+	content:"";
+	display:block;
+	width:10em;
+	height:40px;
+	background:#fff;
+	position:absolute;
+	top:0; left:40%;
+	z-index:-1;
+}
+.PromAdmenuAreaDetail{
+	width:100%;
+	border-collapse: collapse;
+	margin-top:10px;
+	min-height: 120px;
+}
+.PromAdmenuAreaDetail td,
+.PromAdmenuAreaDetail th{
+	border: 1px solid #f96a32;
+}
+.PromAdmenuAreaDetail th{
+	width:20%;
+	color:#f96a32;
+	font-size: 16px;
+	font-size: 1.6rem;
+	line-height: 1.4em;
+	font-weight:normal;
+	text-align: center;
+	vertical-align:middle;
+	padding: 1% 0;
+}
+.PromAdmenuAreaDetail td{
+	background:#fee1d6;
+	padding:1%;
+	text-align:left;
+	vertical-align:middle;
+}
+.PromAdmenuAreaDetail td:last-child{
+	background:#fff;
+	width:55%;
+}
+.PromAdmenuAreaDetail th::before{
+	content:"";
+	display:block;
+	background-image: url('../images/common/icon_service.png');
+	background-repeat:no-repeat;
+	background-size:80px;
+	width:100%;
+	height:65px;
+	margin-left:28%;
+/* 	margin-top:-68px; */
+	float:left;
+}
+.PromIconMail th::before{
+	background-position:0 -825px;
+	/* margin-top:-80px; */
+}
+.PromIconWeb th::before{
+	background-position:0 -766px;
+}
+.PromIconAnq th::before{
+	background-position:0 -705px;
+}
+.PromIconAnq{
+	margin-bottom:30px;
+}
+/* service 内容
+--------------------------------------*/
+.pointColor{color: #036ace;}
+.giftColor{color: #fabd00;}
+.contColor{color: #1ea939;}
+.promColor{color: #f96a32;}
+.serviceAreaDetail{
+	padding: 50px 0;
+	position:relative;
+	z-index:5;
+}
+#serviceAreaPoint .serviceAreaDetail:nth-child(odd){
+	background: #eaf5ff;
+}
+#serviceAreaPointGift .serviceAreaDetail:nth-child(odd){
+	background: #fff5d7;
+}
+#serviceAreaCont .serviceAreaDetail:nth-child(odd){
+	background: #e3f7e7;
+}
+#serviceAreaProm .serviceAreaDetail:nth-child(odd){
+	background: #fdefe9;
+}
+.serviceAreaDetail_title{
+	font-size: 28px;
+	font-size: 2.8rem;
+	line-height:1.4em;
+	text-align: center;
+	font-weight: normal;
+	padding-bottom:30px;
+}
+.serviceAreaDetail_read{
+	font-size: 14px;
+	font-size: 1.4rem;
+	line-height: 1.8em;
+	text-align: center;
+	font-weight: normal;
+	padding-bottom:30px;
+}
+
+/* 丸のリスト------------------ */
+.serviceAreaDetail_list1::after,
+.serviceAreaDetail_list2::after,
+.serviceAreaDetail_list3::after{
+	content: "";
+	clear: both;
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+.serviceAreaDetail_list1,
+.serviceAreaDetail_list2,
+.serviceAreaDetail_list3{
+	width: 100%;
+}
+.serviceAreaDetail_list2{
+	margin-bottom:30px;
+}
+.serviceAreaDetail_list1 li,
+.serviceAreaDetail_list3 li{
+	width: 15%;
+	float: left;
+	text-align:center;
+	margin-right:1.6666%;
+}
+.serviceAreaDetail_list3 li:first-child{
+	margin-left:25%;
+}
+.serviceAreaDetail_list1 dl,
+.serviceAreaDetail_list1 dl{
+	background:#fff;
+	border-radius:50%;
+	padding:20px 0 0;
+	height:125px;
+}
+.serviceAreaDetail_list3 dl,
+.serviceAreaDetail_list3 dl{
+	background:#fff;
+	border-radius:50%;
+	padding:30px 0 0;
+	height:115px;
+}
+#serviceAreaPoint .serviceAreaDetail_list1 dl{
+	border:1px solid #036ace;
+	color:#036ace;
+}
+#serviceAreaPoint .serviceAreaDetail_list1 dt{
+	border-bottom:3px solid #036ace;
+}
+#serviceAreaProm .serviceAreaDetail_list3 dl{
+	border:1px solid #f96a32;
+	color:#f96a32;
+}
+#serviceAreaProm .serviceAreaDetail_list3 dt{
+	border-bottom:3px solid #f96a32;
+}
+
+.serviceAreaDetail_list1 dt strong,
+.serviceAreaDetail_list3 dt strong{
+	display:block;
+	font-size: 30px;
+	font-size: 3.0rem;
+	line-height:1.0em;
+	text-align: center;
+	font-weight: normal;
+/* 	padding:10px 0; */
+}
+.serviceAreaDetail_list1 li:nth-child(4) dl dt,
+.serviceAreaDetail_list1 li:nth-child(5) dl dt{
+	margin-top:5px;
+	height:40px;
+}
+.serviceAreaDetail_list1 dt,
+.serviceAreaDetail_list3 dt{
+	width:80%;
+	margin:0 auto;
+	padding:0 0 5px;
+	height:45px;
+	font-size: 12px;
+	font-size: 1.2rem;
+	line-height:1.0em;
+	font-family: 'Noto Sans', sans-serif;
+}
+.serviceAreaDetail_list1 dd,
+.serviceAreaDetail_list3 dd{
+	padding-top:10px;
+}
+
+/* 丸のリストメディアで使用------ */
+.serviceAreaDetail_list2 li{
+	width: 31%;
+	float: left;
+	text-align:center;
+	margin-right:1.6666%;
+	margin-bottom:15px;
+}
+.serviceAreaDetail_list2 dl{
+	background:#fff;
+	border-radius:50%;
+	padding:100px 0 0;
+	height:190px;
+	position:relative;
+}
+#serviceAreaPoint .serviceAreaDetail_list2 dl{
+	border:1px solid #036ace;
+	color:#036ace;
+}
+.serviceAreaDetail_list2 dl dt{
+	font-size: 28px;
+	font-size: 2.8rem;
+	line-height:1.2em;
+}
+.serviceAreaDetail_list2 dl dt .enText{
+	font-size: 16px;
+	font-size: 1.6rem;
+	line-height:1.0em;
+	display:block;
+}
+.serviceAreaDetail_list2 dl::after{
+	content:"";
+	display:block;
+	background-image: url('../images/common/icon_service.png');
+	background-repeat:no-repeat;
+	background-size:80px;
+	width:80px;
+	height:65px;
+	position:absolute;
+	top:20px; left:39%;
+}
+.serviceAreaDetail_list2 dl.madiaIconRegistration::after{
+	background-position:-8px -260px;
+}
+.serviceAreaDetail_list2 dl.madiaIconShopping::after{
+	background-position:-8px -325px;
+}
+.serviceAreaDetail_list2 dl.madiaIconMail::after{
+	background-position:-8px -640px;
+}
+.serviceAreaDetail_list2 dl.madiaIconAuestionnaire::after{
+	background-position:-8px -390px;
+}
+.serviceAreaDetail_list2 dl.madiaIconGame::after{
+	background-position:-3px -455px;
+	height:50px;
+	top:28px; left:37%;
+}
+.serviceAreaDetail_list2 dl.madiaIconIntroduction::after{
+	background-position:-8px -565px;
+}
+.serviceAreaDetail_list2 dl dd{
+	width:70%;
+	margin:20px auto 0;
+}
+/* 四角のリスト------------------ */
+.serviceAreaDetail_listBox1::after{
+	content: "";
+	clear: both;
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+.serviceAreaDetail_listBox1 > li{
+	float: left;
+	margin-left: 4%;
+	width: 43%;
+	text-align: center;
+	padding: 0.5%;
+	background: #fff;
+}
+.serviceAreaDetail_listBox1 > li > dl > dt{
+	font-size: 28px;
+	font-size: 2.8rem;
+	line-height:1.4em;
+	padding-top:70px;
+	position:relative;
+}
+.serviceAreaDetail_listBox1 > li > dl > dd > ul{
+	width:90%;
+	margin:0 auto;
+	margin-bottom:30px;
+}
+.serviceAreaDetail_listBox1 > li > dl > dd > ul > li{
+	padding:10px;
+}
+/* メリット */
+.serviceMerit > li > dl > dt::after{
+	content:"";
+	display:block;
+	background-image: url('../images/common/icon_service.png');
+	background-repeat:no-repeat;
+	background-size:80px;
+	width:80px;
+	height:65px;
+	position:absolute;
+	top:10px; left:44%;
+}
+.serviceMerit > li:last-child > dl > dt::after{
+	background-position:-10px -5px;
+}
+.serviceMerit > li:first-child > dl > dt::after{
+	background-position:-8px -70px;
+}
+#serviceAreaPoint .serviceAreaDetail_listBox1 dl{
+	border:1px solid #036ace;
+	height: 280px;
+}
+#serviceAreaPoint .serviceAreaDetail_listBox1 dt{
+	color:#036ace;
+}
+#serviceAreaPoint .serviceAreaDetail_listBox1 > li{
+	border:1px solid #036ace;
+}
+#serviceAreaPoint .serviceAreaDetail_listBox1 > li > dl > dd > ul > li{
+	border-bottom:1px solid #036ace;
+}
+/* 導入先リスト------------------ */
+.serviceAreaDetail_listC1::after{
+	content: "";
+	clear: both;
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+.serviceAreaDetail_listC1{
+	margin-bottom:20px;
+}
+.serviceAreaDetail_listC1 li{
+	width: 30%;
+	margin-left:3%;
+	margin-bottom:2%;
+	text-align: center;
+	float:left;
+	background:#fff;
+}
+.serviceAreaDetail_listC1 li a{
+	display: block;
+	text-decoration: none;
+}
+.serviceAreaDetail_listC1 li a:hover{
+	opacity: 0.8;
+}
+#serviceAreaPoint .serviceAreaDetail_listC1 li a{
+	color:#036ace;
+	padding: 10px 0;
+}
+#serviceAreaCont .serviceAreaDetail_listC1 li a{
+	color: #1ea939;
+}
+#serviceAreaProm .serviceAreaDetail_listC1 li a{
+	color: #f96a32;
+}
+#serviceAreaPoint .serviceAreaDetail_listC1 li{
+	border:1px solid #036ace;
+}
+#serviceAreaProm .serviceAreaDetail_listC1 li{
+	border:1px solid #f96a32;
+}
+#serviceAreaCont .serviceAreaDetail_listC1 li{
+	border:1px solid #1ea939;
+	width: 93%;
+}
+.serviceAreaDetail_listC1 li dl{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+#serviceAreaProm .serviceAreaDetail_listC1 li dt{
+	background: #f96a32;
+}
+#serviceAreaCont .serviceAreaDetail_listC1 li dt{
+	background: #1ea939;
+}
+.serviceAreaDetail_listC1 li dt{
+	font-size:12px;
+	font-size:1.2rem;
+	color: #fff;
+}
+.serviceAreaDetail_listC1 li dt,
+.serviceAreaDetail_listC1 li dd{
+	padding:10px 0;
+	margin: 0;
+}
+	
+/* 交換先リスト
+----------------------------------------- */
+.spendLogolist::after{
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+#serviceAreaPointGift .meritArea .innerBox{
+	margin-top:40px;
+    width: 100%;
+    color:#333;
+}
+.spendLogolistArea{
+    margin-bottom:20px;
+    width: 100%;
+}
+.spendLogolist{
+    width: 100%;
+    margin-bottom:10px;
+}
+.spendLogoTitle,
+.spendLogolist ul,
+.spendLogolist ul li{
+    float: left;
+}
+.spendLogoTitle,
+#serviceAreaPointGift .spendLogoTitle{
+    width: 12%;
+    background: #036ace;
+    color:#fff;
+    text-align: center;
+    padding: 30px 0 0px;
+    margin: 0 2%;
+    font-size:12px;
+    min-height:45px;
+    position: relative;
+}
+#serviceAreaPointGift .spendLogoTitle{
+	background: #fabd00;
+	color: #333;
+}
+.spendLogoTitle::after,
+#serviceAreaPointGift .spendLogoTitle::after{
+	content: "";
+	position: absolute;
+	top: 50%; right: -9px;
+	margin-top: -10px;
+	display: block;
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 10px 0 10px 10px;
+	border-color: transparent transparent transparent #036ace;
+}
+#serviceAreaPointGift .spendLogoTitle::after{
+	border-color: transparent transparent transparent #fabd00;
+}
+.spendLogoTitle2line{
+    padding: 20px 0 10px !important;
+}
+.spendLogoTitle3line{
+    padding: 15px 0 15px !important;
+}
+.spendLogoTitle2line span,
+.spendLogoTitle3line span{
+    display: none;
+}
+.spendLogolist ul{  
+    width: 84%;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+
+    -webkit-box-align: center;
+    -moz-box-align: center;
+
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.spendLogolist ul li{
+    width:20%;
+}
+.spendLogolist ul li img{
+    width:70%;
+    height: auto;
+    /* margin:0 15%; */
+}

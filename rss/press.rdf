@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns="http://purl.org/rss/1.0/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:admin="http://webns.net/mvcb/"
+  xml:lang="ja">
+  <channel rdf:about="http://biz.netmile.co.jp/rss/press.rdf">
+    <title>株式会社ネットマイル　新着ニュース</title>
+    <link>http://biz.netmile.co.jp/</link>
+    <dc:date>2016-11-14T17:03:21+09:00</dc:date>
+    <description>インターネット上で使える日本最大級の共通ポイント「ネットマイル」。ポイント事業は手間とコストをおさえ会員獲得・顧客維持に利用。広告事業は会員に対してメールやWebを通じアクションに利用。</description>
+    <admin:generatorAgent rdf:resource="http://www.infomaker.jp/editorlite/?v=0.93" />
+    <items>
+      <rdf:Seq>
+        <rdf:li rdf:resource="http://biz.netmile.co.jp/news/press_2016/press_release161116.html#he20161116"/>
+        <rdf:li rdf:resource="http://biz.netmile.co.jp/news/press_2016/press_release161101.html#he20161101"/>
+        <rdf:li rdf:resource="http://biz.netmile.co.jp/news/press_2016/press_release161020.html#he20161020"/>
+        <rdf:li rdf:resource="http://biz.netmile.co.jp/news/press_2016/press_release160720.html#he20160720"/>
+        <rdf:li rdf:resource="http://biz.netmile.co.jp/news/press_2016/press_release160712.html#he20160712"/>
+        <rdf:li rdf:resource="http://biz.netmile.co.jp/news/press_2016/press_release160606.html#he20160606"/>
+        <rdf:li rdf:resource="http://biz.netmile.co.jp/news/press_2016/press_release160411.html#he20160411"/>
+        <rdf:li rdf:resource="http://biz.netmile.co.jp/news/press_2016/press_release160404.html#he20160401"/>
+        <rdf:li rdf:resource="http://biz.netmile.co.jp/news/press_2016/press_release160301.html#he20160301"/>
+        <rdf:li rdf:resource="http://biz.netmile.co.jp/news/press_2015/press_release151201.html#he20151201"/>
+        <rdf:li rdf:resource="http://biz.netmile.co.jp/news/press_2015/press_release151130.html#he20151130"/>
+        <rdf:li rdf:resource="http://biz.netmile.co.jp/news/press_2015/press_release151006.html#he20151006"/>
+        <rdf:li rdf:resource="http://biz.netmile.co.jp/news/press_2015/press_release150928.html#he20150928"/>
+        <rdf:li rdf:resource="http://biz.netmile.co.jp/news/press_2015/press_release150915.html#he20150915"/>
+        <rdf:li rdf:resource="http://biz.netmile.co.jp/news/press_2015/press_release150901.html#he20150901"/>
+      </rdf:Seq>
+    </items>
+  </channel>
+  <item rdf:about="http://biz.netmile.co.jp/news/press_2016/press_release161116.html#he20161116">
+    <title>リサイクルで貯まるポイントの交換先に「NetMile Gift」が追加</title>
+    <link>http://biz.netmile.co.jp/news/press_2016/press_release161116.html</link>
+    <dc:date>2016-11-16</dc:date>
+    <description>株式会社ネットマイルは、山梨県と三重県の「リサイクルステーション」計2ヵ所で「NetMile Gift（ネットマイルギフト）」の提供を11月中に開始します。</description>
+  </item>
+
+  <item rdf:about="http://biz.netmile.co.jp/news/press_2016/press_release161101.html#he20161101">
+    <title>ネットマイル、楽天Kobo・楽天SHOWTIMEで使える割引クーポンへの交換サービス開始</title>
+    <link>http://biz.netmile.co.jp/news/press_2016/press_release161101.html</link>
+    <dc:date>2016-11-01</dc:date>
+    <description>株式会社ネットマイルは、楽天株式会社が運営する「楽天SHOWTIME」ならびに「楽天Kobo」の各サービスで使えるクーポンとネットマイル社のマイルとの交換を、本日11月1日から開始します。</description>
+  </item>
+
+  <item rdf:about="http://biz.netmile.co.jp/news/press_2016/press_release161020.html#he20161020">
+    <title>ネットマイル、gooポイントと相互交換サービス開始</title>
+    <link>http://biz.netmile.co.jp/news/press_2016/press_release161020.html</link>
+    <dc:date>2016-10-20</dc:date>
+    <description>株式会社INMホールディングス傘下で、インターネット上の共通ポイントプログラムを運営する株式会社ネットマイルは、同社のポイント交換サイト「ネットマイル」で、goo（グー）ポイントとの相互交換サービスを10月20日（木）より開始します。</description>
+  </item>
+
+  <item rdf:about="http://biz.netmile.co.jp/news/press_2016/press_release160720.html#he20160720">
+    <title>ネットマイル社、NTTソフトウェアと初共催　無料セミナー</title>
+    <link>http://biz.netmile.co.jp/news/press_2016/press_release160720.html</link>
+    <dc:date>2016-07-20</dc:date>
+    <description>ネットマイル社、NTTソフトウェアと初共催「戦略的ポイントマーケティング」事例セミナー</description>
+  </item>
+
+  <item rdf:about="http://biz.netmile.co.jp/news/press_2016/press_release160712.html#he20160712">
+    <title>NTTソフトウェアとネットマイル社が業務提携</title>
+    <link>http://biz.netmile.co.jp/news/press_2016/press_release160712.html</link>
+    <dc:date>2016-07-12</dc:date>
+    <description>日本最大級のポイント交換所と連携できるデジタルマーケティングソリューションの提供開始</description>
+  </item>
+
+  <item rdf:about="http://biz.netmile.co.jp/news/press_2016/press_release160606.html#he20160606">
+    <title>ネットマイル、九州地区交通系ICカード「nimoca（ニモカ）」とのポイント交換開始地方創生と地域活性化のために、地域ポイントとの連携をさらに強化</title>
+    <link>http://biz.netmile.co.jp/news/press_2016/press_release160606.html</link>
+    <dc:date>2016-06-06</dc:date>
+    <description>株式会社INMホールディングス傘下で、インターネット上の共通ポイントプログラムを運営する株式会社ネットマイルは、株式会社ニモカが発行する九州地区の交通系ICカード「nimoca（ニモカ）」とのポイント交換を本日6月6日から開始します。</description>
+  </item>
+
+  <item rdf:about="http://biz.netmile.co.jp/news/press_2016/press_release160411.html#he20160411">
+    <title>ネットマイル、ポイント現金化の振込み口座に三菱東京UFJ銀行を追加</title>
+    <link>http://biz.netmile.co.jp/news/press_2016/press_release160411.html</link>
+    <dc:date>2016-04-11</dc:date>
+    <description>株式会社INMホールディングス傘下で、インターネット上の共通ポイントプログラムを運営する株式会社ネットマイル（本社：東京都千代田区、代表取締役CEO：渡邉真啓。以下、ネットマイル社）は、同社のポイント交換サイト「ネットマイル」のポイント現金化の振込み口座に、株式会社三菱東京UFJ銀行（所在地：東京都千代田区、頭取：平野信行。以下、三菱東京UFJ銀行）を4月11日より追加いたします。</description>
+  </item>
+
+  <item rdf:about="http://biz.netmile.co.jp/news/press_2016/press_release160404.html#he20160401">
+    <title>ネットマイル、四国電力「よんでんポイント」との交換開始</title>
+    <link>http://biz.netmile.co.jp/news/press_2016/press_release160404.html</link>
+    <dc:date>2016-04-01</dc:date>
+    <description>株式会社INMホールディングス傘下で、インターネット上の共通ポイントプログラムを運営する株式会社ネットマイル（本社：東京都千代田区、代表取締役：渡邉真啓。以下、ネットマイル社）は、同社のポイント交換サイト「ネットマイル」で、四国電力株式会社（本社：香川県高松市、取締役社長：佐伯勇人。以下、四国電力）が発行する「よんでんポイント」との交換を本日4月4日から開始します。</description>
+  </item>
+
+  <item rdf:about="http://biz.netmile.co.jp/news/press_2016/press_release160301.html#he20160301">
+    <title>ネットマイル、WAONポイントへの交換サービス開始</title>
+    <link>http://biz.netmile.co.jp/news/press_2016/press_release160301.html</link>
+    <dc:date>2016-03-01</dc:date>
+    <description>ネットマイル、WAONポイントへの交換サービス開始 4月には記念キャンペーンも実施予定</description>
+  </item>
+
+  <item rdf:about="http://biz.netmile.co.jp/news/press_2015/press_release151201.html#he20151201">
+    <title>ネットマイル、ゆうちょ銀行口座へのポイント現金化サービス開始</title>
+    <link>http://biz.netmile.co.jp/news/press_2015/press_release151201.html</link>
+    <dc:date>2015-12-01</dc:date>
+    <description>ポイント交換サイト「ネットマイル」で、ゆうちょ銀行の口座へのポイント現金化サービスを本日12月1日（火）より開始します。</description>
+  </item>
+
+  <item rdf:about="http://biz.netmile.co.jp/news/press_2015/press_release151130.html#he20151130">
+    <title>株式会社INMホールディングス、第三者割当増資を実施、総額2億円調達</title>
+    <link>http://biz.netmile.co.jp/news/press_2015/press_release151130.html</link>
+    <dc:date>2015-11-30</dc:date>
+    <description>株式会社INMホールディングス、第三者割当増資を実施、総額2億円調達　ポイント関連の新規サービス開発と電力市場へのポイントソリューション提供を強化</description>
+  </item>
+
+  <item rdf:about="http://biz.netmile.co.jp/news/press_2015/press_release151006.html#he20151006">
+    <title>INMホールディングス代表取締役 兼 ネットマイル社取締役 坂井光が「全面自由化で注目される新機軸の電力ビジネス展開」セミナーで講演</title>
+    <link>http://biz.netmile.co.jp/news/press_2015/press_release151006.html</link>
+    <dc:date>2015-10-06</dc:date>
+    <description>INMホールディングス代表取締役 兼 ネットマイル社取締役 坂井光が「全面自由化で注目される新機軸の電力ビジネス展開」セミナーで講演 ポイントプログラム戦略について提言、10月23日（金）東京・日本橋にて</description>
+  </item>
+
+  <item rdf:about="http://biz.netmile.co.jp/news/press_2015/press_release150928.html#he20150928">
+    <title>INMホールディングス代表取締役 畑野仁一が「電力自由化における小売りマーケティングの展開・戦略」セミナーで講演</title>
+    <link>http://biz.netmile.co.jp/news/press_2015/press_release150928.html</link>
+    <dc:date>2015-09-28</dc:date>
+    <description>INMホールディングス代表取締役 畑野仁一が「電力自由化における小売りマーケティングの展開・戦略」セミナーで講演　ポイントプログラム戦略について提言、10月13日（火）東京・港区立新商工会館にて</description>
+  </item>
+
+  <item rdf:about="http://biz.netmile.co.jp/news/press_2015/press_release150915.html#he20150915">
+    <title>INMホールディングスがパーパスと提携　自由化直前の電力、ガス等エネルギー業界にポイントプログラム導入システムとマーケティング戦略を共同提案</title>
+    <link>http://biz.netmile.co.jp/news/press_2015/press_release150915.html</link>
+    <dc:date>2015-09-15</dc:date>
+    <description>ポイントプログラムとマーケティングに関するコンサルテーションに特化した株式会社INMホールディングスと、ガス給湯器等の住宅設備機器メーカーのパーパス株式会社は、エネルギー業界におけるポイントプログラムの導入支援を共同で行うことで合意、提携します。</description>
+  </item>
+
+  <item rdf:about="http://biz.netmile.co.jp/news/press_2015/press_release150901.html#he20150901">
+    <title>ネットマイル社とインタレストマーケティング社が新会社「株式会社INMホールディングス」を設立</title>
+    <link>http://biz.netmile.co.jp/news/press_2015/press_release150901.html</link>
+    <dc:date>2015-09-01</dc:date>
+    <description>株式会社ネットマイル（本社：東京都千代田区、以下「ネットマイル社」）と株式会社インタレストマーケティング（本社：東京都新宿区、以下「インタレストマーケティング社」）は、新会社「株式会社INMホールディングス」（以下「INMホールディングス」）を設立し、本日9月1日、畑野仁一と坂井光の両名が代表取締役に就任しました。</description>
+  </item>
+
+</rdf:RDF>

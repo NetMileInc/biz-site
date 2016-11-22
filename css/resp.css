@@ -1,0 +1,975 @@
+@charset "utf-8";
+
+/*---------------------------------------------------------------------------
+ レスポンシブ
+--------------------------------------------------------------------------- */
+@media screen and (max-width: 960px) {
+	#footerArea img,
+	#keyArea img,
+	.SvcBox div.SMOIndex img,
+	#press-template #contents img,
+	.readArea img,
+	#sideBox div.subbnr ul li img,
+	#sideBox img {
+		width: 100%;
+		height: auto;
+	}
+	#keyArea .keyCopy{
+		height:auto !important;
+	}
+	#keyArea .keyCopy h1{
+		padding-top:14% !important;
+		width:50%;
+	}
+	#keyArea .keyCopy h2{
+		padding-bottom:10% !important;
+		width:50%;
+	}
+	#press-template #contents .Contactbox img {
+		width: auto;
+		height: auto;
+	}
+}/* max-width: 960px */
+@media screen and (max-width: 768px) {
+	.fixedbody {
+	  overflow: hidden;
+	  height: 100%;
+	}
+	#contents,
+	.infooterBox,
+	.innerBox{
+		width:94% !important;
+		margin:0 3%; 
+	}
+	.footerBizList br{
+		display: none;
+	}
+	.headerMain{
+		margin:5px auto 10px;
+		text-align: center;
+	}
+	.menuSP_button{
+		display: block;
+	    width: 56px;
+	    height: auto;
+	    padding:14px 0;
+	    text-align: center;
+	    background: #ccc;
+	    position:absolute;
+	    right:4px;
+	    top:4px;
+	    color:#004573;
+	    font-size:12px;
+	    font-size:1.2rem;
+	    background:#004573;
+	    color:#fff;
+	    border-radius:5px;
+	    z-index: 9999;
+	}
+	.menuSP_navi{
+		display: none;
+		position: fixed;
+		top: 0px;
+		left: 0;
+		z-index: 9998;
+		width: 100%;
+		height: 100%;
+		transition: opacity .3s;
+	}
+	#globalNavi::after{
+		display:block;
+		content:"";
+		clear:both;
+		visibility:hidden;
+		height:0;
+	}
+	#globalNavi .globalNaviMain{
+		background-color: #fff;
+		margin:0 auto;
+		width: 100%;
+		height: 100%;
+		overflow-y: scroll;
+		-webkit-overflow-scrolling:touch;
+	}
+	#globalNavi .globalNaviMain > li{
+		float: none;
+		width: 100%;
+		text-align: left;
+		position: relative;
+	}
+	#globalNavi .globalNaviMain > li > a{
+		display: block;
+		padding:10px;
+		position: relative;
+		font-size: 14px;
+		z-index: 9999;
+		border-bottom:1px solid #ccc;
+		border-top:1px solid #ccc;
+	}
+	#globalNavi .globalNaviMain > li::before{
+		display: none;
+	}
+	#globalNavi .globalNaviMain > li:hover::before{
+		display: none;
+	}
+	#globalNavi .globalNaviMain > li:first-child:hover::before,
+	#globalNavi .globalNaviMain > li:last-child:hover::before,
+	#globalNavi .globalNaviMain > li:last-child a::before{
+		display: none;
+	}
+	#globalNavi .globalNaviMain > li a:hover{
+		background:rgba(0,0,0,0.03);
+		color: #000;
+	}
+	#globalNavi .globalNaviMain .contectBtn a{
+		background: #ff7359;
+		color: #fff;
+		font-size: 12px !important;
+	}
+	#globalNavi .globalNaviMain li.contectBtn:hover a{
+		background: #004573;
+		color: #fff;
+	}
+	#globalNavi li.active{
+		border-bottom:none !important;
+	}
+	#globalNavi li.active > a{
+		border-bottom: 2px solid #004573;
+		box-sizing: border-box;
+	}
+	#globalNavi li.active a{
+		color:#004573;
+	}
+	#globalNavi .globalNaviMain > li .globalNaviSub{
+		overflow: visible;
+		height:auto;
+		position: relative;
+		top: auto;
+		margin: 0;
+		padding: 0;
+		width:100%;
+		background: #fff;
+		z-index:9999;
+	}
+	#globalNavi .globalNaviMain > li:hover .globalNaviSub{
+		overflow: visible;
+		height: auto;
+		border:none;
+	}
+	#globalNavi .globalNaviSub a{
+		font-size: 12px !important;
+	}
+	#globalNavi .listNo1,
+	#globalNavi .listNo2,
+	#globalNavi .listNo3,
+	#globalNavi .listNo4,
+	#globalNavi .listNo5{
+		left: auto;
+	}
+	#globalNavi .listNo1 li,
+	#globalNavi .listNo4 li,
+	#globalNavi .listNo2 > li > ul > li{
+		width:50%;
+	}
+	#globalNavi .listNo3 .globalNaviSubPress li,
+	#globalNavi .listNo3 .globalNaviSubPublicity li{
+		width:25%;
+	}
+	#globalNavi .listNo1 li a,
+	#globalNavi .listNo2 li a,
+	#globalNavi .listNo3 .globalNaviSubPress li a,
+	#globalNavi .listNo3 .globalNaviSubPublicity li a,
+	#globalNavi .listNo4 li a{
+		border-bottom:1px solid #ccc;
+	}
+	#globalNavi .listNo1 li:last-child a,
+	#globalNavi .listNo2 > li > ul > li:last-child a,
+	#globalNavi .listNo3 .globalNaviSubPress li:nth-child(n+9) a,
+	#globalNavi .listNo3 .globalNaviSubPublicity li:nth-child(n+9) a{
+		border-bottom:none;
+	}
+	#globalNavi .listNo1 li:nth-child(odd) a,
+	#globalNavi .listNo2 > li > ul > li:nth-child(even) a,
+	#globalNavi .listNo3 .globalNaviSubPress li a,
+	#globalNavi .listNo3 .globalNaviSubPublicity li a,
+	#globalNavi .listNo4 li:nth-child(odd) a{
+		border-right:1px solid #ccc;
+	}
+	#globalNavi .listNo3 .globalNaviSubPress li:nth-child(4n) a,
+	#globalNavi .listNo3 .globalNaviSubPublicity li:nth-child(4n) a{
+		border-right:none;
+	}
+	#globalNavi .listNo2 > li{
+		width: 100%;
+	}
+	#globalNavi .listNo3 > li:last-child{
+		padding-top:0;
+	}
+	#globalNavi .globalNaviMain > li .globalNaviSub.listNo3{
+		padding: 0;
+		width: 100%;
+	}
+	#globalNavi .globalNaviMain > li:hover .globalNaviSub.listNo2{
+		height:auto;
+		padding: 0;
+	}
+	#globalNavi .globalNaviMain > li:hover .globalNaviSub.listNo2 > li{
+		border-right:none;
+		height: auto;
+		width:100%;
+		padding:0 0;
+	}
+	#globalNavi .globalNaviMain > li .globalNaviSub.listNo2 > li:last-child{
+		border-right:none;
+	}
+	#globalNavi .globalNaviMain > li:hover .globalNaviSub.listNo3{
+		padding-top: 0;
+		padding-bottom: 0;
+		height:auto;
+	}
+	#globalNavi .globalNaviMain > li .globalNaviSub.listNo3 > li{
+		float:none;
+		text-align: left;
+	}
+	#globalNavi .globalNaviMain > li .globalNaviSub li a,
+	#globalNavi .globalNaviMain > li .globalNaviSub.listNo2 li a,
+	#globalNavi .globalNaviMain > li .globalNaviSub.listNo3 li a{
+		position: relative;
+		padding:15px 0px 15px 25px;
+		height: auto;
+	}
+	#globalNavi .globalNaviMain > li .globalNaviSub li ul{
+		width:100%;
+	}
+	#globalNavi .globalNaviMain > li .globalNaviSub.listNo2 li ul li:first-child,
+	#globalNavi .globalNaviMain > li .globalNaviSub.listNo3  li p{
+		background:#ededed;
+		padding:5px 5%;
+		width:90%;
+	}
+	#globalNavi .globalNaviMain > li .globalNaviSub li.ListLower a::after{
+		content: "";
+		display: block;
+		width: 10px;
+		height: 10px;
+		background:url(/images/arw.gif) no-repeat 0px 50% ;
+		position:absolute;
+		top:43%;
+		left:25px;
+	}
+	#globalNavi .globalNaviMain > li .globalNaviSub li.ListLower a ,
+	.ListLower a{
+		padding-left: 40px;
+	}
+/* -------------------------------------------------------------------
+企業情報
+--------------------------------------------------------------------*/	
+	.profile-block li:first-child{
+		width:120px !important;
+		margin-right: auto !important;
+	}
+	.profile-block li:nth-child(2){
+		width: 50% !important;
+		padding-top:30px;
+	}
+	.profile-block li:last-child{
+		padding-top:20px;
+		width: 100% !important;
+	}
+	div.CompanyBox div.mission div.vision p.copy br,
+	.GuidelinesList li dl br {
+		display:none;
+	}
+	.GuidelinesList li{
+		width: 100% !important;
+		margin-left:0% !important;
+		float:none !important;
+		border-radius:10px !important;
+	}
+	.GuidelinesList li dl{
+		height:auto !important;
+		padding:10px !important;
+		text-align:left !important;
+		font-size:13px;
+	}
+	.GuidelinesList li dl dt{
+		height:auto !important;
+	}
+/* -------------------------------------------------------------------
+事業紹介
+--------------------------------------------------------------------*/
+	.serviceAreaKeyV{
+		display: none;
+	}
+	#serviceAreaIndex .serviceAreaTitle{
+		font-size: 18px;
+		font-size: 1.8rem;
+	}
+	#serviceAreaIndex .serviceAreaTitle h1{
+		padding: 20px 0;
+		text-align: left;
+		margin-bottom:20px;
+	}
+	.serviceAreaD_Point,
+	.serviceAreaD_Contents,
+	.serviceAreaD_Promotion{
+		margin-bottom: 20px;
+	}
+	.serviceAreaD_Slist li dl dd{
+		font-size: 14px;
+		font-size: 1.4rem;
+		padding-top: 5px;
+	}
+	.serviceAreaTitle_keyV img,
+	.serviceAreaContentsGameKeyV img,
+	.ContentsGameDetailImg img{
+		width: 100%;
+		height: auto;
+	}
+	.serviceAreaTitle_ServiceName{
+		text-align: center;
+		margin: 0px auto 40px;
+		position:relative;
+		z-index:3;
+	}
+	#serviceAreaPoint .serviceAreaTitle h1,
+	#serviceAreaPointGift .serviceAreaTitle h1,
+	#serviceAreaCont .serviceAreaTitle h1,
+	#serviceAreaProm .serviceAreaTitle h1{
+		font-weight: normal;
+		padding: 15px 0;
+	}
+	#serviceAreaPoint .serviceAreaTitle .innerBox::after,
+	#serviceAreaPointGift .serviceAreaTitle .innerBox::after,
+	#serviceAreaCont .serviceAreaTitle .innerBox::after,
+	#serviceAreaProm .serviceAreaTitle .innerBox::after,
+	#serviceAreaPoint .serviceAreaTitle .innerBox::before,
+	#serviceAreaPointGift .serviceAreaTitle .innerBox::before,
+	#serviceAreaCont .serviceAreaTitle .innerBox::before,
+	#serviceAreaProm .serviceAreaTitle .innerBox::before{
+		display:none;
+	}
+	.serviceAreaDetail_list1 li,
+	.serviceAreaDetail_list3 li{
+		width: 31%;
+		margin-right:2.3%;
+		margin-bottom:10px;
+	}
+	.serviceAreaDetail_listBox1 > li > dl > dd > ul > li br{
+		display:none;
+	}
+	.serviceAreaDetail_listC1 li{
+		width: 46%;
+	}
+	.meritArea ul li p.meritIcon,
+	.meritTitle,
+	.meritKeytext dt,
+	.DigitalIntroductionAreaTitle,
+	.DigitalMeritAreaSearch li dl dd{
+		font-size: 14px;
+		font-size: 1.4rem;
+	}
+	.meritTitle{
+	    padding:30px 0 10px;
+	}
+	.meritTitle::after {
+		bottom: -145px;
+		border: 115px solid transparent;
+		border-top: 30px solid #fff;
+	}
+	.meritArea h3.meritMaintext,
+	.DigitalIntroductionArea ol li dl dt,
+	.DigitalMeritAreaSearch li dl dt,
+	.DigitalMeritAreaConclusionTitle,
+	.DigitaFaqArea li dl dt,
+	.serviceAreaContentsGameKeyV li dl dd h4{
+		font-size: 18px;
+		font-size: 1.8rem;
+	}
+	.DigitalIntroductionArea ol > li::before,
+	.DigitalIntroductionArea ol > li::after{
+		display:none;
+	}
+	.DigitalIntroductionArea ol li dl{
+		padding-top:5px;
+	}
+	.DigitalIntroductionAreaStep{
+		top:5px;
+		left:5px;
+	}
+	.DigitalIntroductionArea > li{
+		height:auto;
+	}
+	.DigitaFaqArea li dl{
+		margin-left:10%;
+	}
+	.DigitalMeritAreaSearch li dl dt{
+		padding-bottom: 10px;
+	}
+	.DigitalMeritAreaSearch li dl dt strong{
+		font-size: 28px;
+		font-size: 2.8rem;
+	}
+	.DigitalMeritArrowBox::after{
+		height: 60px;
+	}
+	.serviceAreaContentsGameKeyV li p{
+		width:55%;
+	}
+	.serviceAreaContentsGameKeyV li dl dt{
+		font-size: 40px;
+	    font-size: 4.0rem;
+	}
+	.serviceAreaContentsGameKeyV li dl dd h4 br{
+		display:block;
+	}
+	.serviceAreaContentsGameKeyV li dl dd br,
+	.serviceAreaDetail_title br{
+		display:none;
+	}
+	.serviceAreaDetail_list3 li:first-child{
+		margin-left:0;
+	}
+	.PromAdmenuAreaMedia ul li{
+		width:100% !important;
+	}
+	.PromAdmenuAreaMedia ul li a{
+		width:85%;
+	}
+
+}/* max-width: 768px */
+@media screen and (max-width: 600px) {
+	#keyArea .keyDevision{
+		padding: 0 0 0 !important;
+		border-bottom: none !important;
+	}
+	#keyArea .keyDevision > ul{
+		width:100%;
+		max-width: 960px;
+		margin: 0 auto;
+	}
+	#keyArea .keyDevision > ul > li{
+		float: none !important;
+		width:100% !important;
+		box-sizing:border-box;
+		height:auto !important;
+	}
+}
+@media screen and (max-width: 480px) {
+	#contents {
+		padding-top:0px !important;
+	}
+	.headerMain{
+		text-align: left;
+	}
+	#keyArea{
+		margin-top:0px !important;
+		background-size:480px !important;
+		background-position:right top !important;
+	}
+	#keyArea .keyCopy{
+		height:270px !important;
+	}
+	#keyArea .keyCopy h1{
+		padding:0 0 3px 10px !important;
+		width:70%;
+		position:absolute;
+		top:150px;
+		left:0px;
+		background:#fff;
+	}
+	#keyArea .keyCopy h2{
+		padding:0 !important;
+		width:95%;
+		position:absolute;
+		top:210px;
+		left:10px;
+		background:#fff;
+	}
+/* header
+--------------------------------------*/
+	.headerMain{
+		margin:5px auto 5px;
+	}
+	#header div.logo {
+		float:none;
+	}
+	#globalNavi .listNo2 > li > ul > li{
+		width:100%;
+	}
+	#globalNavi .listNo2 > li > ul > li a{
+		border-right:none !important;
+	}
+/* 	footer----------------------------------- */
+	#footerArea li{
+		float:none;
+		width:100%;
+	}
+	.footerBizList ul li{
+		margin-right:0;
+		margin-bottom:1px;
+	}
+	.footerBizList ul li a{
+		padding-bottom:0px;
+		padding-top:0px;
+	}
+	.footerBizList dl::after{
+		content:"";
+		display:block;
+		clear:both;
+		visibility:hidden;
+		height:0;
+	}
+	.footerBizList dt{
+		text-align: center;
+		float:left;
+		width:36%;
+		padding:0 2%;
+	}
+	.footerBizList dd{
+		text-align: left;
+		float:left;
+		width:58%;
+		padding-top:10px;
+	}
+	.footerList > ul > li > ul > li:first-child,
+	.footerList > ul > li > ul > li.footerListTitle,
+	.footerList > ul > li:nth-child(2) > ul > li,
+	.footerList > ul > li:nth-child(5) > ul > li{
+		width:100% !important;
+	}
+	.footerList > ul > li > ul > li{
+		float:left !important;
+		width:50% !important;
+	}
+	.footerList li img{
+		width:40% !important;
+	}
+	#page-top {
+		bottom: 0px;
+		right: 0;
+		width:15%;
+	}
+	#page-top a {
+		text-decoration: none;
+		width: 96%;
+		line-height:1.2em;
+		padding: 20px 2% 10px;
+		height:20px;
+	}
+	#page-top a::before{
+		top:5px;
+		left:34%;
+	}
+/* 	Pマーク----------------------------------- */
+	.pmarkArea ul{
+		padding:3px 0;
+	}
+	.pmarkAreaTitle br{
+		display:none;
+	}
+	.pmarkArea li img{
+		width: 13% !important;
+		float:left;
+		margin-right:2%;
+	}
+/* 	コピーライト----------------------------------- */
+	.footerCopy{
+		padding: 0px 0 15px;
+		font-size:10px;
+		font-size:1.0rem;
+	}
+	.footerCopy p:first-child{
+		float:none;
+		margin-right:auto;
+		padding-right:0;
+		padding-bottom:5px;
+		border-right:none;
+		border-bottom:solid #3f3f3f 1px;
+	}
+	.footerCopy p{
+		padding-top:5px;
+	}
+/* 	大カテゴリタイトル----------------------------------- */
+	div.secTitleBox h2 {
+		float:none !important;
+		font-size: 18px !important;
+		border-left:none !important;
+		padding:10px 0px 10px 10px !important;
+		background:#004573;
+		color:#fff;
+		position:relative;
+		margin:0 -3%;
+	}
+	div.secTitleBox h2 .enText{
+		display:block !important;
+		position:absolute;
+		top:10px;
+		right:10px;
+		text-align:right;
+		font-size: 14px !important;
+		padding-left:0px !important;
+	}
+/* subtitle
+--------------------------------------------------------------------*/
+	#sec-right div.subttl {
+		font-size:18px !important;
+		margin-bottom:20px !important;
+		border-bottom: 2px solid #004573 !important;
+	}
+/* 	トップ----------------------------------- */
+	#top-left,
+	#top #sideBox{
+		float:none !important;
+		width:100% !important;
+	}
+	#top-left div.headLineTitle p.sublink-s {
+		display:block;
+		position:static !important;
+		right:auto;
+		top:auto;
+		padding:5px 0 0;
+		text-align:right;
+	}
+/* -------------------------------------------------------------------
+second-layout
+--------------------------------------------------------------------*/
+	#sideBox,
+	#sec-right {
+		float:none !important;
+		width:100%  !important;
+	}
+	.LeftNavi > ul{
+		padding-bottom:40px !important;
+	}
+	div.secTitleBox ul.crumb {
+		float:none !important;
+		width:100%;
+		font-size:12px !important;
+	}
+/* -------------------------------------------------------------------
+企業情報
+--------------------------------------------------------------------*/
+	.ceo-block-img{
+		float: none;
+		padding: 0;
+		margin-bottom:20px;
+		text-align:center;
+		height: 320px;
+		overflow:hidden;
+	}
+	.ceo-block-img img{
+		width: 100%;
+		height:auto;
+	}
+	.missionArea .subTitle{
+		font-size:18px !important;
+		line-height:1.4em;
+		padding:15px 0 0px !important;
+		font-weight:normal;
+	}
+/* -------------------------------------------------------------------
+採用情報
+--------------------------------------------------------------------*/
+	.RecruitIndexBox .inbox {
+		width:100% !important;
+		margin-left:auto!important;
+		text-align:center;
+	}
+	/* CEO
+	--------------------------------------------------------------------*/
+	.RecruitBox div.ceo div.left,
+	.RecruitBox div.ceo div.right {
+		float:none;
+		width:100%;
+	}
+	.RecruitBox div.ceo div.right .ceoname br{
+		display: none;
+	}
+/* -------------------------------------------------------------------
+事業紹介
+--------------------------------------------------------------------*/
+	.serviceAreaBox{
+		margin-top: -10px;
+	}
+	.serviceAreaDetail{
+		padding: 20px 0;
+	}
+	.serviceAreaD_title,
+	.serviceAreaDetail_title,
+	.serviceAreaTitle_ServiceName h3,
+	.serviceAreaTitle h1,
+	.serviceAreaDetail_listBox1 > li > dl > dt,
+	.DigitalMeritAreaTitle,
+	.serviceAreaDetail_list2 dl dt{
+		font-size: 18px !important;
+		font-size: 1.8rem  !important;
+	}
+	.serviceAreaDetail_title,
+	.serviceAreaDetail_read{
+		padding-bottom:10px;
+	}
+	.serviceAreaD_Contents .serviceAreaD_Slist li,
+	.serviceAreaD_Promotion .serviceAreaD_Slist li{
+		float: left;
+		width:100%;
+		margin-left:0;
+		margin-top:5%;
+	}
+	.serviceAreaD_Contents,
+	.serviceAreaD_Promotion{
+		width: 100%;
+		float: left;
+	}
+	.serviceAreaD_Slist li{
+		width:100%;
+		margin-left:0;
+		margin-top:3%;
+	}
+	.serviceAreaD_Slist li dl{
+		padding:5px 0;
+	}
+	.meritArea > ul > li{
+	    width: 100%;
+	    float:none;
+	    margin-right:0%;
+	    margin-bottom: 10px;
+	}
+	.meritTitle::after,
+	.meritTitle br,
+	.spendLogoTitle::after,
+	#serviceAreaPointGift .spendLogoTitle::after,
+	.spendLogoTitle br,
+	#serviceAreaPointGift .spendLogoTitle br{
+		display: none;
+	}
+	.meritTitle{
+		text-align: left;
+		padding:30px 10px 10px; 
+	}
+	.meritKeytext dt{
+		padding: 0 0 10px;
+	}
+	.meritArea h3.meritMaintext,
+	.comparisonTable td:first-child,
+	.DigitalIntroductionArea ol li dl dt,
+	.DigitaFaqArea li dl dt{
+		font-size: 14px;
+		font-size: 1.4rem;
+		font-weight: bold;
+	}
+	.spendLogolistArea{
+	    margin-bottom:20px;
+	    width: 100%;
+	}
+	.spendLogolist{
+	    width: 100%;
+	    margin-bottom:10px;
+	}
+	.spendLogolist ul,
+	.spendLogolist ul li{
+	    float: left;
+	}
+	.spendLogoTitle,
+	#serviceAreaPointGift .spendLogoTitle{
+		width: 100%;
+	    padding: 10px 0 !important;
+	    min-height:10px !important;
+	    margin:0 auto;
+	}
+	.spendLogolist ul{  
+	    width: 100%;
+	    display: -webkit-flex;
+	    display: -moz-flex;
+	    display: -ms-flex;
+	    display: -o-flex;
+	    display: flex;
+		flex-flow: wrap;
+	    -webkit-box-pack: center;
+	    -moz-box-pack: center;
+	    -ms-flex-pack: center;
+	    -webkit-justify-content: center;
+	    justify-content: center;
+
+	    -webkit-box-align:center;
+		-moz-box-align:center;
+	    box-align:center;
+
+	    -ms-flex-align: center;
+	    -webkit-align-items: center;
+	    align-items: center;
+	}
+	.spendLogolist ul li{
+	    width:33%;
+	    height: 40px;
+	    text-align:center;
+	    margin-top:10px;
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		-ms-flex-align: center;
+	    -webkit-align-items: center;
+		align-items: center;
+	}
+	.spendLogolist ul li img{
+	    width:90% !important;
+	    height: auto;
+	    margin:0;
+	}
+	.spendLogoTitle2line span,
+	.spendLogoTitle3line span{
+	    display:inline-block;
+	}
+	.comparisonTable img,
+	.serviceAreaTitle_ServiceName .serviceAreaRead br,
+	.serviceAreaDetail_read br,
+	.DigitalMeritAreaConclusionTitle br,
+	.DigitalMeritAreaSearch li dl dt br,
+	.PromAdmenuAreaTitle::after,
+	.PromAdmenuAreaTitle::before,
+	.PromAdmenuAreaDetail th::before{
+		display: none;
+	}
+	.cautionText{
+		margin-top:20px;
+	}
+	a.btnPointColor,
+	a.btnPointGiftColor{
+		padding:10px 20px 10px 10px;
+		margin-bottom: 10px !important;
+	}
+	.serviceAreaDetail_list2{
+		margin-bottom:10px;
+	}
+	.serviceAreaDetail_list1 li,
+	.serviceAreaDetail_list3 li{
+		width: 46%;
+		margin-right:0;
+		margin-left:2%;
+	}
+	.serviceAreaDetail_list2 li{
+		width:100%;
+		margin-bottom:8px;
+	}
+	.serviceAreaDetail_list1 dl,
+	.serviceAreaDetail_list1 dl,
+	.serviceAreaDetail_list2 dl{
+		border-radius:10px;
+		padding:10px 0;
+		height:auto;
+	}
+	.serviceAreaDetail_list2 dl dt{
+		margin:60px auto 0;
+	}
+	.serviceAreaDetail_list2 dl dd{
+		width:90%;
+		margin:10px auto 0;
+		text-align
+	}
+	.serviceAreaDetail_list2 dl::after{
+		width:80px;
+		height:65px;
+		position:absolute;
+		top:0px; left:39%;
+	}
+	.serviceAreaDetail_list2 dl.madiaIconGame::after{
+		top:10px; left:37%;
+	}
+	.serviceAreaDetail_listBox1 > li{
+		margin:0 auto 10px 0%;
+		width: 99%;
+		padding: 0.5%;
+	}
+	#serviceAreaPoint .serviceAreaDetail_listBox1 dl{
+		height: auto;
+	}
+	.serviceMerit > li > dl > dt::after{
+		left:40%;
+	}
+	.serviceAreaDetail_listC1 li{
+		width: 100%;
+		margin:0 0 5px;
+	}
+	.DigitalMeritAreaSearch li{
+		float: none;
+	}
+	.DigitalMeritAreaSearch li{
+		width:100% !important;
+	}
+	.DigitalMeritAreaSearch li:last-child{
+		padding-bottom:40px
+	}
+	.DigitalMeritArrowBox::after{
+		height: 40px;
+	}
+	.DigitalMeritAreaSearch li dl dt strong{
+		display:block;
+	}
+	.DigitalIntroductionArea > li{
+		width: 100%;
+		height:auto;
+	}
+	.DigitalIntroductionArea > li:last-child{
+		margin-left:0;
+	}
+	.DigitalIntroductionArea ol li dl{
+		margin-left: 25%;
+	}
+	.DigitaFaqArea li dl{
+		margin-left:23%;
+	}
+	.serviceAreaContentsGameKeyV li p,
+	.serviceAreaContentsGameKeyV li dl,
+	#serviceAreaCont .serviceAreaDetail_listC1 li{
+		width:100%;
+	}
+	.serviceAreaContentsGameKeyV li::before{
+		top: 100px; right: 20%;
+	}
+	.serviceAreaContentsGameKeyV li dl{
+		margin-top:-15px;
+		margin-bottom:15px;
+		text-align:center;
+	}
+	a.btnDLprom{
+		width:auto;
+	}
+	.adbBox dl{
+		width:100%;
+		margin:5px auto !important;
+	}
+	.serviceAreaDetail_list3 li{
+		width: 100%;
+		margin-left:0;
+	}
+/* -------------------------------------------------------------------
+プライバシー
+--------------------------------------------------------------------*/
+	.readText{
+		width:65%;
+		margin:0;
+		float:left;
+		font-weight:bold;
+	}
+	.readImg{
+		float:right;
+		width: 30%;
+	}
+	#contents h3,
+	#contents h2{
+		font-size:18px;
+		font-size:1.8rem;
+	}
+	#contents h2{
+		padding:5px 0px;
+	}
+/* -------------------------------------------------------------------
+サイトマップ
+--------------------------------------------------------------------*/
+	.sitemapBox ul {
+		width: 100%;
+		margin-left:0;
+	}
+}/* max-width: 480px */

@@ -1,0 +1,218 @@
+@charset "Windows-31J";
+
+/* === Filename is "layout.css" ===
+
+### info layout settings
+
+=== menu ===
+1.Index
+2.access map
+3.message
+4.advertise
+5.history
+6.press
+7.saiyo
+8.localNavi
+
+*Clear Fix List
+*/
+
+
+/* === info Index === */
+div.keyVisual {
+	margin-bottom: 15px;
+}
+
+table.whatnew td {
+	vertical-align: top;
+}
+
+table.whatnew td p {
+	margin-bottom: 10px;
+	font-size: 80%;
+}
+
+table.whatnew td.date p {
+	padding-left: 15px;
+	background-image: url(/common/images/icon/delta-blue.gif);
+	background-position: left 0.3em;
+	background-repeat: no-repeat;
+}
+
+p.more {
+	padding-top: 8px;
+	border-top: 1px dashed #d6d6d6;
+	text-align: right
+}
+
+
+
+/* === info access map === */
+table tr td.map {
+	width: 400px;
+}
+
+div#content table.section15 tr td.info {
+	vertical-align: bottom;
+}
+
+p.printBtn,
+p.detailmap {
+	text-align: right;
+}
+
+p.detailmap {
+	margin-right: 15px;
+}
+
+/* for print */
+body#mgb div#wrapper div#body {
+	border-top: solid 1px #DBDBDB;
+	border-bottom: solid 1px #DBDBDB;
+}
+
+body#mgb div#wrapper div#body div#content {
+	margin-top: 15px;
+	margin-bottom: 0;
+}
+
+body#mgb div#wrapper div#body div#content p {
+	text-align: center;
+}
+
+body#mgb div#wrapper div#body div#content ul {
+	margin-top: 5px;
+	margin-bottom: 25px;
+	padding: 0 25px;
+}
+
+body#mgb div#footer {
+	padding-top: 5px;
+	background-image: none;
+}
+
+
+/* === info message === */
+td.photo p {
+	margin-bottom: 3px;
+	text-align: right;
+}
+
+td.message p,
+td.about p,
+td.saiyo p {
+	margin-bottom: 1em;
+}
+
+td.message p.read {
+	font-size: 90%;
+	font-weight: bold;
+	line-height: 1.5;
+}
+
+p.name {
+	margin-bottom: 10px;
+	font-size: 80%;
+}
+
+
+
+/* === info advertise === */
+p.linkBtn {
+	margin: 20px 15px;
+	text-align: right;
+}
+
+td.leftside p {
+	text-align: right;
+}
+
+td.rightside p {
+	text-align: left;
+}
+
+
+
+/* === info history === */
+table.history th p {
+	text-align: center;
+}
+
+
+
+/* === info press === */
+table.press th {
+	vertical-align: middle;
+}
+
+table.press th p {
+	text-align: center;
+}
+
+div#body div#content ol.linearNavi {
+	margin-bottom: 10px;
+	margin-left: 15px;
+}
+
+div#body div#content ol.linearNavi li {
+	display: inline;
+	margin-right: 7px;
+	padding-right: 9px;
+	background-image: url(/info/images/bg-list.gif);
+	background-position: right center;
+	background-repeat: no-repeat;
+	color: #666666;
+}
+
+div#body div#content ol.linearNavi li.lastChild {
+	background: none;
+	padding-right: 0;
+}
+
+p.pagetop-m {
+	margin-bottom: 5px;
+}
+
+
+
+/* === saiyo === */
+ol.ordered {
+	list-style:decimal;
+	padding-left: 2em;
+}
+
+
+
+/* コンテンツ内table用 */
+table.sheetTable td {
+	width: 527px;
+}
+
+table.sheetTable th p {
+	font-size: 70%;
+	font-weight: normal;
+}
+
+
+
+/* === localNavi === */
+body.clm2 div#body div#localNavi div#navigation ul.usecategory { padding-bottom: 10px; }
+
+body.clm2 div#body div#navigation ul.specialTop {
+	margin-bottom: 5px;
+	margin-left: 10px;
+	padding-top: 5px;
+}
+
+body.clm2 div#body div#navigation ul.specialBtm {
+	padding-bottom: 20px;
+	padding-left: 10px;
+	background-image: url(/common/images/localnavi/ln-btm.gif);
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+
+body.clm2 div#body div#navigation ul.infoIndex {
+	margin-bottom: 10px;
+}
+

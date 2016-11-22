@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+
+.txtpadding{
+	padding-bottom:15px;
+}
+
+#press-template div.summaryBox table th, #press-template div.summaryBox table td {
+	padding:0.7em 0.8em;
+}

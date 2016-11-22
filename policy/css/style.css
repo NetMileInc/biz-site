@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* CSS Document */
+#contents{padding-top:0 !important;line-height:1.6em; font-size:110%;}
+
+#contents h2{
+	padding:15px 0px;
+	margin:0 0 10px 0;
+	background:#FFF;
+	font-size:34px;
+	line-height:1.4em;
+	border-bottom:2px solid #2d2d2d;
+}
+#contents h2 span,
+#contents h4 span{
+	border:none;
+}
+#contents h3{
+	padding:5px;
+	margin:10px 0;
+	font-size:24px;
+	line-height:1.4em;
+}
+#contents h4{
+	padding:10px 0;
+	margin:0 0 10px 0;
+	font-size:20px;
+	line-height:1.4em;
+	font-weight:normal;
+	border-bottom:1px solid #999;
+}
+
+.section{
+	margin:0 0 39px 0;
+}
+
+.section p{
+	margin:10px;
+}
+.readArea{
+	width:100%;
+	background:#FFF;
+	overflow: hidden;
+	zoom:1;
+	margin:20px 0 0;
+	padding:0;
+}
+.readText{
+	width:85%;
+	margin:0;
+	float:left;
+	font-weight:bold;
+}
+.readImg{
+	float:right;
+	width: 10%;
+}
+.readTextArea{
+	padding:20px;
+}
+	
+#contents span{
+	display:block;
+	border-left:  #666 5px solid;
+	padding:4px 4px 4px 12px;
+}
+#contents ul li{
+	list-style:disc;
+	margin:0 0 0 35px;
+}
+#contents ul li ul li{
+	list-style:circle;
+}
+
+#contents ul li ul li a{
+	margin-left:10px;
+}
+
+#contents dl{
+	margin:10px 40px 20px;
+	padding:20px ;
+	border:#999999 1px solid;
+}
+
+#contents .date li {
+	list-style:none;
+}
+#contents dl dd img{
+	margin:5px;
+}
+.date{
+	text-align:right;
+}
+
+.main p{
+	margin:0 0 20px 0;
+}
+
+/*   regist/terms.html   */
+.policyArea{
+	padding:10px;
+	overflow: hidden;
+}
+
+.policyArea p{
+	display:table-cell;
+	vertical-align:middle;
+	margin:0;
+	padding:0 10px;
+}
+
+.policyArea .ssl{
+	float:left;
+}
+.policyAreaText{
+	width:560px;
+	float:right;
+}
+.ssl span{
+	border:none;
+}

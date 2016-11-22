@@ -1,0 +1,31 @@
+variables:
+  S3_BUCKET_PRODUCTION: "biz.netmile.co.jp"
+  S3_BUCKET_STAGING: "biz-stg.netmile.co.jp"
+  S3_BUCKET_DEV: "biz-dev.netmile.co.jp"
+deploy to production:
+  environment: production
+  image: python:latest
+  script:
+  - pip install awscli
+  - aws s3 cp ./ s3://$S3_BUCKET_PRODUCTION/ --recursive --include "*.*" --exclude "*.yml" --exclude ".git"
+  only:
+  - master
+  
+deploy to staging:
+  environment: staging
+  image: python:latest
+  script:
+  - pip install awscli
+  - aws s3 cp ./ s3://$S3_BUCKET_STAGING/ --recursive --include "*.*" --exclude "*.yml" --exclude ".git"
+  only:
+  - dev
+  
+deploy to dev:
+  environment: dev
+  image: python:latest
+  script:
+  - pip install awscli
+  - aws s3 cp ./ s3://$S3_BUCKET_DEV/ --recursive --include "*.*" --exclude "*.yml" --exclude ".git"
+  except:
+  - dev
+  - master

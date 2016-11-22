@@ -1,0 +1,10 @@
+﻿@charset "utf-8";
+
+/* common
+========================================== */
+@import "common/reset.css";
+@import "common/structure.css";
+@import "common/header.css";
+@import "common/footer.css";
+@import "common/localnavi.css";
+@import "common/parts.css";

@@ -1,0 +1,192 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>ネットマイル｜会社案内 - ポイント事業、広告事業</title>
+<meta name="keywords" content="ネットマイル,netmile,ポイント,システム,ASP,広告" />
+<meta name="description" content="インターネット上で使える日本最大級の共通ポイント「ネットマイル」。ポイント事業は手間とコストをおさえ会員獲得・顧客維持に利用。広告事業は会員に対してメールやWebを通じアクションに利用。" />
+<link rel="alternate" type="application/rss+xml" title="株式会社ネットマイル　新着ニュース" href="http://biz.netmile.co.jp/rss/press.rdf" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="content-script-type" content="text/javascript" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="robots" content="ALL" />
+<script type="text/javascript" src="/js/rollover.js"></script>
+<script type="text/javascript" src="/js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="/js/scrolltopcontrol.js"></script>
+<link rel="stylesheet" type="text/css" href="/css/import.css" media="screen, print" title="default" />
+<!--[if !IE 7]>
+	<style type="text/css">
+		#wrap {display:table;height:100%}
+	</style>
+<![endif]-->
+
+<!-- NMGP Start -->
+<script type="text/javascript"
+src="https://www.playgd.net/js/toolbar.min.js"></script>
+<script type="text/javascript" src="https://www.netmile.co.jp/common/js/playground.js"></script>
+<!-- NMGP End -->
+
+<!-- gAnalytics START -->
+<script type="text/javascript" src="/js/common/pageTracker.js"></script>
+<!-- gAnalytics END -->
+</head>
+<body id="top">
+<div id="wrapper">
+<div id="header">
+	<div class="logo">
+		<h1>ポイント、広告を検討している企業様向けサイト</h1>
+		<p><a href="/index.html"><img src="/images/logo.gif" alt="株式会社ネットマイル" width="306" height="44" /></a></p>
+	</div>
+<!-- header Start -->
+	<script type="text/javascript" src="/js/show_header.js"></script>
+<!-- header End -->
+</div><!-- /header-->
+<!-- gnavi Start -->
+	<script type="text/javascript" src="/js/show_gnavi.js"></script>
+<!-- gnavi End -->
+
+<div id="mainimg">
+	<p><img src="/images/bizimg-main.png" alt="ポイントで世界をつなぐ。Point connects the world." width="474" height="260" /><a href="http://www.netmile.co.jp/" target="_blank"><img src="/images/bizimg-nm.png" alt="お得なポイント交換所　NetMile　提携サービスのポイントをマイルに交換する　ユーザーサイトはこちら" width="238" height="260" /></a><a href="http://www.sugutama.jp/" target="_blank"><img src="/images/bizimg-st.png" alt="ネットマイルが一番貯まるサイト　すぐたま　アンケートや買い物でマイルを貯める　ユーザーサイトはこちら" width="238" height="260" /></a></p>
+</div>
+<div id="serviceBox" class="clearfix">
+		<ul>
+		<li><a href="/service/point/index.html"><img src="/images/top_svc1_2_off.gif" alt="「ポイントプログラム事業」
+ポイントプログラムにより「ユーザー」と「企業」のコミュニケーションをサポート。" width="463" height="112" /></a></li>
+		<li><a href="/service/ad/index.html"><img src="/images/top_svc2_2_off.gif" alt="「広告事業」
+ネットマイル会員に対して、メール広告やWEB広告を通じアクションへと結びつけます。" width="463" height="112" /></a></li>
+		</ul>
+		<!--<ul>
+		<li><a href="/service/point/index.html"><img src="/images/top_svc1_off.gif" alt="「ポイントプログラム事業」
+ポイントプログラムにより「ユーザー」と「企業」のコミュニケーションをサポート。" width="306" height="112" /></a></li>
+		<li><a href="/service/ad/index.html"><img src="/images/top_svc2_off.gif" alt="「広告事業」
+ネットマイル会員に対して、メール広告やWEB広告を通じアクションへと結びつけます。" width="306" height="112" /></a></li>
+		<li><a href="http://biz.netmile.co.jp/news/press_2012/press_release121102.html" target="_blank"><img src="/images/top_svc3_off.gif" alt="「リサーチ事業」
+調査設計から分析、レポート作成まで、リサーチ業務全般をトータルにサポートします。" width="306" height="112" /></a></li>
+		</ul>-->
+</div>
+<div id="contents" class="clearfix">
+	<div id="top-left">
+<!--		<p class="areaBn"><a href="" target="_blank"><img src="" alt="" width="" height="" /></a></p>-->
+		<div class="inbox">
+			<div class="title">
+			<h2><img src="/images/top_t_press.gif" alt="プレスリリース" width="675" height="32" /></h2>
+				<p class="sublink-s"><a href="/news/index.html"><img src="/images/top_b_press.gif" alt="プレスリリース一覧" width="112" height="18" /></a>
+<a href="/rss/press.rdf" target="_blank"><img src="/images/rss.gif" alt="RSS" width="18" height="18" /></a></p>
+			</div>
+			<div class="news">
+			<dl>
+				<dt class="new">2015年12月01日</dt>
+				<dd>
+					<ul>
+						<li><a href="/news/press_2015/press_release151201.html" target="_blank">ネットマイル、ゆうちょ銀行口座へのポイント現金化サービス開始</a></li>
+						</ul>
+				</dd>
+			</dl>
+			<dl>
+				<dt>2015年11月30日</dt>
+				<dd>
+					<ul>
+						<li><a href="/news/press_2015/press_release151130.html" target="_blank">株式会社INMホールディングス、第三者割当増資を実施、総額2億円調達</a></li>
+						</ul>
+				</dd>
+			</dl>
+			<dl>
+				<dt>2015年10月06日</dt>
+				<dd>
+					<ul>
+						<li><a href="/news/press_2015/press_release151006.html" target="_blank">INMホールディングス代表取締役 兼 ネットマイル社取締役 坂井光が「全面自由化で注目される新機軸の電力ビジネス展開」セミナーで講演</a></li>
+						</ul>
+				</dd>
+			</dl>
+			<dl>
+				<dt>2015年09月28日</dt>
+				<dd>
+					<ul>
+						<li><a href="/news/press_2015/press_release150928.html" target="_blank">INMホールディングス代表取締役 畑野仁一が「電力自由化における小売りマーケティングの展開・戦略」セミナーで講演</a></li>
+						</ul>
+				</dd>
+			</dl>
+			<dl>
+				<dt>2015年09月15日</dt>
+				<dd>
+					<ul>
+						<li><a href="/news/press_2015/press_release150915.html" target="_blank">INMホールディングスがパーパスと提携　
+自由化直前の電力、ガス等エネルギー業界にポイントプログラム導入システムとマーケティング戦略を共同提案</a></li>
+						</ul>
+				</dd>
+			</dl>
+			</div>
+		</div>
+		<div class="inbox">
+			<div class="title">
+			<h2><img src="/images/top_t_publicity.gif" alt="パブリシティ" width="675" height="32" /></h2>
+				<p class="sublink-s"><a href="/news/publicity.html"><img src="/images/top_b_publicity.gif" alt="パブリシティ一覧" width="103" height="18" /></a></p>
+			</div>
+
+		<div class="news">
+		<dl>
+			<dt class="new">2015年12月14日</dt>
+				<dd>自由化時代「ポイント戦略がカギ」 INMホールディングス代表取締役会長　畑野仁一<br />パーパスセミナーで解説　（プロパン・ブタンニュース）</dd>
+		</dl>
+
+		<dl>
+			<dt>2015年12月02日</dt>
+				<dd>資金調達　INMホールディングス2億円　（日経産業新聞）</dd>
+		</dl>
+		<dl>
+			<dt>2015年10月14日</dt>
+				<dd>INMと業務提携　エネ業界に市場戦略など提案　（管材新聞）</dd>
+		</dl>
+		<dl>
+			<dt>2015年10月01日</dt>
+				<dd>パーパス　INMホールディングスと共同で実施　ポイントプログラム支援　（燃料油脂新聞）</dd>
+		</dl>
+		</div>
+		</div>
+	</div>
+	<div id="sideBox">
+		<!--<div class="topics">
+			<div class="title">
+				<p class="mds"><img src="/images/top_r_topics.gif" alt="トピックス" width="245" height="31" /></p>
+			</div>
+			<div class="inner">
+			<dl class="noline">
+				<dt>2010年10月13日</dt>
+				<dd>企業サイトをリニューアルいたしました。採用情報も更新しております。<a href="/recruit/index.html">[詳細情報]</a></dd>
+			</dl>
+
+			</div>
+		</div>--><!-- /topics -->
+		<div class="contact-btn">
+			<p><a href="https://www.netmile.co.jp/contact/catalog.htm" target="_blank"><img src="/images/top_r_contact_off.gif" alt="資料請求・お問い合わせ" width="231" height="66" /></a></p>
+		</div><!-- /subbnr -->
+		<div class="subbnr">
+			<ul>
+				<li class="areasns"><a href="http://www.netmile.co.jp/ctrl/user/gift.do?mparm=bizgift" target="_blank"><img src="/images/bn_nmgift.jpg" alt="NetMile Gift 200以上の特典に利用可能なデジタルギフト" width="223" height="45" /></a></li>
+				<li class="areasns"><a href="http://www.facebook.com/netmile" target="_blank"><img src="/images/bn_facebook.gif" alt="facebookでネットマイルを「いいね！」してください！" width="223" height="55" /></a></li>
+				<li class="areasns"><a href="http://twitter.com/netmile/" target="_blank"><img src="/images/bn_twitter.gif" alt="twitterでネットマイルをフォローしてください！" width="223" height="55" /></a></li>
+				<li><a href="http://www.jipc.jp/campaign/" target="_blank"><img src="/images/bn_excpn080212.gif" alt="不正撲滅キャンペーン「ポイントの不正獲得は犯罪です!!」 " width="160" height="65" /></a></li>
+			</ul>
+		<div class="pmark clearfix">
+			<p class="pm"><a href="http://privacymark.jp/" target="_blank"><img src="/images/pmark-r.png" alt="ネットマイルはプライバシーマークを取得しています。" width="62" height="62" /></a></p>
+			<p class="txt"><a href="/policy/privacy.html" target="_blank">ネットマイルは<br />プライバシーマークを<br />取得しています。</a></p>
+		</div>
+		</div><!-- /subbnr -->
+	</div><!-- /sideBox -->
+</div><!-- /contents -->
+</div><!-- /wrapper-->
+	<div id="footer">
+		<div class="pagetop"><p><a href="#wrapper"><img src="/images/pagetop.gif" alt="このページのTOPへ戻る" width="137" height="19" /></a></p></div>
+		<div class="inner">
+		<p>株式会社ネットマイル</p>
+<!-- footer Start -->
+	<script type="text/javascript" src="/js/show_footer.js"></script>
+<!-- footer End -->
+<!-- copyright Start -->
+	<script type="text/javascript" src="/js/show_copyright.js"></script>
+<!-- copyright End -->
+		</div>
+	</div><!-- /footer -->
+
+</body>
+</html>

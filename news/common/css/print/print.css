@@ -1,0 +1,30 @@
+@charset "Windows-31J";
+
+/* === Filename is "print.css" ===
+
+### for print settings
+
+*/
+
+/* === default Module === */
+
+body {
+	background-color: #fff;
+	background-image: none;
+	color: #414141;
+	font-size: 10pt;
+	line-height: 1.5;
+}
+
+a:link,
+a:visited {
+	text-decoration: underline;
+}
+
+body div#gNavi ul li.sitemap {
+	margin-left: 84px;
+}
+
+body#status-login div#gNavi ul li.sitemap {
+	margin-left: 87px;
+}

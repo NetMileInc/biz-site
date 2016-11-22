@@ -1,0 +1,427 @@
+@charset "utf-8";
+
+/* -------------------------------------------------------------------
+NEWS pressrelease Template
+--------------------------------------------------------------------*/
+/* base
+--------------------------------------------------------------------*/
+#press-template {
+	/* background:#FFF url(/images/bg.gif) repeat-x 0 -28px; */
+}
+#press-template #wrapper {
+	max-width:960px;
+	margin:0 auto; 
+}
+#press-template #contents {
+	text-align:left;
+	width: 100%;
+	margin:0 auto; 
+	padding-top:0px;
+	padding-bottom:60px;
+}
+.mb0 {
+	margin-bottom:0 !important;
+}
+.mb5 {
+	margin-bottom:5px !important;
+}
+.mb10 {
+	margin-bottom:10px !important;
+}
+.ml0 {
+	margin-left:0 !important;
+}
+
+.ml30{
+	margin-left:30px !important;
+}
+.sub {
+	text-indent:0 !important;
+}
+.center {
+	text-align:center !important;
+}
+
+/* header
+--------------------------------------------------------------------*/
+#press-template #header {
+	height:80px;
+}
+#press-template #header div.logo {
+	float:left;
+	padding-top:3px;
+}
+#press-template #header div.head-info {
+	float:right;
+	width:433px;
+}
+
+#press-template #header ul.btn {
+	float:left;
+	width:433px;
+	display:inline-block;
+}
+
+
+/* sns_button 2011208 add 
+--------------------------------------------------------------------*/
+div.snsPress {
+	width: auto;
+	float: right;
+	height:30px;
+}
+div.snsPress div {
+	float:left;
+	margin-left: 5px;
+}
+/* twitter*/
+*:first-child+html iframe.twitter-share-button {
+	width: 70px !important;
+}
+
+/* contents
+--------------------------------------------------------------------*/
+#press-template dl.dateBox {
+	text-align:right;
+	margin-bottom:15px;
+}
+
+#press-template div.titleBox {
+	border-bottom:1px solid #666;
+	margin-bottom:15px;
+	padding-bottom:5px;
+	text-align:center;
+	clear:both;
+}
+#press-template div.titleBox h2 {
+	font-size:138.5%;
+	font-weight:bold;
+	margin-bottom:5px;
+	line-height:1.4em;
+}
+#press-template div.titleBox h3 {
+	font-size:116%;
+	font-weight:bold;
+}
+
+#press-template div.summaryBox {
+	margin-bottom:40px;
+}
+#press-template div.summaryBox div.inbox {
+	margin-bottom:25px;
+}
+
+#press-template div.summaryBox p.txt {
+	text-indent:1em;
+	margin-bottom:15px;
+}
+#press-template div.summaryBox p.txt2 {
+	margin-bottom:15px;
+}
+#press-template div.summaryBox p.txt3 {
+	text-indent:1em;
+	margin-bottom:5px;
+}
+#press-template div.summaryBox p.note {
+	text-indent:0;
+	font-size:80%;
+}
+#press-template div.summaryBox .fontSmall {
+	font-size:80%;
+}
+#press-template div.summaryBox p.areaImg {
+	text-align:center;
+}
+#press-template div.summaryBox .important {
+	text-align:center;
+	font-weight:bold;
+	font-size:110%;
+}
+
+
+div.twoImg {
+	width:650px;
+	margin:0 auto;
+}
+div.twoImg div.fl {
+	float:left;
+}
+div.twoImg div.imgW150 {
+	width:150px;
+}
+
+div.twoImg div.imgW450 {
+	width:450px;
+}
+
+#press-template div.summaryBox div.mds {
+	background:#EFEFEF;
+	border-bottom:1px solid #CCC;
+	font-weight:bold;
+	padding:4px 8px 2px;
+	margin-bottom:10px;
+}
+#press-template div.summaryBox div.mds a {
+	font-weight:normal;
+	margin-left:15px;
+}
+
+#press-template div.summaryBox ul {
+	margin-bottom:15px;
+	padding-left:25px;
+	list-style-type:disc;
+}
+#press-template div.summaryBox ul li {
+	padding:3px 0;
+}
+#press-template div.summaryBox ul li p.l_mds {
+	font-weight:bold;
+	margin-bottom:5px;
+	padding-left:0;
+	text-indent:0;
+}
+#press-template div.summaryBox ul li p {
+	font-weight:normal;
+	margin-bottom:5px;
+	/*padding-left:1.2em;*/
+	text-indent:1em;
+}
+
+
+#press-template div.summaryBox ol {
+	margin-bottom:15px;
+	padding-left:25px;
+	list-style-type:decimal;
+	font-weight:bold;
+}
+
+#press-template div.summaryBox ol.upperRoman{
+	list-style-type:upper-roman;
+}
+#press-template div.summaryBox ol.fontWeightNormal{
+	font-weight:normal;
+}
+#press-template div.summaryBox ol.fwNormal {
+	margin-bottom:5px;
+	font-weight:normal;
+}
+#press-template div.summaryBox ol li {
+	padding:3px 0;
+}
+#press-template div.summaryBox ol li p.l_mds {
+	margin-bottom:5px;
+	padding-left:0;
+	text-indent:0;
+}
+#press-template div.summaryBox ol li p.f_normal {
+	font-weight:normal;
+	margin-bottom:5px;
+	/*padding-left:1.2em;*/
+	text-indent:1em;
+}
+#press-template div.summaryBox ol li p img {
+	margin-bottom:5px;
+}
+#press-template div.summaryBox ol li ul {
+	margin-bottom:0;
+}
+
+
+
+#press-template div.summaryBox table {
+	border-collapse:collapse;
+	border-spacing:0;
+	empty-cells:show;
+	margin-bottom:10px;
+	width:100%;
+}
+#press-template div.summaryBox table.designType01 {
+	margin-bottom:0;
+}
+#press-template div.summaryBox table th,
+#press-template div.summaryBox table td {
+	border:1px solid #BBBBBB;
+	padding:0.5em 0.8em;
+}
+#press-template div.summaryBox table th {
+	background:#F6F6F6;
+	color:#666;
+	font-weight:bold;
+	width:20%;
+}
+#press-template div.summaryBox table td {
+	width:80%;
+}
+#press-template div.summaryBox table td.txt {
+	width:60%;
+}
+#press-template div.summaryBox table td ul {
+	margin:0;
+	padding-left:20px;
+}
+#press-template div.summaryBox table td ul li {
+	padding:2px 0;
+}
+#press-template div.summaryBox table td ul.numList li {
+	list-style-type:decimal;
+}
+
+#press-template div.summaryBox div.inner p {
+	margin-bottom:0;
+	color:#666666;
+	font-weight:bold;
+}
+#press-template div.summaryBox div.inner table {
+	margin-left:1em;
+}
+#press-template div.summaryBox div.inner table th,
+#press-template div.summaryBox div.inner table td {
+	padding-top:3px;
+	padding-bottom:3px;
+}
+#press-template div.summaryBox div.inner table th {
+	width:70%;
+}
+#press-template div.summaryBox div.inner table td {
+	width:30%;
+}
+
+#press-template div.summaryBox div.caution {
+	font-size:85%;
+	margin-bottom:20px;
+	padding-left:1.2em;
+}
+#press-template div.summaryBox div.caution p {
+	text-indent:-1em;
+	margin-bottom:5px;
+}
+
+#press-template div.Contactbox {
+	border:1px solid #CCC;
+	padding:5px 10px;
+	margin:0 15px;
+}
+#press-template div.Contactbox p.ttl {
+	font-weight:bold;
+	margin-bottom:5px;
+}
+#press-template div.Contactbox div.info {
+	margin:8px 0;
+	padding-left:10px;
+}
+#press-template div.Contactbox div.info p {
+	padding:1px 0;
+}
+#press-template div.Contactbox div.info img {
+	vertical-align:middle;
+	margin-top:-4px;
+}
+#press-template div.summaryBox table {
+	border-collapse:collapse;
+	border-spacing:0;
+	empty-cells:show;
+	margin-bottom:10px;
+	width:100%;
+}
+#press-template div.summaryBox table.designType02 {
+	margin-bottom: 10px;
+}
+#press-template div.summaryBox table.designType02 th,
+#press-template div.summaryBox table.designType02 td {
+	border:1px solid #BBBBBB;
+	padding:0.5em 0.8em;
+}
+#press-template div.summaryBox table.designType02 th {
+	width: 50%;
+}
+#press-template div.summaryBox table.designType02 td {
+	width: 50%;
+}
+#press-template div.summaryBox table.designType02 td tr.gray{
+	background:#F6F6F6;
+	color:#666;
+	font-weight:bold;
+	width:50%;
+}
+
+/*2012/5/31追加　3列用テーブル*/
+#press-template div.summaryBox table.designType03 {
+	margin-bottom: 10px;
+}
+#press-template div.summaryBox table.designType03 th,
+#press-template div.summaryBox table.designType03 td {
+	border:1px solid #BBBBBB;
+	padding:0.5em 0.8em;
+}
+#press-template div.summaryBox table.designType03 th {
+	width: 20%;
+}
+#press-template div.summaryBox table.designType03 td {
+	width: 60%;
+}
+
+/*2012/5/31追加　3列用テーブル end*/
+
+/* publicity redirect
+--------------------------------------------------------------------*/
+#press-template div.pub {
+	padding:150px 0px;
+	text-align: center;
+}
+
+
+/* footer
+--------------------------------------------------------------------*/
+#press-template #footer div.inner {
+	width:750px;
+	padding:10px 0px;
+	margin:0 auto;
+}
+
+/* Clearfix 20111011 
+***************************************************** */
+div.twoImg:after,
+div.snsPress:after {
+	content: ".";
+	display: block;
+	height: 0px;
+	clear: both;
+	line-height: 0;
+	visibility: hidden;
+}
+div.twoImg,
+div.snsPress:after {
+	zoom: 1;
+}
+
+/* Clearfix 2011208 add 
+-------------------------------------------------------- */
+div.snsPress {
+	display: inline-block;
+}
+/* Hides from IE-mac \*/
+* html div.snsPress {
+	height: 1%;
+}
+div.snsPress {
+	display: block;
+}
+/* End hide from IE-mac */
+
+
+/*----------------------------*/
+p.areaImg_left{
+	float:right;
+	margin: 0 auto 0 10px;
+	text-align:right;
+	}
+
+/*----------------------------*/
+	
+/*2012/11/07 caption*/
+
+p.caption{
+	margin-left:25px;
+	}
+
+/*----------------------------*/

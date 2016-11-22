@@ -1,0 +1,36 @@
+﻿@charset "utf-8";
+
+/* footer
+========================================== */
+div#footer {
+	clear:both;
+	width:100%;
+	font-size:82%;
+	min-height:12px;
+}
+
+div#footer ul {
+	text-align:center;
+	margin:0px 0px 5px 0px;
+}
+
+div#footer li {
+	display:inline;
+	margin:0px 5px;
+}
+
+/* copyRight
+========================================== */
+div#copyRight {
+	background-color:#0066ff;
+	min-height:24px;
+	margin:7px 0px 0px 0px;
+	font-size:85%;
+}
+
+div#copyRight address {
+	color:#FFFFFF;
+	text-align:center;
+	min-height:24px;
+	line-height:24px;
+}

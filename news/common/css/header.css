@@ -1,0 +1,365 @@
+@charset "Windows-31J";
+
+/* === Filename is "header.css" ===
+
+### header layout settings
+
+=== menu ===
+1.Header container
+2.before login
+3.after login
+4.Clear Fix List
+
+*/
+
+
+/* === Header Container === */
+
+body div#header {
+	width: 952px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom: 6px;
+	background: url(/common/images/bg-header.jpg) right bottom no-repeat;
+}
+
+/* >>clearfix body div#header */
+
+
+div#header h1#top,
+div#header p#top {
+	min-height: inherit;
+	margin-bottom: 0;
+	padding: 10px 0 6px 0;
+	background-image: none;
+	font-size: inherit;
+	line-height: inherit;
+}
+
+div#header h1#top,
+div#header p#top {
+	float: left;
+	width: 188px;
+}
+
+#top img {
+	margin-right: 36px;
+}
+
+div#header p.topBanner {
+	float: left;
+	width: 253px;
+}
+
+p.topBanner img {
+	margin-right: 29px;
+}
+
+
+/* === before login === */
+
+body#status-logout div#header div#statusLink {
+	float: right;
+	width: 501px;
+	background-color: #efefef;
+	background-image: url(/common/images/bg-statusLink-logout-center.gif);
+	background-position: left top;
+	background-repeat: repeat-y;
+}
+
+body#status-logout div#header div#statusLink div#statusLink-inner div#account {
+	float: left;
+	width: 501px;
+	padding-top: 15px;
+	background-image: url(/common/images/bg-statusLink-logout-top.gif);
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+
+/* clearfix div#account */
+
+body#status-logout div#header div#statusLink div#statusLink-inner div#account ul {
+	margin-left: 15px;
+	padding-right: 10px;
+}
+
+body#status-logout div#header div#statusLink div#statusLink-inner div#account ul li {
+	float: left;
+}
+
+body#status-logout div#header div#statusLink div#statusLink-inner div#account ul li img {
+	margin-top: 6px;
+	vertical-align: top;
+}
+
+body#status-logout div#header div#statusLink div#statusLink-inner div#account ul li dl,
+body#status-logout div#header div#statusLink div#statusLink-inner div#account ul li dl dt,
+body#status-logout div#header div#statusLink div#statusLink-inner div#account ul li dl dd {
+	float: left;
+}
+
+body#status-logout div#header div#statusLink div#statusLink-inner div#account ul li dl dt img {
+	margin-top: 8px;
+}
+
+body#status-logout div#header div#statusLink div#statusLink-inner div#account ul li dl input {
+	width: 100px;
+	margin-top: 5px;
+	margin-right: 5px;
+}
+/* insert ie6 */
+
+body#status-logout div#header div#statusLink div#statusLink-inner div#account ul li#loginBtn input {
+	height: auto;
+	margin-top: 3px;
+	margin-right: 7px;
+}
+
+
+body#status-logout div#header div#statusLink div#statusLink-inner div#account ul li#forgotpass img {
+	margin-top: 8px;
+}
+
+
+body#status-logout div#header div#statusLink div#statusLink-inner {
+	width: 501px;
+	padding-bottom: 8px;
+	background-image: url(/common/images/bg-statusLink-logout-btm.gif);
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+
+/* clearfix body#status-logout div#header div#statusLink div#statusLink-inner */
+
+
+/* === after login === */
+
+body#status-login div#header div#statusLink {
+	float: right;
+	width: 501px;
+	background-color: #efefef;
+	background-image: url(/common/images/bg-statusLink-center.gif);
+	background-position: left top;
+	background-repeat: repeat-y;
+}
+
+body#status-login div#header div#statusLink div#statusLink-inner {
+	width: 501px;
+	padding-bottom: 8px;
+	background-image: url(/common/images/bg-statusLink-btm.gif);
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+
+/* clearfix body#status-login div#header div#statusLink div#statusLink-inner */
+
+body#status-login div#header div#statusLink div#statusLink-inner div#account {
+	float: left;
+	width: 351px;
+	padding-top: 15px;
+	background-image: url(/common/images/bg-statusLink-top.gif);
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+
+/* clearfix div#account */
+
+body#status-login div#header div#statusLink div#statusLink-inner div#account ul {
+	display: inline;
+	float: left;
+	margin-top: 4px;
+	margin-left: 17px;
+	padding-right: 10px;
+	line-height: 1.2;
+}
+
+body#status-login div#header div#statusLink div#statusLink-inner div#account ul li.id {
+	float: left;
+	width: 145px;
+	margin-top: 5px;
+}
+
+body#status-login div#header div#statusLink div#statusLink-inner div#account ul li.id span.name {
+	margin-left: 13px;
+	font-size: 110%;
+}
+
+body#status-login div#header div#statusLink div#statusLink-inner div#account ul li.level {
+	float: left;
+	width: 60px;
+	margin-top: 1px;
+	margin-left: 2px;
+	text-align: right;
+}
+/* insert ie6 */
+
+*+html body#status-login div#header div#statusLink div#statusLink-inner div#account ul li.level {
+	margin-top: 2px;
+}
+
+body#status-login div#header div#statusLink div#statusLink-inner div#account ul li.mybook {
+	float: right;
+	width: 102px;
+	padding-left: 10px;
+	text-align: right;
+}
+
+body#status-login div#header div#statusLink div#statusLink-inner div#account ul li.mybook img {
+	margin-right: 5px;
+}
+
+body#status-login div#header div#statusLink div#statusLink-inner div#account-menu {
+	display: inline;
+	float: left;
+	width: 145px;
+}
+
+body#status-login div#header div#statusLink div#statusLink-inner div#account-menu ul {
+	float: left;
+	margin-top: 12px;
+	line-height: 1.2;
+}
+
+
+body#status-login div#header div#statusLink div#statusLink-inner div#account-menu ul li.account-change {
+	float: left;
+	margin-right: 4px;
+}
+
+body#status-login div#header div#statusLink div#statusLink-inner div#account-menu ul li.logout {
+	float: left;
+}
+
+
+body#status-login div#header div#statusLink div#statusLink-inner div#account-menu ul li.wrong-account {
+	clear: left;
+	float: none;
+	padding-top: 6px;
+	background-image: url(/common/images/bg-wrong-account.gif);
+	background-position: top;
+	background-repeat: no-repeat;
+}
+
+/* insert ie6.css */
+
+*+html body#status-login div#header div#statusLink div#statusLink-inner div#account-menu ul li.wrong-account {
+	padding-top: 2px;
+}
+
+
+
+/* === case No GlobalNavi and Footer === */
+
+/* 
+ HF = Header & Footer
+ */
+
+body#no-HF div#header {
+	width: 952px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom: 6px;
+	background: url(/common/images/bg-header-nohf.jpg) right bottom no-repeat;
+}
+
+body#no-HF_get div#header {
+	width: 952px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom: 6px;
+	background: url(/common/images/bg-header-nohf_get.jpg) right bottom no-repeat;
+}
+
+body#no-HF-s div#header {
+	width: 747px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom: 6px;
+	background: url(../images/bg-header-nohf-s.jpg) right bottom no-repeat;
+}
+
+body#no-HF-s div#header h1#top,
+body#no-HF-s div#header p#top {
+	float: none;
+}
+
+body#no-HF div#header ul#subNavi {
+	float: right;
+	margin-top: 24px;
+}
+
+body#no-HF_get div#header ul#subNavi {
+	float: right;
+	margin-top: 24px;
+}
+
+body#no-HF div#header ul#subNavi li {
+	float: left;
+	display: inline;
+	margin-right: 5px;
+}
+
+body#no-HF_get div#header ul#subNavi li {
+	float: left;
+	display: inline;
+	margin-right: 5px;
+}
+
+body#no-HF div#header ul#subNavi li.save {
+	margin-right: 27px;
+}
+
+body#no-HF_get div#header ul#subNavi li.save {
+	margin-right: 27px;
+}
+
+/* insert ie6.css */
+
+
+/* === Clear Fix List === */
+
+body div#header:after,
+body#status-login div#header div#statusLink div#statusLink-inner:after,
+body#status-logout div#header div#statusLink div#statusLink-inner:after,
+body#status-logout div#header div#statusLink div#statusLink-inner:after,
+body#no-HF div#header ul#subNavi:after,
+body#no-HF_get div#header ul#subNavi:after,
+div#account:after {
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+	content: ".";
+}
+body div#header,
+body#status-login div#header div#statusLink div#statusLink-inner,
+body#status-logout div#header div#statusLink div#statusLink-inner,
+body#status-logout div#header div#statusLink div#statusLink-inner,
+body#no-HF div#header ul#subNavi,
+body#no-HF_get div#header ul#subNavi,
+div#account {
+	display: inline-table;
+	min-height: 1%;
+}
+/* for macIE \*/
+* html body div#header,
+* html body#status-login div#header div#statusLink div#statusLink-inner,
+* html body#status-logout div#header div#statusLink div#statusLink-inner,
+* html body#status-logout div#header div#statusLink div#statusLink-inner,
+* html body#no-HF div#header ul#subNavi,
+* html body#no-HF_get div#header ul#subNavi,
+* html div#account {
+	height: 1%;
+}
+body div#header,
+body#status-login div#header div#statusLink div#statusLink-inner,
+body#status-logout div#header div#statusLink div#statusLink-inner,
+body#status-logout div#header div#statusLink div#statusLink-inner,
+body#no-HF div#header div#statusLink div#statusLink-inner,
+body#no-HF div#header ul#subNavi,
+body#no-HF_get div#header div#statusLink div#statusLink-inner,
+body#no-HF_get div#header ul#subNavi,
+div#account {
+	display: block;
+}
+/* end of for macIE */

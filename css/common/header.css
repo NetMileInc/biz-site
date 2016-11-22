@@ -1,0 +1,158 @@
+﻿@charset "utf-8";
+
+h1 {
+	color:#999;
+	font-size:80%;
+	background-color: #eee;
+	padding:5px;
+}
+
+/* keyVisual
+========================================== */
+div#keyVisual {
+	height:54px;
+	background:url(/images/common/header/keyv.jpg) left top no-repeat;
+	padding:29px 0px 0px 0px;
+}
+
+* html div#keyVisual {
+	height:83px;
+}
+
+div#keyVisual a.infoBtnS {
+	display:block;
+	background:url(/images/common/btn/btn_info_s.gif) left top no-repeat;
+	text-indent:-9999px;
+	width:153px;
+	height:28px;
+	margin:0px 15px 0px 580px;
+}
+
+div#keyVisual a.infoBtnS:hover {
+	background:url(/images/common/btn/btn_info_s_ov.gif) left top no-repeat;
+}
+
+/* header
+========================================== */
+div#header {
+	width:726px;
+	padding:6px 12px 4px 12px;
+}
+
+* html div#header {
+	width:750px;
+	padding:6px 12px 4px 12px;
+}
+
+div#header img.companyname {
+	width:219px;
+	float:left;
+}
+
+div.headerR {
+	float:right;
+	text-align:right;
+	font-size:90%;
+}
+
+div#header li {
+	display:inline;
+	margin:0px 0px 0px 10px;
+}
+
+
+/* globalNavi
+========================================== */
+div#globalNavi {
+	width:100%;
+	height:30px;
+	position:relative;
+	font-size:110%;
+	font-weight:bold;
+	margin:0px 0px 18px 0px;
+}
+
+div#globalNavi li {
+	position:absolute;
+	width:150px;
+	top:0px;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+}
+
+div#globalNavi li.home {
+	left:0px;
+}
+
+div#globalNavi li.service {
+	left:150px;
+}
+
+div#globalNavi li.news {
+	left:300px;
+}
+
+div#globalNavi li.company {
+	left:450px;
+}
+
+div#globalNavi li.recruit {
+	left:600px;
+}
+
+
+div#globalNavi li a {
+	display:block;
+	background:url(/images/common/header/gnavi_noncurrent.gif) left top no-repeat;
+	color:#000000;
+}
+
+div#globalNavi li a:hover {
+	background:#bbced0 none;
+	color:#0066ff;
+}
+
+div#globalNavi li.current {
+	background:#FFFFFF none;
+	color:#0066ff;
+}
+
+
+
+
+/* withoutGN_LN
+==========================================
+========================================== */
+body#ep div.h1 {
+	width:100%;
+	height:30px;
+	background-color: #000;
+}
+
+body#ep div.h1 h1 {
+	width:617px;
+	padding:1.2% 0% 1.2% 1.2%;
+	color:#fff;
+	font-size:80%;
+	float:left;
+	background-color:transparent;
+	font-weight:bold;
+}
+
+body#ep div.h1 img {
+	width:123px;
+	float:right;
+}
+
+/* keyVisual
+========================================== */
+body#ep div#keyVisual {
+	height:269px;
+	padding:0px;
+	background:none;
+}
+
+* html body#ep div#keyVisual {
+	height:83px;
+}

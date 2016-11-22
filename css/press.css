@@ -1,0 +1,209 @@
+﻿@charset "utf-8";
+
+/* press
+========================================== */
+
+body#press {
+	line-height:1.5;
+}
+
+body#press div#contentsInner {
+	background:none;
+}
+
+p#date {
+	width:100%;
+	text-align:right;
+	margin:18px 0px 0px 0px;
+}
+
+.mb0 {
+	margin-bottom:0 !important;
+}
+
+
+/* main
+========================================== */
+body#press div#main {
+	width:690px;
+	margin:0px 15px;
+	float:none;
+}
+
+
+/* ngi
+========================================== */
+div#main div.ngi {
+	width:690px;
+	text-align:right;
+	margin:15px 15px;
+}
+
+
+/* title
+========================================== */
+div#title {
+	margin:30px 0px;
+}
+
+div#title p{
+	width:100%;
+	font-weight:bold;
+	text-align:center;
+	line-height:1.3;
+}
+
+div#title p.main {
+	font-size:150%;
+}
+
+div#title p.sub {
+	font-size:100%;
+	margin:5px 0px 0px 0px;
+}
+
+
+/* prologue
+========================================== */
+div#prologue {
+	margin:0px 0px 20px 0px;
+}
+
+div#prologue p {
+	font-size:90%;
+	text-indent:1em;
+	margin:0px 0px 10px 0px;
+}
+
+div#prologue p.noSpacing {
+	margin:0px;
+}
+
+div#prologue p.caution {
+	margin:0px;
+	font-size:85%;
+	text-indent:0;
+}
+
+/* summary
+========================================== */
+div#summary {
+	margin:0px 0px 20px 0px;
+}
+
+div#summary p.text {
+	margin:10px 0px 0px 0px;
+	font-size:90%;
+	text-indent:1em;
+}
+
+div#summary p.title {
+	font-weight:bold;
+}
+
+div#summary p.subTitle {
+	font-size:90%;
+}
+
+div#summary p.caution {
+	margin:5px 0px 0px 0px;
+	font-size:85%;
+}
+
+div#summary .note01 {
+	display:block;
+	margin:5px 0 0 0;
+	font-size:95%;
+}
+
+div#summary table.plural {
+	margin:0px 0px 20px 0px;
+}
+
+
+/* capture
+========================================== */
+img.capture {
+	margin:0px auto 10px auto;
+	display:block;
+}
+
+* html img.capture {
+	text-align:center;
+}
+
+
+/* table
+========================================== */
+table {
+	margin:5px 0px 0px 0px;
+	width:100%;
+	font-size:90%;
+}
+
+table td,
+table th {
+	padding:5px;
+	border:solid 1px #CCCCCC;
+}
+
+table td {
+	background-color:#FFFFFF;
+}
+
+table.tableDesign01 {
+	width:500px;
+	margin:5px 0px 0px 110px;
+	border:none;
+}
+
+table.tableDesign01 td,
+table.tableDesign01 th {
+	border:none;
+	background-color:#FFFFFF;
+}
+
+
+/* about
+========================================== */
+div.about {
+	margin:20px 0px;
+}
+
+div.about p.title {
+	font-weight:bold;
+}
+
+div.about p.title a {
+	font-weight:normal;
+}
+
+div.about p.text {
+	font-size:90%;
+	text-indent:1em;
+}
+
+
+/* contact
+========================================== */
+div.contact {
+	padding:20px 0px 0px 0px;
+	border-top:1px dotted #ccc;
+}
+
+div.contact p.addres{
+	line-height:1;
+}
+
+div.contact img {
+	vertical-align:middle;
+}
+
+
+.sep10 {
+	margin:10px 0px 0px 0px;
+}
+
+.sep20 {
+	margin:20px 0px 0px 0px;
+}

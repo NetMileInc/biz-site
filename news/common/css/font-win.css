@@ -1,0 +1,26 @@
+@charset "Windows-31J";
+
+/* === Filename is "font.css" ===
+
+### for windows font-family settings
+
+*/
+
+
+/* === Body Module === */
+
+body {
+	font-family: "‚l‚r ‚oƒSƒVƒbƒN", Helvetica, Arial, sans-serif;
+}
+
+/* ### HACK for [IE7] ### */
+*+html body {
+	font-family: "ƒƒCƒŠƒI", "‚l‚r ‚oƒSƒVƒbƒN", Helvetica, Arial, sans-serif;
+}
+/* ### /HACK for [IE7] ### */
+
+/* ### HACK for [Opera8~] ### */
+*+html>/**/body {
+	font-family: "‚l‚r ‚oƒSƒVƒbƒN", Helvetica, Arial, sans-serif;
+}
+/* ### HACK for [Opera8~] ### */

@@ -1,0 +1,207 @@
+@charset "Windows-31J";
+
+/* === Filename is "ie6.css" ===
+
+### for IE under Ver.6 settings
+
+*/
+
+
+/* default.css */
+
+h2.asset,
+h2.assetlist {
+	height: 32px !important;
+}
+
+
+input {
+	height: 1.5em;
+}
+
+li#loginBtn input {
+	height: 26px;
+}
+
+.btn input,
+.btnSingle input,
+.btnLeft input,
+.btnRight input,
+.registBtn input,
+.exchange input,
+.yesno input,
+.postingBtn input {
+	height: auto;
+}
+
+/* === Font === */
+/* by font.css */
+
+h2.list span.inline,
+h2.assetlist span.inline {
+	display: inline;
+}
+
+
+/* === header layout === */
+/* by header.css */
+
+body#status-login div#header div#statusLink div#statusLink-inner div#account-menu ul li.wrong-account {
+	padding-top: 3px;
+}
+
+body#status-login div#header div#statusLink div#statusLink-inner div#account ul li.level {
+	margin-top: 6px;
+}
+
+body#no-HF div#header ul#subNavi li.save {
+	margin-right: 13px;
+}
+
+
+/* === global TOP === */
+/* by top-layout.css */
+
+div#body div#content div#save-block,
+div#body div#content div#use-block,
+div#body div#content div#beginner-block,
+div#body div#content div#recommend-block {
+	display: inline;
+}
+
+div#body div#content div#save-block div.inner-column,
+div#body div#content div#use-block div.inner-column,
+div#body div#content div#beginner-block div.inner-column,
+div#body div#content div#recommend-block div.inner-column {
+	height: 400px;
+}	
+
+div#save-block p.sla-bn,
+div#use-block p.sla-bn,
+div#beginner-block p.sla-bn,
+div#recommend-block p.sla-bn {
+	width: 266px;
+}
+
+/* === MainContents === */
+
+body div#wrapper div#body {
+	height: 500px;
+}
+
+body div#wrapper div#body.shorter {
+	height: 350px;
+}
+
+/* by layout.css */
+
+body.clm2 div#body div#content  {
+	margin-right: 7px;
+}
+
+body.clm2 div#body div#localNavi {
+	display: inline;
+}
+/* sumi 070223 */
+
+dl.mile {
+	display: inline;
+	width: 130px;
+}
+
+dl.mile dt {
+	margin-top: 1px;
+}
+/* sumi 070223 */
+
+div#spenddetail table.detailTable dl.mile {
+	width: 123px;
+}
+
+table.medamaTable dl.medamamile {
+	margin-left: 21px;
+}
+
+
+/* sideBar */
+div#sideBar dl.mile {
+	width: 100%;
+}
+
+/* 注意喚起 */
+dl.attention dt {
+	height: 20px;
+}
+
+dl.attention dd {
+	min-height: 20px;
+	font-size: 80%;
+	line-height: 1.3;
+}
+
+/* 1行パターン */
+.attention-icon	{
+	height: 20px;
+}
+
+
+/* エラー */
+dl.error dt {
+	height: 20px;
+}
+
+/* 1行パターン */
+.error-icon	{
+	height: 20px;
+}
+
+
+/* マイルの達人 */
+
+h2#expert {
+	height: 109px;
+}
+
+/* === お買い物 === */
+div#body div#content ol.linearNavi {
+	margin-bottom: 20px;
+}
+
+div#body div#content ol.linearNavi li {
+	background-position: right 0px;
+}
+
+/* === local-navi === */
+body.clm2 div#body div#navigation li.next,
+body.clm2 div#body div#navigation li.prev {
+	display: inline;
+}
+
+/* === footer === */
+/* by footer.css */
+
+div#footer ul#footNavi {
+	margin: 0;
+}
+
+div#footer ul#footNavi li {
+	display: inline;
+}
+
+/* === MyTOP Top Banner Area === */
+div#body div#content div#topBnArea {
+	display: inline;
+}
+
+body.clm2 div#body div#pageEnd {
+	margin-top: -10px;
+}
+/* sumi */
+
+
+/* mybook */
+table.mybookCol div.mybookHeader p,
+table.mybookCol div.mybookHeader2 p {
+	display: inline;
+}
+/* sumi */

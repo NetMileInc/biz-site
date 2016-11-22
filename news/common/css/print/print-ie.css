@@ -1,0 +1,15 @@
+@charset "Windows-31J";
+
+/* === Filename is "print-ie.css" ===
+
+### for IE5-6 print settings
+
+*/
+
+
+/* === default Module === */
+
+body {
+	zoom: 0.7;
+	font-size: 11pt;
+}

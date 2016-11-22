@@ -1,0 +1,87 @@
+﻿@charset "utf-8";
+
+/* localNavi
+========================================== */
+div#localNavi {
+	width:158px;
+	border-left:solid 1px #CCCCCC;
+	border-right:solid 1px #CCCCCC;
+	border-top:solid 1px #CCCCCC;
+	font-size:100%;
+	font-weight:bold;
+}
+
+* html div#localNavi {
+	width:160px;
+}
+
+div#localNavi li p.current {
+	display:block;
+	background:#ffffff url(/images/common/icon/delta_current.gif) 4% 50% no-repeat;
+	color:#0066ff;
+	padding:8% 0% 8% 14%;
+}
+
+div#localNavi li {
+	border-bottom:solid 1px #CCCCCC;
+	line-height:1.2;
+}
+
+* html div#localNavi li {
+	line-height:normal;
+}
+
+div#localNavi li a {
+	display:block;
+	background:#f3f3f3 url(/images/common/icon/delta_noncurrent.gif) 4% 50% no-repeat;
+	color:#666666;
+	padding:8% 0% 8% 14%;
+}
+
+* html div#localNavi li a {
+	height:100%;
+}
+
+div#localNavi li a:hover {
+	background:#cccccc url(/images/common/icon/delta_noncurrent_ov.gif) 4% 50% no-repeat;
+	color:#0066ff;
+}
+
+div#localNavi li a.noLink:hover {
+	background:#f3f3f3 url(/images/common/icon/delta_noncurrent.gif) 4% 50% no-repeat;
+	color:#666666;
+}
+
+div#localNavi li a.sub {
+	display:block;
+	background:#f3f3f3 url(/images/common/icon/delta_noncurrent.gif) 15% 50% no-repeat;
+	color:#666666;
+	padding:8% 0% 8% 25%;
+}
+
+* html div#localNavi li a.sub {
+	height:100%;
+}
+
+div#localNavi li a.sub:hover {
+	background:#cccccc url(/images/common/icon/delta_noncurrent_ov.gif) 15% 50% no-repeat;
+	color:#0066ff;
+}
+
+div#localNavi li p.sub {
+	display:block;
+	background:#ffffff url(/images/common/icon/delta_current.gif) 15% 50% no-repeat;
+	padding:8% 0% 8% 25%;
+}
+
+div#localNavi li a.current {
+	background-color:#FFFFFF;
+}
+
+div#leftSide div.banner {
+	background-color:#FFFFFF;
+}
+
+div#leftSide div.banner img {
+	margin:10px 0px 5px 0px;
+}

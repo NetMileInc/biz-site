@@ -1,0 +1,13 @@
+﻿document.write('<div id="footer">');
+document.write('<ul>');
+document.write('<li><a href="http://www.netmile.co.jp/efforts.html" target="_blank">不正ユーザーへの取り組み</a></li>');
+document.write('<li>|</li>');
+document.write('<li><a href="http://www.netmile.co.jp/privacy.html" target="_blank">プライバシーポリシー</a></li>');
+document.write('</ul>');
+document.write('<ul>');
+document.write('<li><a href="http://www.netmile.co.jp/" target="_blank">ネットマイル&nbsp;サービスサイト</a></li>');
+document.write('<li>|</li>');
+document.write('<li><a href="http://www.netmile.co.jp/ctrl/user/CompenationIndex.do" target="_blank">ネットマイル プチっと補償</a></li>');
+document.write('</ul>');
+document.write('</div>');
+document.close();

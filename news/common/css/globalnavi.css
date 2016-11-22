@@ -1,0 +1,48 @@
+@charset "Windows-31J";
+
+/* === Filename is "globalnavi.css" ===
+
+### Global Navigation layout settings
+
+*/
+
+
+
+/* === Global Navigation === */
+
+body div#gNavi {
+	clear: both;
+	width: 952px;
+	margin-bottom: 25px;
+	background-image: url(/common/images/bg-gnav.jpg);
+	background-position: right top;
+	background-repeat: no-repeat;
+}
+
+body div#gNavi.gold {
+	background-image: url(/common/images/bg-gnav-gold.jpg);
+}
+
+body div#gNavi ul {
+}
+
+body div#gNavi ul li {
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+body div#gNavi ul li img {
+	margin: 0;
+	padding: 0;
+}
+
+body div#gNavi ul li.beginner {
+	margin-left: 69px;
+}
+
+body div#gNavi ul li.beginner img {
+	margin-bottom: 9px;
+	vertical-align: bottom;
+}
+

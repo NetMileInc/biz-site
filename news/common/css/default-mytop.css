@@ -1,0 +1,3784 @@
+@charset "euc-jp";
+
+/* === Filename is "mytop.css" ===
+
+### import mytop css
+
+*/
+
+/* === Filename is "default.css" ===
+
+### basic settings
+
+*/
+
+
+/* === Universal selector === */
+
+* {
+	margin: 0;
+	padding: 0;
+	color: #333;
+	text-align: left;
+}
+
+/* === Body Module === */
+
+body {
+	font-size: 100%;
+	font-family: "ＭＳ Ｐゴシック", "ヒラギノ角ゴ Pro W3", Osaka, Helvetica, Arial, sans-serif;
+	line-height: 1.5;
+}
+
+/* ### HACK for [IE7] ### */
+*+html body {
+	font-family: "メイリオ", "ＭＳ Ｐゴシック", Helvetica, Arial, sans-serif;
+}
+/* ### HACK for [IE7] ### */
+
+/* ### HACK for [Opera8~] ### */
+*+html>/**/body {
+	font-family: "ＭＳ Ｐゴシック", Helvetica, Arial, sans-serif;
+}
+/* ### HACK for [Opera8~] ### */
+
+
+/* === Text Module === */
+
+h1,h2,h3,h4,h5,h6 {
+	clear: both;
+}
+
+h1,
+h1.use,
+h1.save,
+h1.howto,
+h1.use-top,
+h1.use-category,
+h1.save-category,
+h1.howto-category,
+h1.medama {
+	clear: both;
+	margin-bottom: 20px;
+	padding-top: 28px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	background-image: url(/common/images/h1-bg.jpg);
+	background-position: right top;
+	background-repeat: no-repeat;	
+	font-size: 125%;
+	line-height: 1;
+	font-weight: bold;
+}
+
+h1.use,
+h1.use-top,
+h1.use-category,
+h1.medama {
+	background-image: url(/common/images/h1-use-bg.jpg);
+}
+
+h1.use-top,
+h1.medama {
+	margin-bottom: 0;
+}
+
+h1.save,
+h1.save-category {
+	background-image: url(/common/images/h1-save-bg.jpg);
+}
+
+h1.howto,
+h1.howto-category {
+	background-image: url(/common/images/h1-howto-bg.jpg);
+}
+
+body#mgb h1 {
+	clear: both;
+	margin-bottom: 20px;
+	padding-top: 21px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	background-image: url(/common/images/mgb-head.jpg);
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+
+h1.beginner-overview {
+	background-image: url(/common/images/h1-beginner-overview-bg.jpg);
+}
+h1.beginner-save {
+	background-image: url(/common/images/h1-beginner-save-bg.jpg);
+}
+h1.beginner-use {
+	background-image: url(/common/images/h1-beginner-use-bg.jpg);
+}
+h1.beginner-enjoy {
+	background-image: url(/common/images/h1-beginner-enjoy-bg.jpg);
+}
+h1.beginner-gold {
+	background-image: url(/common/images/h1-beginner-gold-bg.jpg);
+}
+
+/* case on subtitle
+
+small font
+BIG FOOOOOONT
+
+*/
+
+h1-category,
+h1.use-category,
+h1.save-category,
+h1.howto-category {
+	padding-top: 11px;
+}
+
+h1 span {
+	display: block;
+	margin-bottom: 1px;
+	font-size: 60%;
+	font-weight: bold;
+}
+
+h2,
+h2.set,
+h2.list {
+	clear: both;
+	width: 100%;
+	min-height: 42px;
+	margin-bottom: 15px;
+	background-image: url(/common/images/h2-bg.jpg);
+	background-position: right top;
+	background-repeat: no-repeat;	
+	font-size: 100%;
+}
+/* insert ie6.css */
+
+h2.asset,
+h2.assetlist {
+	clear: both;
+	width: 100%;
+	min-height: 42px;
+	margin-bottom: 15px;
+	background-image: url(/common/images/h2-asset-bg.jpg);
+	background-position: right top;
+	background-repeat: no-repeat;	
+	font-size: 100%;
+}
+
+h2.set,
+h2.asset,
+h2.assetlist {
+	margin: 0;
+}
+
+h2.list span.headline,
+h2.assetlist span.headline {
+	float: left;
+}
+
+h3 {
+	margin-bottom: 10px;
+	font-size: 80%;
+	font-weight: bold;
+}
+
+h3 span img {
+	vertical-align: middle;
+}
+
+h4 {
+	margin-bottom: 10px;
+	font-size: 80%;
+	font-weight: bold;
+}
+
+
+p {
+	font-size: 70%;
+}
+
+em {
+	font-style: normal;
+	font-weight: normal;
+}
+
+strong {
+	font-style: normal;
+	font-weight: bold;
+}
+
+pre,
+address,
+cite {
+	font-size: 70%;
+	font-style: normal;
+	font-weight: normal;
+}
+
+
+p,
+ul li,
+ol li,
+dl dt,
+dl dd {
+	line-height: 1.5;
+}
+/* sumi */
+
+/* === Link Module === */
+
+a:link {
+	color: #0066cc;
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #82adce;
+	text-decoration: underline;
+}
+
+a:active {
+	color: #0066cc;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #00baff;
+	text-decoration: underline;
+}
+
+h1 a:link,
+h1 a:hover,
+h1 a:active,
+h1 a:visited {
+	text-decoration: none;
+}
+
+/* === List Module === */
+
+ul,
+ol,
+dl {
+	list-style-type: none;
+}
+
+ul li,
+ol li,
+dl dt,
+dl dd {
+	font-size: 70%;
+}
+
+li li,
+li p,
+li pre,
+li dt,
+li dd,
+dt li,
+dt p,
+dt pre,
+dt dt,
+dt dd,
+dd li,
+dd p,
+dd pre,
+dd dt,
+dd dd {
+	font-size: 100%;
+}
+
+
+/* === Table Module === */
+
+table,
+table th,
+table td {
+	border-collapse: collapse;
+	vertical-align: top;
+}
+
+table th {
+	font-weight: bold;
+}
+
+
+/* ===Image Module=== */
+
+img,
+img a {
+	border: 0;
+}
+
+li img {
+	vertical-align: bottom;
+}
+
+
+/* === Form Module === */
+
+form {
+	text-align: center;
+}
+
+
+/* textsize = 12px */
+form select,
+form input,
+form textarea {
+	font-size: 100%;
+	vertical-align: middle !important;
+}
+
+form p select,
+form dd select,
+form p input,
+form dd input {
+	font-size: 117%;
+	vertical-align: middle !important;
+}
+
+form p textarea,
+form dd textarea {
+	vertical-align: middle !important;
+}
+
+/* for option Area bug */
+select option {
+	padding-right: 1em;
+}
+
+/* ### HACK for [Opera] ### */
+*+html>/**/body select option {
+	padding: 0;
+}
+*+html>/**/body select {
+	padding: 1px 1em 1px 0;
+}
+
+*+html>/**/body input.submit {
+	padding: 1.5px 0.5em;
+}
+/* ### /HACK for [Opera] ### */
+
+
+textarea#text {
+	height: 5em;
+}
+
+input#adtype,
+textarea#text {
+	width: 380px;	
+}
+
+input#city {
+	width: 200px;
+}
+
+input#companyname,
+input#companyurl,
+input#department,
+input#fullname,
+input#email,
+input.email,
+input#password,
+input#currentpassword,
+input#password-confirm,
+input#phone,
+input#street {
+	width: 180px;	
+}
+
+input#familyname-kanji,
+input#firstname-kanji,
+input#familyname-kana,
+input#firstname-kana {
+	width: 90px;
+}
+
+input#zip3 {
+	width: 45px;
+}
+
+input#zip4 {
+	width: 60px;
+}
+
+input#changemile,
+input#bankName,
+input#bankBranch,
+input#bankNum,
+input#nameId,
+input#nameIdfirst,
+input#nameIdfamily,
+input.data {
+	width: 88px;
+	margin-bottom: 2px;
+	font-size: 117%;
+}
+
+input#etc,
+input.etc {
+	width: 300px;
+}
+
+/* === JS/Flash Module === */
+
+noscript {
+
+}
+
+div#no-flash {
+}
+
+div#no-flash p.getFlashBn {
+}
+
+
+/* === Clear Fix List === */
+
+h2.list:after,
+h2.assetlist:after {
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+	content: ".";
+}
+h2.list,
+h2.assetlist {
+	display: inline-table;
+	min-height: 1%;
+}
+/* for macIE \*/
+* html h2.list,
+* html h2.assetlist {
+	height: 1%;
+}
+h2.list,
+h2.assetlist {
+	display: block;
+}
+/* end of for macIE */
+
+/* === Filename is "layout.css" ===
+
+### basic layout settings
+
+=== menu ===
+1.Body
+2.Wrapper
+3.breadClumb
+4.MainContents
+5.Clear Fix List
+
+*/
+
+
+/* === Body === */
+
+body {
+	background-color: #fff;
+	background-image: url(/common/images/bg-body.jpg);
+	background-position: top;
+	background-repeat: repeat-x;
+	text-align: center;
+}
+
+
+/* === Wrapper === */
+
+body div#wrapper {
+	clear: both;
+	width: 952px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: transparent;
+	background-image: url(/common/images/bg-wrapper.gif);
+	background-position: top;
+	background-repeat: repeat-y;
+}
+
+/* >>clearfix div#wrapper */
+
+
+/* === Wrapper-MGB === */
+
+body#mgb div#wrapper {
+	clear: both;
+	width: 480px;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: transparent;
+	background-image: url(/common/images/bg-wrapper-mgb.gif);
+	background-position: top;
+	background-repeat: repeat-y;
+}
+
+/* >>clearfix div#wrapper */
+
+
+
+/* === breadClumb === */
+
+ul#breadClumb {
+	margin: 0 1px 10px 20px;
+}
+
+ul#breadClumb li {
+	display: inline;
+	background-image: url(/common/images/bg-breadclumb.gif);
+	background-position: right center;
+	background-repeat: no-repeat;
+	padding: 0;
+	padding-right: 13px;
+	padding-left: 3px;
+}
+
+ul#breadClumb li a:link,
+ul#breadClumb li a:visited {
+	text-decoration: none;
+}
+
+ul#breadClumb li a:hover,
+ul#breadClumb2 li a:active {
+	text-decoration: underline;
+}
+
+ul#breadClumb li.current {
+	display: inline;
+	background-image: none;
+	padding-right: 0;
+}
+
+
+/* === Page End breadClumb === */
+div#pageEnd {
+	clear: both;
+	margin: 0 16px 10px 20px;
+	padding-bottom: 20px;
+}
+
+/* clearfix div#pageEnd */
+div#pageEnd ul#breadClumb2 {
+	clear: both;
+	margin: 0;
+	border-bottom: 1px solid #75bddd;
+}
+
+div#pageEnd ul#breadClumb2 li {
+	display: inline;
+	background-image: url(/common/images/bg-breadclumb.gif);
+	background-position: right center;
+	background-repeat: no-repeat;
+	padding-right: 13px;
+	padding-left: 3px;
+}
+
+ul#breadClumb2 li a:link,
+ul#breadClumb2 li a:visited {
+	text-decoration: none;
+}
+
+ul#breadClumb2 li a:hover,
+ul#breadClumb2 li a:active {
+	text-decoration: underline;
+}
+
+div#pageEnd ul#breadClumb2 li.current {
+	display: inline;
+	background-image: none;
+	padding-right: 0;
+}
+
+div#pageEnd p.pagetop {
+	clear: both;
+	margin-top: -1.5em;
+	margin-right: 3px;
+	padding: 0;
+	text-align: right;
+}
+
+div#pageEnd p.pagetop a {
+	padding-left: 13px;
+	background-image: url(/common/images/icon/delta-top.gif);
+	background-position: center left;
+	background-repeat: no-repeat;
+}
+
+div#pageEnd p.pagetop a:link,
+div#pageEnd p.pagetop a:visited {
+	text-decoration: none;
+}
+div#pageEnd p.pagetop a:hover,
+div#pageEnd p.pagetop a:active {
+	text-decoration: underline;
+}
+
+
+
+/* === MainContents === */
+
+body div#wrapper div#body {
+	clear: both;
+	width: 950px;
+	min-height: 500px;
+	margin: 0 1px;
+	text-align: left;
+}
+/* insert ie6.css */
+/* >>clearfix div#body */
+
+
+/* #1column (Top Page) */
+body div#body div#content {
+	float: none;
+	width: 920px;
+	margin-bottom: 20px;
+	margin-left: 15px;
+}
+/* >>clearfix div#body */
+
+
+
+/* #mgb (small-popup) */
+body#mgb div#wrapper div#body {
+	clear: both;
+	width: 478px;
+	margin: 0 1px;
+	text-align: left;
+}
+/* insert ie6.css */
+/* >>clearfix div#body */
+
+body#mgb div#body div#content {
+	float: none;
+	width: 448px;
+	margin-left: 15px;
+}
+/* >>clearfix div#body */
+
+
+
+/* #2column */
+body.clm2 div#body div#content {
+	float: right;
+	width: 715px;
+	margin-right: 15px;
+}
+/* insert ie6.css */
+/* >>clearfix body.clm2 div#body div#content */
+
+body.clm2 div#body div#localNavi {
+	float: left;
+	width: 185px;
+	margin-bottom: 20px;
+	margin-left: 15px;
+	padding-top: 4px;
+	background-image: url(/common/images/localnavi/ln-top.gif);
+	background-position: top;
+	background-repeat: no-repeat;
+}
+/* insert ie6.css */
+/* >>clearfix body.clm2 div#body div#localNavi */
+
+div#localNavi ul#local-banner-Area li {
+	margin-bottom: 5px;
+}
+
+/* #2column +2Column (get Detail) */
+body.clm2 div#body div#content div#detailColumn {
+	margin-bottom: 30px;
+	border-bottom: 1px dashed #d6d6d6;
+}
+/* >>clearfix body.clm2 div#body div#content div#detailColumn */
+
+
+body.clm2 div#body div#content div#detailColumn div#mainContents {
+	float: left;
+	width: 530px;
+	margin-right: 25px;
+}
+* html body.clm2 div#body div#content div#detailColumn div#mainContents {
+	margin-right: 24px;
+}
+/* for ie6 hack*/
+
+body.clm2 div#body div#content div#detailColumn div#bannerColumn {
+	float: left;
+	width: 160px;
+}
+
+/* キャンペーン詳細 and 超目玉 */
+
+body.clm2 div#bannerColumn div.bannerSection,
+body.clm2 div#bannerColumn div.aboutsSection,
+body.clm2 div#bannerColumn div.pastmedamaSection {
+	margin-bottom: 15px;
+	background-image: url(/common/images/bnArea-bg.jpg);
+	background-position: left;
+	background-repeat: repeat-y;
+}
+
+div.bannerSection p.more-inline,
+div.aboutsSection p.more-inline,
+div.pastmedamaSection p.more-inline {
+	margin: 5px 10px 0 0;
+}
+
+body.clm2 div#bannerColumn div.bannerSection div.bannerlist,
+body.clm2 div#bannerColumn div.aboutsSection div.aboutgold,
+body.clm2 div#bannerColumn div.bannerSection div.attentionlist,
+body.clm2 div#bannerColumn div.pastmedamaSection div.pastlist {
+	padding-bottom: 6px;
+	background-image: url(/common/images/bnArea-bg-btm.jpg);
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+
+/* >>clearfix div.div.bannerlist */
+/* >>clearfix div.aboutgold */
+/* >>clearfix div.attentionlist */
+/* >>clearfix div.pastlist */
+
+body.clm2 div#bannerColumn div.bannerSection h2 {
+	height: 26px;
+	min-height: 26px;
+	margin-bottom: 15px;
+	padding: 0;
+	background-image: url(/common/images/bnArea-bg.jpg);
+	background-position: left;
+	background-repeat: repeat-y;
+}
+
+body.clm2 div#bannerColumn div.aboutsSection h2,
+body.clm2 div#bannerColumn div.pastmedamaSection h2 {
+	height: 26px;
+	min-height: 26px;
+	margin-bottom: 8px;
+	padding: 0;
+	background-image: url(/common/images/bnArea-bg.jpg);
+	background-position: left;
+	background-repeat: repeat-y;
+}
+
+body.clm2 div#bannerColumn div.aboutsSection h3,
+body.clm2 div#bannerColumn div.pastmedamaSection h3 {
+	margin-bottom: 10px;
+}
+ 
+
+
+/* localNavi */
+
+body.clm2 div#body div#localNavi h2 {
+	height: 20px;
+	min-height: 20px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	padding: 5px 0 0 0;
+	background: none;
+}
+
+body.clm2 div#body div#localNavi h3 {
+	height: 20px;
+	margin-bottom: 10px;
+	padding: 0 0 0 10px;
+	background: none;
+}
+
+body.clm2 div#body div#navigation ul.special {
+	margin-bottom: 5px;
+	margin-left: 10px;
+}
+
+body.clm2 div#body div#navigation li.contribution {
+	clear: both;
+	margin-bottom: 5px;
+	margin-left: 10px;
+}
+
+body.clm2 div#body div#navigation li.next {
+	float: right;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+/* insert ie6.css */
+
+body.clm2 div#body div#navigation li.prev {
+	float: left;
+	margin-top: 5px;
+	margin-left: 10px;
+	margin-bottom: 5px;
+}
+/* insert ie6.css */
+
+body.clm2 div#body div#localNavi p.registBtn {
+	height: 51px;
+	background-image: url(/common/images/localnavi/regist-bg.jpg);
+	background-position: left top;
+	background-repeat: no-repeat;
+	margin-bottom: 10px;
+	padding-top: 5px;
+	padding-left: 10px;
+}
+
+html > body.clm2 div#body div#localNavi p.registBtn {
+	height: 46px;
+}
+
+body.clm2 div#body div#localNavi div#navigation {
+	margin-bottom: 10px;
+	background-image: url(/common/images/localnavi/ln-bg.gif);
+	background-position: left;
+	background-repeat: repeat-y; 
+}
+
+body.clm2 div#body div#localNavi div#navigation {
+	background-image: url(/common/images/localnavi/ln-bg.gif);
+	background-position: left;
+	background-repeat: repeat-y; 
+}
+
+body.clm2 div#body div#localNavi .btmMenu,
+body.clm2 div#body div#localNavi div#navigation ul.category,
+body.clm2 div#body div#localNavi div#navigation ul.choicemile {
+	padding-bottom: 10px;
+	background-image: url(/common/images/localnavi/ln-btm.gif);
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+
+body.clm2 div#body div#localNavi div#navigation ul.usecategory {
+	padding-bottom: 4px;
+}
+
+
+/* #2column-sidebar */
+div#body div#content div#mainContent {
+	float: right;
+	width: 668px;
+}
+/* >>clearfix div#body div#content div#mainContent */
+
+div#body div#content div#sideBar {
+	float: left;
+	width: 227px;
+}
+/* >>clearfix div#body div#content div#sideBar */
+
+
+div#body div#content div#sideBar table.subContent {
+	width: 227px;
+	margin-bottom: 15px;
+	background-color: #f2f6fd;
+	background-image: url(/common/images/sidebar-bg-btm.jpg);
+	background-position: bottom;
+	background-repeat: repeat-x;
+}
+
+div#body div#content div#sideBar h2 {
+	margin-bottom: 0;
+	padding-bottom: 5px;
+	background-color: #f2f6fd;
+	background-image: none;
+}
+
+div#body div#content div#sideBar table.subContent p.photo {
+	padding-bottom: 10px;
+}
+
+div#sideBar dl.mile {
+	width: 185px;
+	margin-bottom: 10px;
+}
+
+/* insert ie6.css */
+
+div#sideBar p.date {
+	clear: both;
+	margin-bottom: 10px;
+	margin-right: 2px;
+	text-align: right;
+}
+
+div#sideBar p.detailComment {
+	margin: 0 2px 15px 2px;
+	line-height: 1.3;
+}
+
+div#body div#content div#sideBar table.section0 td,
+div#body div#content div#sideBar table.section05 td,
+div#body div#content div#sideBar table.section10 td,
+div#body div#content div#sideBar table.section15 td,
+div#body div#content div#sideBar table.section20 td,
+div#body div#content div#sideBar table.section25 td,
+div#body div#content div#sideBar table.section30 td,
+div#body div#content div#sideBar table.section40 td { padding: 0 13px; }
+
+div#body div#content div#sideBar table.imgTable {
+	margin-bottom: 10px;
+}
+
+div#body div#content div#sideBar table.imgTable td {
+	padding: 0;
+}
+
+/* #1column */
+body.clm1 div#body div#content {
+	float: none;
+	width: 920px;
+	margin: 0 auto 20px 15px;
+	text-align: center;
+}
+
+body.clm1 div#body div#content div#mainContent {
+	float: none;
+	width: 670px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+
+/* === Clear Fix List === */
+
+div#wrapper:after,
+div#wrapper div#body:after,
+body div#wrapper div#body div#content:after,
+body#mgb div#wrapper div#body:after,
+body.clm2 div#body div#content:after,
+body.clm2 div#body div#content div#detailColumn:after,
+body.clm2 div#body div#localNavi:after,
+body.clm2 div#body div#content div#detailColumn div#bannerColumn:after,
+div#body div#content div#mainContent:after,
+div#body div#content div#sideBar:after,
+div.bannerlist:after,
+div.aboutgold:after,
+div.attentionlist:after,
+div.pastlist:after,
+dl.mile:after,
+dl.medamamile:after,
+div#pageEnd-linkArea ul#guide-list:after,
+dl.relation:after,
+div#content table.rule td div:after,
+dl.imgTxt:after,
+div#mainContent dl.privacy:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+		line-height: 0;
+}
+div#wrapper,
+div#wrapper div#body,
+body div#wrapper div#body div#content,
+body#mgb div#wrapper div#body,
+body.clm2 div#body div#content,
+body.clm2 div#body div#content div#detailColumn,
+body.clm2 div#body div#localNavi,
+body.clm2 div#body div#content div#detailColumn div#bannerColumn,
+div#body div#content div#mainContent,
+div#body div#content div#sideBar,
+divbannerlist,
+div.aboutgold,
+div.attentionlist,
+div.pastlist,
+dl.mile,
+dl.medamamile,
+div#pageEnd-linkArea ul#guide-list,
+dl.relation,
+div#content table.rule td div,
+dl.imgTxt,
+div#mainContent dl.privacy {
+	display: inline-table;
+	min-height: 1%;
+}
+/* for macIE \*/
+* html div#wrapper,
+* html div#wrapper div#body,
+* html body div#wrapper div#body div#content,
+* html body#mgb div#wrapper div#body,
+* html body.clm2 div#body div#content,
+* html body.clm2 div#body div#content div#detailColumn,
+* html body.clm2 div#body div#localNavi,
+* html body.clm2 div#body div#content div#detailColumn div#bannerColumn,
+* html div#body div#content div#mainContent,
+* html div#body div#content div#sideBar,
+* html div.bannerlist,
+* html div.aboutgold,
+* html div.attentionlist,
+* html div.pastlist,
+* html dl.mile,
+* html dl.medamamile,
+* html div#pageEnd-linkArea ul#guide-list,
+* html dl.relation,
+* html div#content table.rule td div,
+* html dl.imgTxt,
+* html div#mainContent dl.privacy {
+	height: 1%;
+}
+div#wrapper,
+div#wrapper div#body,
+body div#wrapper div#body div#content,
+body#mgb div#wrapper div#body,
+body.clm2 div#body div#content,
+body.clm2 div#body div#content div#detailColumn,
+body.clm2 div#body div#localNavi,
+body.clm2 div#body div#content div#detailColumn div#bannerColumn,
+div#body div#content div#mainContent,
+div#body div#content div#sideBar,
+div.bannerlist,
+div.aboutgold,
+div.attentionlist,
+div.pastlist,
+div.bannerSection,
+div.aboutsSection,
+div.pastmedamaSection,
+dl.mile,
+dl.medamamile,
+div#pageEnd-linkArea ul#guide-list,
+dl.relation,
+div#content table.rule td div,
+dl.imgTxt,
+div#mainContent dl.privacy {
+	display: block;
+}
+/* end of for macIE */
+
+/* simple clear */
+.clear {
+	clear: both;
+}
+
+/* === Filename is "modules.css" ===
+
+### module layout settings
+
+
+/* simple classes */
+
+/* 左寄せ */
+.leftside {
+	text-align: left;
+}
+
+/* 中央寄せ */
+.centering {
+	text-align: center;
+}
+
+/* 右寄せ */
+.rightside {
+	text-align: right;
+}
+
+
+/* === Layout Table === */
+table.section0 { clear: both; margin-bottom: 0; }
+table.section05 { clear: both; margin-bottom: 5px; }
+table.section10 { clear: both; margin-bottom: 10px; }
+table.section15 { clear: both; margin-bottom: 15px; }
+table.section20 { clear: both; margin-bottom: 20px; }
+table.section25 { clear: both; margin-bottom: 25px; }
+table.section30 { clear: both; margin-bottom: 30px; }
+table.section40 { clear: both; margin-bottom: 40px; }
+table.section0 td,
+table.section05 td,
+table.section10 td,
+table.section15 td,
+table.section20 td,
+table.section25 td,
+table.section30 td,
+table.section40 td { padding: 0 15px; }
+table.section0 td td,
+table.section05 td td,
+table.section10 td td,
+table.section15 td td,
+table.section20 td td,
+table.section25 td td,
+table.section30 td td,
+table.section40 td td { padding: 0; }
+table.step td { text-align: center; }
+
+/* 中央で分割 */
+div#content table.sectionJustify {
+	margin-bottom: 15px;
+	padding-bottom: 20px;
+	border-bottom: 1px dashed #d4d4d4;
+}
+
+div#content table.sectionJustify td.odd {
+	padding-right: 7px;
+}
+
+div#content table.sectionJustify td.even {
+	padding-left: 8px;
+}
+
+/* #2column table */
+/* image left patern */
+table.section0 td.img-l img,
+table.section05 td.img-l img,
+table.section10 td.img-l img,
+table.section15 td.img-l img,
+table.section20 td.img-l img,
+table.section25 td.img-l img,
+table.section30 td.img-l img,
+table.section40 td.img-l img { margin-right: 15px; text-align: left; }
+
+table.section0 td.img-l,
+table.section0 td.img-l p,
+table.section05 td.img-l,
+table.section05 td.img-l p,
+table.section10 td.img-l,
+table.section10 td.img-l p,
+table.section15 td.img-l,
+table.section15 td.img-l p,
+table.section20 td.img-l,
+table.section20 td.img-l p,
+table.section25 td.img-l,
+table.section25 td.img-l p,
+table.section30 td.img-l,
+table.section30 td.img-l p,
+table.section40 td.img-l,
+table.section40 td.img-l p { text-align: right; }
+
+/* image right patern */
+table.section0 td.img-r img,
+table.section05 td.img-r img,
+table.section10 td.img-r img,
+table.section15 td.img-r img,
+table.section20 td.img-r img,
+table.section25 td.img-r img,
+table.section30 td.img-r img,
+table.section40 td.img-r img { margin-left: 15px; text-align: right; }
+
+table.section0 td.img-r,
+table.section0 td.img-r p,
+table.section05 td.img-r,
+table.section05 td.img-r p,
+table.section10 td.img-r,
+table.section10 td.img-r p,
+table.section15 td.img-r,
+table.section15 td.img-r p,
+table.section20 td.img-r,
+table.section20 td.img-r p,
+table.section25 td.img-r,
+table.section25 td.img-r p,
+table.section30 td.img-r,
+table.section30 td.img-r p,
+table.section40 td.img-r,
+table.section40 td.img-r p { text-align: right; }
+
+
+/* === 2column DL === */
+dl.relation {
+	width: 100%;
+}
+
+dl.relation dt {
+	float: left;
+	width: 50%;
+}
+
+dl.relation dd {
+	float: left;
+	width: 50%;
+}
+
+/* img + txt  (left image) */
+dl.relation-img {
+	width: 100%;
+}
+
+
+dl.relation-img dt {
+	float: left;
+	width: 107px;
+}
+
+dl.relation-img dd {
+	float: left;
+	width: 563px;
+}
+
+body.clm1 dl.relation-img dd {
+	float: left;
+	width: 533px;
+}
+
+
+dl.relation-img dd p {
+	margin-left: 15px;
+}
+
+/* img + txt  (right image) */
+dl.relation-img2 {
+	width: 100%;
+}
+
+
+dl.relation-img2 dt {
+	float: right;
+	width: 107px;
+}
+
+dl.relation-img2 dd {
+	float: left;
+	width: 563px;
+}
+
+body.clm1 dl.relation-img2 dd {
+	float: left;
+	width: 533px;
+}
+
+
+dl.relation-img2 dd p {
+	margin-right: 15px;
+}
+
+
+/* banner lists */
+
+dl.bnCol .mile,
+dl.last-bnCol .mile {
+	margin-bottom: 3px;
+	padding-right: 3px;	
+	font-size: 110%;
+	float: left;
+}
+
+dl.bnCol li.iconProviso,
+dl.last-bnCol li.iconProviso {
+	float: left;
+	padding-left: 5px;	
+	margin-bottom: 3px;
+	border-left: 1px solid #D9D9D9;
+}
+
+
+
+dl.bnCol dt,
+dl.last-bnCol dt {
+	margin-bottom: 5px;
+}
+
+dl.bnCol .icon,
+dl.last-bnCol .icon {
+	clear: both;
+	margin-bottom: 7px;
+}
+
+dl.bnCol .bn,
+dl.last-bnCol .bn {
+	margin-bottom: 0;
+}
+
+dl.bnCol .txtbn,
+dl.last-bnCol .txtbn {
+	clear: both;
+}
+
+dl.bnCol dd,
+dl.last-bnCol dd {
+	margin-bottom: 10px;
+}
+
+
+body.clm2 div#bannerColumn div.bannerSection div.attentionlist .txtbn {
+	margin-bottom: 5px;
+}
+
+body.clm2 div#bannerColumn div.bannerSection div.attentionlist .txt {
+	margin-bottom: 10px;
+	line-height: 1.1;
+}
+
+body.clm2 div#bannerColumn div.pastmedamaSection div.pastlist dt {
+	margin-bottom: 3px;
+}
+
+body.clm2 div#bannerColumn div.pastmedamaSection div.pastlist dd li.txt {
+	margin-bottom: 0;
+	line-height: 1.1;
+}
+
+body.clm2 div#bannerColumn div.pastmedamaSection div.pastlist dd li.limit {
+	margin-bottom: 10px;
+	line-height: 1.1;
+}
+
+
+
+/* keyvisual */
+
+div.keyVisual {
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+/* ページ下部点線 */
+
+.end-hr {
+	border-bottom: 1px dashed #d4d4d4;
+}
+
+.end-hr p {
+	margin-bottom: 20px;
+}
+
+
+/* H2 BOX */
+
+table.h2asset {
+	width: 100%;
+}
+
+table.h2asset td.rt {
+	width: 3px;
+	background-color: #f4f4f4;
+	background-image: url(/common/images/h2-box-bg-r.gif);
+	background-position: left top;
+	background-repeat: repeat-y;
+}
+
+table.h2asset td.rtb {
+	width: 3px;
+	height: 3px;
+	background-image: url(/common/images/h2-box-bg-rb.gif);
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+
+table.h2asset td.lt {
+	width: 3px;
+	background-color: #f4f4f4;
+	background-image: url(/common/images/h2-box-bg-l.gif);
+	background-position: right top;
+	background-repeat: repeat-y;
+}
+
+table.h2asset td.ltb {
+	width: 3px;
+	height: 3px;
+	background-image: url(/common/images/h2-box-bg-lb.gif);
+	background-position: right top;
+	background-repeat: no-repeat;
+}
+
+table.h2asset td.bm {
+	height: 3px;
+	background-image: url(/common/images/h2-box-bg-b.gif);
+	background-position: left top;
+	background-repeat: repeat-x;
+}
+
+table.h2asset td table.h2assetBody {
+	width: 100%;
+	background-color: #f4f4f4;
+}
+
+table.h2asset td table.h2assetBody tr td {
+	padding: 10px;
+}
+
+table.h2asset td table.h2assetBody tr td img.bn {
+	margin-bottom: 0;
+}
+
+
+/* banner */
+.bn {
+	margin-bottom: 15px;
+	border: 1px solid #999;
+}
+
+/* slash border banner */
+.sla-bn {
+	margin-bottom: 15px;
+}
+
+.sla-bn a {
+	display: block;
+	padding: 4px;
+	background-image: url(/common/images/banner/bn-bg-slash.gif);
+}
+
+/* slash border banner blue */
+.sla-bn-blue {
+	margin-bottom: 15px;
+}
+
+.sla-bn-blue a {
+	display: block;
+	padding: 4px;
+	background-image: url(/common/images/banner/bn-bg-slash-blue.gif);
+}
+
+
+
+/* PR kuji */
+div.kuji {
+	margin-bottom: 0;
+}
+
+div.kuji p {
+	min-height: 54px;
+	margin-bottom: 0;
+	padding-top: 4px;
+	padding-left: 66px;
+	background-color: #fff;
+	background-image: url(/common/images/banner/bn-bg-kuji.jpg);
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+
+* html div.kuji p {
+	height: 54px;
+}
+/* for ie6 hack */
+
+
+/* contents table v-top */
+table.sheetTable th,
+table.sheetTable td {
+	vertical-align: top;
+}
+
+
+/* -------------------- キャンペーン詳細テーブル -------------------- */
+/* ----- 外枠 ----- */
+table.detailTable {
+	margin-bottom: 15px; 
+	background-color: #F2F6FD;
+	background-image: url(/common/images/bg-detailtable-body.jpg);
+	background-repeat: no-repeat;
+	background-position: bottom center;
+}
+
+table.detailTable table.head,
+table.detailTable table.body,
+table.detailTable table.btn {
+	margin: 0 15px;
+	width: 500px;
+}
+
+
+table.detailTable table.head td { vertical-align: bottom; }
+table.detailTable table.body td { vertical-align: top; }
+
+table.detailTable table.mileInfoTable {
+	background-image: url(/common/images/bg-detailtable-head.jpg);
+	height: 39px;
+	vertical-align: middle;
+	margin: 0 0 10px 0;
+	background-color: #BEDCF6;
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+
+table.detailTable table.head {
+	margin-bottom: 10px;
+}
+
+table.detailTable table.head td {
+	vertical-align: bottom;
+}
+
+table.detailTable table.body {
+	background-image: url(/common/images/border-slot.gif);
+	background-repeat: repeat-x;
+	background-position: center bottom;
+}
+
+table.detailTable table.body table {
+	margin-bottom: 12px;
+	background: none;
+}
+
+table.detailTable table.body p {
+	margin: 0 0 12px 10px;
+}
+
+
+/* 通常会員|在庫あり */
+table.detailTable table.mileInfoTable dl dt,
+table.detailTable table.mileInfoTable dl dd {
+	margin: 0;
+}
+/* sumi 070223 */
+
+table.detailTable table.mileInfoTable dl dt img,
+table.detailTable table.mileInfoTable dl dd img {
+	vertical-align: top;
+}
+/* sumi 070223 */
+
+/* キャンペーン概要 */
+
+table.campSummary tr th {
+	width: 190px;
+	border-bottom: 1px dashed #d4d4d4;
+	margin-bottom: 5px;
+}
+
+table.campSummary tr td {
+	width: 310px;
+	border-bottom: 1px dashed #d4d4d4;
+}
+
+table.campSummary tr th p,
+table.campSummary tr td p {
+	margin: 3px;
+	font-size: 80%;
+	font-weight: bold;
+}
+
+table.campSummary tr th.lastsel,
+table.campSummary tr td.lastsel {
+	border: none;
+}
+
+/* -------------------- 商品画像テーブル -------------------- */
+table.imgTable {
+	width: 198px;
+}
+
+table.imgTable td {
+	text-align: center;
+	background-color: #FFFFFF;
+}
+
+table.imgTable td.headL {
+	width: 13px;
+	height: 13px;
+	background-image: url(/common/images/bg-imgtable-head-l.gif);
+	background-repeat: no-repeat;
+}
+table.imgTable td.headC {
+	height: 13px;
+	background-image: url(/common/images/bg-imgtable-head-c.gif);
+	background-repeat: repeat-x;
+}
+table.imgTable td.headR {
+	width: 15px;
+	height: 13px;
+	background-image: url(/common/images/bg-imgtable-head-r.gif);
+	background-repeat: no-repeat;
+}
+
+table.imgTable td.bodyL { background-image: url(/common/images/bg-imgtable-body-l.gif); }
+table.imgTable td.bodyR { background-image: url(/common/images/bg-imgtable-body-r.gif); }
+
+table.imgTable td.bottomL {
+	width: 13px;
+	height: 15px;
+	background-image: url(/common/images/bg-imgtable-bottom-l.gif);
+}
+table.imgTable td.bottomC {
+	height: 15px;
+	background-image: url(/common/images/bg-imgtable-bottom-c.gif);
+}
+table.imgTable td.bottomR {
+	width: 15px;
+	height: 15px;
+	background-image: url(/common/images/bg-imgtable-bottom-r.gif);
+}
+
+/* 詳細テーブル・ヘッド */
+table.detailTable table.head h2,
+table.medamaTable table.head h2 {
+	background: none;
+	min-height: 1em;
+	font-size: 80%;
+	margin: 0;
+	line-height: 1.2;
+}
+
+table.detailTable table.head p.flag,
+table.detailTable table.head p.date { text-align: right; }
+
+
+
+
+
+
+/* -------------------- 特典詳細テーブル -------------------- */
+/* ----- 外枠 ----- */
+
+
+div#spenddetail table.detailTable {
+	margin-bottom: 15px; 
+	background-color: #F2F6FD;
+	background-image: url(/common/images/bg-detailtable-body.jpg);
+	background-repeat: repeat-x;
+	background-position: bottom center;
+}
+
+div#spenddetail table.detailTable table.head,
+div#spenddetail table.detailTable table.body,
+div#spenddetail table.detailTable table.btn {
+	margin: 0 15px;
+}
+
+div#spenddetail table.detailTable table.head td { vertical-align: bottom; }
+div#spenddetail table.detailTable table.detailbody td { vertical-align: top; }
+
+div#spenddetail table.detailTable table.detailbody {
+	margin: 5px 10px 5px 20px;
+	background-image: url(/common/images/bg-detailtable.gif);
+	background-repeat: repeat-y;
+	background-position: center;
+}
+
+
+div#spenddetail table.detailTable table.mileInfoTable {
+	background-image: url(/common/images/bg-spendTable-head.jpg);
+	height: 39px;
+	vertical-align: middle;
+	margin: 0 0 10px 0;
+	background-color: #BEDCF6;
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+/* sumi 070223 */
+
+div#spenddetail table.detailTable table.head {
+	margin-bottom: 20px;
+}
+
+div#spenddetail table.detailTable table.head td {
+	vertical-align: bottom;
+}
+
+div#spenddetail table.detailTable table.body {
+	background-image: url(/common/images/border-slot.gif);
+	background-repeat: repeat-x;
+	background-position: center bottom;
+}
+
+div#spenddetail table.detailTable table.body table {
+	margin-bottom: 12px;
+	background: none;
+}
+
+div#spenddetail table.detailTable table.body p {
+	margin: 0 0 12px 10px;
+}
+
+div#spenddetail table.detailTable td.imgSide {
+	border-right: 1px solid #D6D6D6;
+}
+/* sumi 070223 */
+
+
+table.detailTableBody em.attention,
+table.detailTableBody em.must {
+	font-size: 100% !important;
+}
+
+
+/* キャンペーン概要 */
+
+div#spenddetail table.campSummary tr th {
+	border-bottom: 1px dashed #d4d4d4;
+	margin-bottom: 5px;
+}
+
+div#spenddetail table.campSummary tr td {
+	border-bottom: 1px dashed #d4d4d4;
+}
+
+div#spenddetail table.campSummary tr th p,
+div#spenddetail table.campSummary tr td p {
+	margin: 3px;
+	font-weight: bold;
+}
+
+div#spenddetail table.campSummary tr th.lastsel,
+div#spenddetail table.campSummary tr td.lastsel {
+	border: none;
+}
+
+/* -------------------- 商品画像テーブル -------------------- */
+div#spenddetail table.imgTable {
+	width: auto;
+	margin: 0 0 10px 50px;
+}
+
+div#spenddetail table.imgTable td {
+	text-align: center;
+	background-color: #FFFFFF;
+}
+
+div#spenddetail div#spenddetail table.imgTable td.headL {
+	width: 13px;
+	height: 13px;
+	background-image: url(/common/images/bg-imgtable-head-l.gif);
+	background-repeat: no-repeat;
+}
+div#spenddetail table.imgTable td.headC {
+	height: 13px;
+	background-image: url(/common/images/bg-imgtable-head-c.gif);
+	background-repeat: repeat-x;
+}
+div#spenddetail table.imgTable td.headR {
+	width: 15px;
+	height: 13px;
+	background-image: url(/common/images/bg-imgtable-head-r.gif);
+	background-repeat: no-repeat;
+}
+
+div#spenddetail table.imgTable td.bodyC {
+	padding: 20px 0;
+}
+
+div#spenddetail table.imgTable td.bodyL { background-image: url(/common/images/bg-imgtable-body-l.gif);margin-left: 20px;}
+div#spenddetail table.imgTable td.bodyR { background-image: url(/common/images/bg-imgtable-body-r.gif); }
+
+div#spenddetail table.imgTable td.bottomL {
+	width: 13px;
+	height: 15px;
+	background-image: url(/common/images/bg-imgtable-bottom-l.gif);
+}
+div#spenddetail table.imgTable td.bottomC {
+	height: 15px;
+	background-image: url(/common/images/bg-imgtable-bottom-c.gif);
+}
+div#spenddetail table.imgTable td.bottomR {
+	width: 15px;
+	height: 15px;
+	background-image: url(/common/images/bg-imgtable-bottom-r.gif);
+}
+
+
+/* 特典交換完了 */
+
+
+
+table.spendFinishTable table.imgTable td.headL {
+	background-image: url(/common/images/bg-spendimgtable-head-l.gif);
+}
+table.spendFinishTable table.imgTable td.headC {
+	background-image: url(/common/images/bg-spendimgtable-head-c.gif);
+}
+table.spendFinishTable table.imgTable td.headR {
+	background-image: url(/common/images/bg-spendimgtable-head-r.gif);
+}
+
+table.spendFinishTable table.imgTable td.bodyL { background-image: url(/common/images/bg-spendimgtable-body-l.gif);margin-left: 20px;}
+table.spendFinishTable table.imgTable td.bodyR { background-image: url(/common/images/bg-spendimgtable-body-r.gif); }
+
+table.spendFinishTable table.imgTable td.bottomL {
+	background-image: url(/common/images/bg-spendimgtable-bottom-l.gif);
+}
+table.spendFinishTable table.imgTable td.bottomC {
+	background-image: url(/common/images/bg-spendimgtable-bottom-c.gif);
+}
+table.spendFinishTable table.imgTable td.bottomR {
+	background-image: url(/common/images/bg-spendimgtable-bottom-r.gif);
+}
+
+
+/* 詳細テーブル */
+
+
+div#spenddetail table.detailTable h2 {
+	width: 330px;
+	min-height: 1.1em;
+	background: none;
+	font-size: 80%;
+	margin: 0 10px 5px 20px;
+	line-height: 1.2;
+}
+
+div#spenddetail p.text {
+	width: 330px;
+	margin: 0 10px 10px 20px;
+}
+
+div#spenddetail table.detailTable table.head p.flag,
+div#spenddetail table.detailTable table.head p.date { text-align: right; }
+
+
+div#spenddetail table.sheetTable {
+	width: 325px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+}
+
+div#spenddetail table.sheetwrapper {
+	width: 325px;
+	margin-bottom: 15px;
+	margin-left: 20px;
+	vertical-align: middle;
+}
+
+div#spenddetail table.sheetwrapper td table.sheetTable {
+	width: 93px;
+	margin: 0;
+}
+div#spenddetail table.sheetTable th {
+	width: 138px;
+	background-color: #e8ffff;
+}
+
+div#spenddetail table.sheetTable tr.error th,
+div#spenddetail table.sheetTable tr.error td {
+	background-color: #ffeac9;
+}
+
+div#spenddetail table.sheetwrapper td table.sheetTable th {
+	width: 93px;
+	margin: 0;
+}
+
+
+div#spenddetail table.sheetwrapper table.sheetTable td,
+div#spenddetail table.sheetwrapper table.sheetTable td p {
+	text-align: center;
+	vertical-align: middle;
+}
+
+
+div#spenddetail table.sheetTable td {
+	background-color: #fff;
+}
+
+/* エラーアイコン */
+table.detailTable .error-icon {
+	margin-right: 15px;
+	margin-left: 15px;
+}
+
+td.icon {
+	vertical-align: middle;
+}
+
+td.icon img {
+	margin: 2px;
+}
+
+td.exchange,
+td.exchange p {
+	text-align: center;
+}
+
+
+table.detailTablefooter p {
+	vertical-align: top;
+	margin: 10px 0 0 15px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	border-top: 1px dashed #d4d4d4;	
+}
+
+table.detailTablefooter p img {
+	vertical-align: top;
+}
+
+div#spenddetail dl.status {
+	border: 1px solid #D3D3D3;
+	width: 130px;
+	padding: 5px;
+	background-color: #fff;
+	margin-top: 3px;
+	/* insert ie6.css */
+}
+div#spenddetail dl.status dt {
+	float: left;
+	width: 65px;
+	color: #ff6600;
+	font-size: 80%;
+	font-weight: bold;
+	line-height: 1.2;
+	text-align: center;
+}
+div#spenddetail dl.status dd {
+	float: left;
+	width: 49px;
+	border-left: 1px solid #CCC;
+	padding-left: 5px;
+}
+div#spenddetail dl.status dt img {
+	vertical-align: baseline;
+}
+
+
+
+/* === bottun layout === */
+
+
+/* ボタンが１つ中央の場合 */
+p.btnSingle {
+	margin-top: 5px;
+	text-align: center;
+}
+
+/* ボタンが２つ並ぶ場合 */
+/* 右側ボタン */
+p.btnRight {
+	text-align: left;
+}
+/* 左側ボタン */
+p.btnLeft {
+	text-align: right;
+}
+
+
+
+/* -------------------- mile common -------------------- */
+dl.mile {
+	border: 1px solid #d4d4d4;
+	width: 120px;
+	padding: 5px;
+	background-color: #fff;
+	margin-top: 6px;
+	/* insert ie6.css */
+}
+dl.mile dt {
+	float: left;
+	padding-right: 5px;
+	color: #ff6600;
+	font-size: 80%;
+	font-weight: bold;
+	text-align: center;
+	line-height: 1;
+}
+
+dl.mile dd {
+	float: left;
+	width: 49px;
+	border-left: 1px solid #CCC;
+	padding-left: 5px;
+	line-height: 1;
+}
+
+*+html body dl.mile dd {
+	margin-top: -1px;
+}
+
+dl.mile dd img {
+	vertical-align: bottom;
+}
+
+/* unique */
+div#spenddetail table.detailTable dl.mile,
+div#detailColumn table.detailTable dl.mile {
+	margin-left: 43px;
+}
+
+div#spenddetail table.mileInfoTable dl.mile {
+	width: 110px;
+	margin: 2px 0 2px 43px;
+}
+	/* insert ie6.css */
+* html body div#spenddetail table.mileInfoTable dl.mile,
+*+html body div#spenddetail table.mileInfoTable dl.mile {
+	min-width: 100px;
+	max-width: 120px;
+}
+
+div#spenddetail table.detailTable dl.mile dd {
+	width: 38px;
+}
+/* sumi 070223 */
+
+div#spenddetail table.detailTable dl.mile {
+	width: 110px;
+	text-align: center;
+}
+/* insert ie6.css */
+
+
+
+
+/* -------------------- 基本リスト -------------------- */
+ul.listBullet li {
+	padding-left: 12px;
+	background-image: url(/common/images/mark-bullet.gif);
+	background-position: left 0.2em;
+	background-repeat: no-repeat;
+	margin-bottom: 7px;
+}
+* html ul.listBullet li {
+	background-position: left 5px;
+}
+/* for ie6 hack */
+
+
+
+/* -------------------- icon -------------------- */
+table.icon {
+	margin-top: 0.5em;
+}
+
+table.icon img {
+	margin-left: 4px;
+}
+
+table.campTable table.mileInfoTable td table.icon {
+	margin-top: 10px;
+}
+/* sumi 070223 */
+
+/* -------------------- ボタンテーブル -------------------- */
+table.detailTable table.btn,
+table.medamaTable table.btn {
+	text-align: center;
+}
+
+table.medamaTable table.btn td p,
+table.detailTable table.btn td p,
+table.detailTable table.btn td ul {
+	text-align: center;
+	margin: 8px 0 18px 0;
+}
+
+table.detailTable table.btn ul li {
+	display: inline;
+}
+
+
+/* コンテンツ内table用 */
+table.sheetTable {
+	border-top: 1px solid #D5D5D5;
+	border-right: 1px solid #D5D5D5;}
+
+table.sheetTable tr th,
+table.sheetTable tr td {
+	border-bottom: 1px solid #D5D5D5;
+	border-left: 1px solid #D5D5D5;
+	padding: 7px;
+}
+
+table.sheetTable td {
+	padding-bottom: 0;/* ulの下マージンがあるのでマージンを0に */
+}
+
+table.sheetTable th {
+	width: 130px;
+	background-color: #F2F6FD;
+	vertical-align: top;
+}
+
+table.sheetTable th p {
+	font-size: 80%;
+}
+
+table.sheetTable th {
+	vertical-align: top;
+}
+
+table.sheetTable td p {
+	font-size: 70%;
+}
+
+/* エラー */
+table.sheetTable tr.error th,
+table.sheetTable tr.error td {
+	background-color: #ffeac9;
+}
+
+
+/* 入力フォーム用 */
+table.sheet {
+	border-bottom: 1px solid #D5D5D5;
+	border-right: 1px solid #D5D5D5;}
+
+table.sheet tr th,
+table.sheet tr td {
+	border-top: 1px solid #D5D5D5;
+	border-left: 1px solid #D5D5D5;
+	padding: 7px;
+}
+
+table.sheet td {
+	padding-bottom: 0;/* ulの下マージンがあるのでマージンを0に */
+}
+
+table.sheet td.namecell {
+	border-left: none;
+}
+
+table.sheet td.namecellNote {
+	padding-top: 0;
+	border-top: none;
+}
+
+table.sheet th {
+	width: 170px;
+	background-color: #e8ffff;
+}
+
+table.sheet input,
+table.sheet select {
+	margin: 0 2px 2px 2px;
+}
+
+/* エラー */
+table.sheet tr.error th,
+table.sheet tr.error td {
+	background-color: #ffeac9;
+}
+
+/* 注意喚起 */
+dl.attention dt {
+	min-height: 20px;
+	margin-bottom: 5px;
+	padding: 5px 3px 3px 23px;
+	background-image: url(/common/images/icon/attention.gif);
+	background-position: left center;
+	background-repeat: no-repeat;
+	font-size: 80%;
+	font-weight: bold;
+}
+
+dl.attention dd {
+	min-height: 20px;
+	font-size: 80%;
+	line-height: 1.3;
+}
+
+/* 1行パターン */
+.attention-icon	{
+	min-height: 20px;
+	margin-bottom: 5px;
+	padding: 5px 3px 3px 30px;
+	border: 3px double #89BFED;
+	background-image: url(/common/images/icon/attention.gif);
+	background-position: 10px center;
+	background-repeat: no-repeat;
+	font-size: 80%;
+	font-weight: bold;
+}
+
+
+/* エラー */
+dl.error dt {
+	min-height: 20px;
+	margin-bottom: 5px;
+	padding: 5px 3px 3px 23px;
+	background-image: url(/common/images/icon/error.gif);
+	background-position: left center;
+	background-repeat: no-repeat;
+	font-size: 80%;
+	font-weight: bold;
+}
+
+dl.error dd {
+	color: #ff0000;
+	font-size: 80%;
+	line-height: 1.3;
+}
+
+
+/* 1行パターン */
+.error-icon	{
+	min-height: 20px;
+	margin-bottom: 5px;
+	padding: 5px 3px 3px 30px;
+	border: 3px double #89BFED;
+	background-image: url(/common/images/icon/error.gif);
+	background-position: 10px center;
+	background-repeat: no-repeat;
+	color: #ff0000;
+	font-size: 80%;
+	font-weight: bold;
+}
+
+/* insert ie6 */
+
+/* === recommend === */
+table.recommend,
+table.recommend p.sla-bn {
+	margin-bottom: 10px;
+}
+
+
+/* === campaign table === */
+
+dl.bnCol ul li.mile,
+dl.last-bnCol ul li.mile {
+	font-size: 110%;
+	line-height: 15px;
+}
+dl.bnCol ul li.iconProviso,
+dl.last-bnCol ul li.iconProviso {
+	line-height: 1;
+}
+
+table.bnCol ul li.icon {
+	clear: both;
+	margin-bottom: 7px;
+}
+
+table.bnCol ul li.txtbn {
+	clear: both;
+	margin-right: 15px;
+}
+
+table.col4 tr.last-row .bnCol,
+table.col6 tr.last-row .bnCol {
+	margin-bottom: 0;
+}
+
+/* 4column */
+table.col4 {
+	clear: both;
+	margin-bottom: 20px;
+	background-image: url(/common/images/bg-bn-4.gif);
+	background-position: left top;
+	background-repeat: repeat-y;
+}
+
+table.col4 td {
+	width: 165px;
+	vertical-align: top;
+}
+
+table.col4 td dl.bnCol {
+	width: 137px;
+}
+
+body.clm2 table.col4 {
+	background-image: url(/common/images/bg-bn-4col2.gif);
+}
+
+body.clm2 table.col4 td {
+	width: 177px;
+	vertical-align: top;
+}
+
+body.clm2 table.col4 td dl.bnCol {
+	width: 149px;
+}
+
+
+
+
+body.clm2 div.campErea4 {
+	clear: both;
+	margin: 0 15px 20px 0;
+	background-image: url(/common/images/bg-bn-4col2.gif);
+	background-position: left top;
+	background-repeat: repeat-y;
+}
+
+body.clm2 div.campErea4 div.cel {
+	margin-bottom: 10px;
+}
+
+body.clm2 div.campErea4 dl.bnCol {
+	float: left;
+	width: 149px;
+	margin: 0 15px 0 15px;
+}
+
+* html body.clm2 div.campErea4 dl.bnCol {
+	display: inline;
+}
+
+body.clm2 div.campErea4 dl.last-bnCol {
+	float: left;
+	width: 149px;
+	margin: 0 0 0 13px;
+}
+* html body.clm2 div.campErea4 dl.last-bnCol {
+	display: inline;
+}
+
+
+/* 4column+asset */
+table.h2asset div.cel {
+	margin-bottom: 10px;
+}
+
+table.h2asset div.cel dl.bnCol {
+	float: left;
+	width: 144px;
+	margin: 0 15px 0 15px;
+}
+
+* html table.h2asset div.cel dl.bnCol {
+	display: inline;
+}
+
+table.h2asset div.cel dl.last-bnCol {
+	float: left;
+	width: 144px;
+	margin: 0 0 0 13px;
+}
+* html table.h2asset div.cel dl.last-bnCol {
+	display: inline;
+}
+
+
+/* 6column */
+table.col6 td {
+	width: 143px;
+	vertical-align: top;
+}
+
+div.campErea6 {
+	clear: both;
+	background-image: url(/common/images/bg-bn-6.gif);
+	background-position: left top;
+	background-repeat: repeat-y;
+}
+
+table.col6 {
+	clear: both;
+	background-image: url(/common/images/bg-bn-6.gif);
+	background-position: left top;
+	background-repeat: repeat-y;
+}
+
+
+div.campErea6 div.cel {
+	margin-bottom: 10px;
+}
+
+div.campErea6 dl.bnCol {
+	float: left;
+	width: 123px;
+	margin: 0 15px 0 15px;
+}
+
+* html body div.campErea6 dl.bnCol {
+	display: inline;
+}
+
+div.campErea6 dl.last-bnCol {
+	float: left;
+	width: 123px;
+	margin: 0 0 0 15px;
+}
+* html body div.campErea6 dl.last-bnCol {
+	display: inline;
+}
+
+
+
+/* === campaign list page === */
+/* 2column */
+table.col2 {
+	clear: both;
+	background-image: url(/common/images/border-default.gif);
+	background-position: center;
+	background-repeat: repeat-y;
+}
+
+table.campTable {
+	margin: 0;
+	border-top: 1px dashed #d4d4d4;
+}
+
+tr.top-row table.campTable {
+	margin: 0;
+	border-top: none;
+}
+
+table.campTable table.mileInfoTable {
+	margin-top: 15px;
+}
+
+tr.only-row table.campTable table.mileInfoTable,
+tr.top-row table.campTable table.mileInfoTable {
+	margin-top: 0;
+}
+
+tr.last-row table.campTable {
+	margin-bottom: 0;
+	border-bottom: 1px dashed #d4d4d4;
+}
+
+tr.only-row table.campTable {
+	margin-bottom: 0;
+	border-top: none;
+	border-bottom: 1px dashed #d4d4d4;
+}
+
+
+table.campTable table.mileInfoTable,
+table.campTable table.descriptionTable {
+	margin-bottom: 10px;
+}
+
+/* headlineTable */
+table.campTable table.headlineTable img.status {
+	float: right;
+	margin-left: 10px;
+}
+
+/* descriptionTable */
+table.campTable table.descriptionTable dl dt img {
+	vertical-align: bottom;
+}
+
+table.campTable table.descriptionTable dl dt img.bn {
+	margin-bottom: 0;
+}
+
+table.campTable table.descriptionTable dl dt {
+	margin-bottom: 10px;
+}
+
+table.campTable table.descriptionTable dl dd {
+	font-weight: normal;
+	line-height: 1.1;
+}
+
+table.campTable table.descriptionTable th,
+table.campTable table.descriptionTable td {
+	vertical-align: top;
+}
+
+table.campTable table.descriptionTable p {
+	margin: 0 0 0 15px;
+}
+
+table.campTable table.descriptionTable p.comment {
+	margin-bottom: 10px;
+}
+
+table.campTable table.descriptionTable p.comment_atention {
+	margin-bottom: 10px;
+	color:#ff0000;
+}
+
+table.campTable table.descriptionTable p.flag {
+	margin: 0;
+	text-align: right;
+}
+
+table.campTable table.descriptionTable p.date {
+	text-align: right;
+	margin: 0 0 15px 15px;
+}
+
+table.campTable table.descriptionTable ul {
+	margin-left: 15px;
+}
+
+table.campTable table.descriptionTable ul li {
+	display: inline;
+}
+
+table.campTable p.otherCategory {
+	padding-top: 5px;
+	margin-bottom: 2px;
+}
+
+
+/* others style  */
+
+/* 注目させるボックス */
+table.rule {
+	border: 1px solid #B6DBEC;
+	padding: 8px;
+	padding-right: 0;
+}
+table.rule p {
+	margin: 4px;
+}
+table.rule p em {
+	font-size: 120%;
+	font-weight: bold;
+}
+table.rule p strong {
+	color: #FF6600;
+	font-size: 120%;
+}
+
+
+
+/* ダウンロードなど　[イメージ]　テキストのスタイル */
+div.guidance {
+	border: 1px solid #B6DBEC;
+	padding: 5px;
+	text-align: center;
+}
+
+div.guidance p {
+	text-align: center;
+}
+
+div.guidance img {
+	vertical-align: middle;
+}
+
+/* #page footer  Area */
+
+div#pageEnd-linkArea ul#guide-list {
+	width: 680px;
+	margin: 0 0 20px 0;
+	border-top: 1px dashed #d6d6d6;
+}
+
+div#pageEnd-linkArea ul#guide-list li {
+	float: left;
+	width: 50%;
+	padding: 5px 0;
+	border-bottom: 1px dashed #d6d6d6;
+}
+
+div#pageEnd-linkArea ul#guide2lcm-list li p.inline {
+	margin: 0 15px;
+}
+
+div#pageEnd-linkArea ul#guide2lcm-list {
+	border-top: 1px dashed #d6d6d6;
+}
+
+div#pageEnd-linkArea ul#guide2lcm-list li {
+	padding: 5px 0;
+	border-bottom: 1px dashed #d6d6d6;
+}
+
+div#pageEnd-linkArea dl.milemaster dt {
+	float: left;
+	width: 105px;
+}
+
+div#pageEnd-linkArea dl.milemaster dd {
+	float: right;
+	width: 210px;
+	line-height: 1.3;
+}
+
+
+
+div#pageEnd-linkArea dl.guide dt {
+	float: left;
+	width: 105px;
+}
+
+div#pageEnd-linkArea dl.guide dd {
+	float: right;
+	width: 210px;
+	line-height: 1.3;
+}
+
+
+
+
+/* === privacy Area === */
+
+div#mainContent dl.privacy {
+	width: 300px;
+	margin-bottom: 20px;
+}
+
+div#mainContent dl.privacy dt {
+	clear: both;
+	float: left;
+	width: 130px;
+	text-align: left;
+}
+
+div#mainContent dl.privacy dt img {
+	vertical-align: top;
+}
+
+div#mainContent dl.privacy dd {
+	float: right;
+	width: 160px;
+}
+
+div#mainContent dl.geotrust {
+	clear: both;
+	width: 300px;
+}
+
+div#mainContent dl.geotrust dt {
+	clear: both;
+	float: left;
+	width: 130px;
+	text-align: left;
+}
+
+div#mainContent dl.geotrust dd {
+	float: right;
+	width: 160px;
+}
+
+/* -------------------- チェックメール -------------------- */
+table.checkMail {
+	width: 637px;
+	margin-right: 15px;
+	margin-left: 15px;
+}
+
+body#status-login table.checkMail {
+	margin-right: 40px;
+	margin-left: 40px;
+}
+
+table.checkMail tr th, 
+table.checkMail tr td {
+	border-bottom: 1px dashed #d6d6d6;
+	vertical-align: middle;
+	padding-left: 0;
+}
+
+table.checkMail tr td img {
+	margin: 10px 0;
+	border-right: 1px solid #CCC;
+}
+
+
+/* === キャプチャ画像　Step === */
+
+table.captureStep {
+	margin-bottom: 15px;
+}
+
+table.captureStep td.odd {
+	padding-right: 8px;
+	padding-left: 15px;
+}
+
+table.captureStep td.even {
+	padding-right: 15px;
+	padding-left: 9px;
+}
+
+
+/* === FAQはココ！ === */
+div.faqAsset {
+	width: 687px;
+	margin-bottom: 15px;
+	margin-left: 15px;
+	padding-bottom: 5px;
+	background-image: url(/common/images/bg-faqbox-btm.gif);
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+
+div.faqAsset table {
+	width: 687px;
+	background-image: url(/common/images/bg-faqbox.gif);
+	background-repeat: repeat-y;
+}
+
+div.faqAsset table th {
+	background-image: url(/common/images/bg-h2-faq.jpg);
+	background-repeat: no-repeat;
+}
+
+div.faqAsset table th h2 {
+	width: auto;
+	height: 41px;
+	margin-bottom: 0;
+	margin-left: 16px;
+	background: none;	
+}
+
+div.faqAsset table td {
+	padding: 0 15px;
+}
+
+div.faqAsset table td ul {
+	margin-top: 5px;
+}
+
+div.faqAsset table td ul li {
+	margin-bottom: 3px;
+	padding-left: 22px;
+	background-image: url(/common/images/icon/faq.gif);
+	background-position: left 2px;
+	background-repeat: no-repeat;
+	font-size: 80%;
+}
+
+div.faqAsset table td.dr-mile {
+	padding-right: 20px;
+	padding-bottom: 5px;
+	text-align: right;
+	vertical-align: bottom;
+}
+
+
+/* === Clear Fix === */
+
+
+body.clm2 div.campErea4:after,
+table.h2asset div.cel:after,
+div.campErea6:after,
+div.campErea6 div.cel:after {
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+	content: ".";
+}
+body.clm2 div.campErea4,
+table.h2asset div.cel,
+div.campErea6,
+div.campErea6 div.cel {
+	display: inline-table;
+	min-height: 1%;
+}
+/* for macIE \*/
+* html body.clm2 div.campErea4,
+* html body table.h2asset div.cel,
+* html body div.campErea6,
+* html body div.campErea6 div.cel {
+	height: 1%;
+}
+body.clm2 div.campErea4,
+table.h2asset div.cel,
+div.campErea6,
+div.campErea6 div.cel {
+	display: block;
+}
+/* end of for macIE */
+
+/* === Filename is "header.css" ===
+
+### header layout settings
+
+=== menu ===
+1.Header container
+2.before login
+3.after login
+4.Clear Fix List
+
+*/
+
+
+/* === Header Container === */
+
+body div#header {
+	width: 952px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+	background-color: transparent;
+	background-image: none;
+}
+
+/* >>clearfix body div#header */
+
+
+div#header h1#top {
+	min-height: inherit;
+	margin-bottom: 0;
+	padding-top: 0;
+	padding-left: 0;
+	background-image: none;
+	font-size: inherit;
+	line-height: inherit;
+}
+
+div#header h1#top,
+div#header p#top {
+	float: left;
+	width: 188px;
+	margin-top: 10px;
+}
+
+#top img {
+	margin-right: 36px;
+}
+
+div#header p.topBanner {
+	float: left;
+	margin-top: 10px;
+	width: 253px;
+}
+
+p.topBanner img {
+	margin-right: 29px;
+}
+
+
+/* === before login === */
+
+body#status-logout div#header div#statusLink {
+	float: right;
+	width: 501px;
+	background-color: #efefef;
+	background-image: url(/common/images/bg-statusLink-logout-center.gif);
+	background-position: left top;
+	background-repeat: repeat-y;
+}
+
+body#status-logout div#header div#statusLink div#statusLink-inner div#account {
+	float: left;
+	width: 501px;
+	padding-top: 15px;
+	background-image: url(/common/images/bg-statusLink-logout-top.gif);
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+
+/* clearfix div#account */
+
+body#status-logout div#header div#statusLink div#statusLink-inner div#account ul {
+	margin-left: 15px;
+	padding-right: 10px;
+}
+
+body#status-logout div#header div#statusLink div#statusLink-inner div#account ul li {
+	float: left;
+}
+
+body#status-logout div#header div#statusLink div#statusLink-inner div#account ul li img {
+	margin-top: 6px;
+	vertical-align: top;
+}
+
+body#status-logout div#header div#statusLink div#statusLink-inner div#account ul li dl,
+body#status-logout div#header div#statusLink div#statusLink-inner div#account ul li dl dt,
+body#status-logout div#header div#statusLink div#statusLink-inner div#account ul li dl dd {
+	float: left;
+}
+
+body#status-logout div#header div#statusLink div#statusLink-inner div#account ul li dl dt img {
+	margin-top: 8px;
+}
+
+body#status-logout div#header div#statusLink div#statusLink-inner div#account ul li dl input {
+	width: 100px;
+	margin-top: 5px;
+	margin-right: 5px;
+}
+/* insert ie6.0 */
+
+body#status-logout div#header div#statusLink div#statusLink-inner div#account ul li#loginBtn input {
+	height: auto;
+	margin-top: 3px;
+	margin-right: 7px;
+}
+
+
+body#status-logout div#header div#statusLink div#statusLink-inner div#account ul li#forgotpass img {
+	margin-top: 8px;
+}
+
+
+body#status-logout div#header div#statusLink div#statusLink-inner {
+	width: 501px;
+	padding-bottom: 8px;
+	background-image: url(/common/images/bg-statusLink-logout-btm.gif);
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+
+/* clearfix body#status-logout div#header div#statusLink div#statusLink-inner */
+
+
+/* === after login === */
+
+body#status-login div#header div#statusLink {
+	float: right;
+	width: 501px;
+	background-color: #efefef;
+	background-image: url(/common/images/bg-statusLink-center.gif);
+	background-position: left top;
+	background-repeat: repeat-y;
+}
+
+body#status-login div#header div#statusLink div#statusLink-inner {
+	width: 501px;
+	padding-bottom: 8px;
+	background-image: url(/common/images/bg-statusLink-btm.gif);
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+
+/* clearfix body#status-login div#header div#statusLink div#statusLink-inner */
+
+body#status-login div#header div#statusLink div#statusLink-inner div#account {
+	float: left;
+	width: 351px;
+	padding-top: 15px;
+	background-image: url(/common/images/bg-statusLink-top.gif);
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+
+/* clearfix div#account */
+
+body#status-login div#header div#statusLink div#statusLink-inner div#account ul {
+	display: inline;
+	float: left;
+	margin-top: 2px;
+	margin-left: 17px;
+	padding-right: 10px;
+	line-height: 1.2;
+	
+}
+
+body#status-login div#header div#statusLink div#statusLink-inner div#account ul li.id {
+	float: left;
+/*
+	width: 62px;
+*/
+line-height:32px;
+width: 150px;
+}
+
+body#status-login div#header div#statusLink div#statusLink-inner div#account ul li.id span.name {
+	font-size: 110%;
+}
+
+body#status-login div#header div#statusLink div#statusLink-inner div#account ul li.level {
+	float: left;
+	width: 60px;
+	text-align: right;
+}
+
+body#status-login div#header div#statusLink div#statusLink-inner div#account ul li.level {
+	margin-top: 4px;
+	margin-left: 2px;
+}
+
+body#status-login div#header div#statusLink div#statusLink-inner div#account ul li.mile {
+/*
+	float: left;
+	width: 88px;
+	padding-top: 4px;
+	color: #ff6600;
+	font-size: 90%;
+	font-weight: bold;
+	text-align: right;
+	vertical-align: middle;
+	letter-spacing: -0.01em;
+*/
+}
+
+body#status-login div#header div#statusLink div#statusLink-inner div#account ul li.mybook {
+	float: right;
+	width: 102px;
+	margin-top: 3px;
+	padding-left: 10px;
+	text-align: right;
+}
+
+body#status-login div#header div#statusLink div#statusLink-inner div#account ul li.mybook img {
+	margin-right: 5px;
+}
+
+body#status-login div#header div#statusLink div#statusLink-inner div#account-menu {
+	display: inline;
+	float: left;
+	width: 145px;
+}
+
+body#status-login div#header div#statusLink div#statusLink-inner div#account-menu ul {
+	float: left;
+	margin-top: 12px;
+	line-height: 1.2;
+}
+
+
+body#status-login div#header div#statusLink div#statusLink-inner div#account-menu ul li.account-change {
+	float: left;
+	margin-right: 4px;
+}
+
+body#status-login div#header div#statusLink div#statusLink-inner div#account-menu ul li.logout {
+	float: left;
+}
+
+
+body#status-login div#header div#statusLink div#statusLink-inner div#account-menu ul li.wrong-account {
+	clear: left;
+	float: none;
+	padding-top: 6px;
+	background-image: url(/common/images/bg-wrong-account.gif);
+	background-position: top;
+	background-repeat: no-repeat;
+}
+
+/* insert ie6.css */
+
+
+
+/* === case No GlobalNavi and Footer === */
+
+/* 
+ HF = Header & Footer
+ */
+
+body#no-HF div#header {
+	width: 952px;
+	height: 126px;
+	margin-bottom: 0;
+	background-image: url(/common/images/no-fg-head.jpg);
+	background-position: left bottom;
+	background-repeat: no-repeat;
+}
+
+body#no-HF-temp div#header {
+	width: 952px;
+	height: 126px;
+	margin-bottom: 0;
+	background-image: url(/common/images/no-fg-head.jpg);
+	background-position: left bottom;
+	background-repeat: no-repeat;
+}
+
+/* === Clear Fix List === */
+
+body div#header:after,
+body#status-login div#header div#statusLink div#statusLink-inner:after,
+body#status-logout div#header div#statusLink div#statusLink-inner:after,
+body#status-logout div#header div#statusLink div#statusLink-inner:after,
+div#account:after {
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+	content: ".";
+}
+body div#header,
+body#status-login div#header div#statusLink div#statusLink-inner,
+body#status-logout div#header div#statusLink div#statusLink-inner,
+body#status-logout div#header div#statusLink div#statusLink-inner,
+div#account {
+	display: inline-table;
+	min-height: 1%;
+}
+/* for macIE \*/
+* html body div#header,
+* html body#status-login div#header div#statusLink div#statusLink-inner,
+* html body#status-logout div#header div#statusLink div#statusLink-inner,
+* html body#status-logout div#header div#statusLink div#statusLink-inner,
+* html div#account {
+	height: 1%;
+}
+body div#header,
+body#status-login div#header div#statusLink div#statusLink-inner,
+body#status-logout div#header div#statusLink div#statusLink-inner,
+body#status-logout div#header div#statusLink div#statusLink-inner,
+div#account {
+	display: block;
+}
+/* end of for macIE */
+
+/* === Filename is "globalnavi.css" ===
+
+### Global Navigation layout settings
+
+*/
+
+
+
+/* === Global Navigation === */
+
+body div#gNavi {
+	clear: both;
+	width: 952px;
+	margin-bottom: 10px;
+}
+
+body div#gNavi ul {
+	background-image: url(/common/images/gNavi-utillity.jpg);
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+body div#gNavi ul li {
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+body div#gNavi ul li img {
+	margin: 0;
+	padding: 0;
+}
+
+body div#gNavi ul li.sitemap {
+	margin-left: 90px;
+}
+body div#gNavi ul li.sitemap img {
+	margin-top: 14px;
+	vertical-align: top;
+}
+
+body#status-login div#gNavi ul li.sitemap {
+	margin-left: 107px;
+}
+
+body div#gNavi ul li.contact {
+	margin-left: 13px;
+}
+body div#gNavi ul li.contact img {
+	margin-top: 14px;
+	vertical-align: top;
+}
+
+body div#gNavi ul li.beginner {
+	margin-left: 13px;
+}
+body div#gNavi ul li.beginner img {
+	margin-top: 14px;
+	vertical-align: top;
+}
+
+body div#gNavi ul li.beginner-s {
+	margin-left: 13px;
+}
+body div#gNavi ul li.beginner-s img {
+	margin-top: 14px;
+	vertical-align: top;
+}
+
+/* === Filename is "footer.css" ===
+
+### footer layout settings
+
+=== menu ===
+1.Footer Container
+2.Copyright
+3.Clear Fix List
+
+*/
+
+
+
+/* === Footer Container === */
+
+div#footer {
+	clear: both;
+	width: 952px;
+	height: 31px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: transparent;
+	background-image: url(/common/images/bg-footer.gif);
+	background-position: center top;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+
+/* === Footer Navi === */
+
+div#footer ul#footNavi {
+	width: 952px;
+	height: 22px;
+	margin-right: auto;
+	margin-left: auto;
+	_margin-right: 0;/* IE対応 */
+	_margin-left: 0;/* IE対応 */
+	padding-top: 5px;
+	padding-bottom: 9px;
+}
+/* sumi 070223 */
+
+/* clearfix div#footer ul#footNavi */
+
+div#footer ul#footNavi li {
+	float: left;
+}
+/* insert ie6.css */
+
+div#footer ul#footNavi li#foot-rule {
+	width: 52px;
+	margin-left: 90px;
+}
+
+/* insert ie6.css */
+
+div#footer ul#footNavi li#foot-privacy {
+	width: 111px;
+	margin-left: 23px;
+}
+
+/* insert ie6.css */
+
+div#footer ul#footNavi li#foot-efforts {
+	width: 133px;
+	margin-left: 23px;
+}
+
+/* insert ie6.css */
+
+div#footer ul#footNavi li#foot-company {
+	width: 52px;
+	margin-left: 26px;
+}
+
+div#footer ul#footNavi li#foot-recruit {
+	width: 50px;
+	margin-left: 28px;
+}
+
+div#footer ul#footNavi li#foot-ad {
+	width: 119px;
+	margin-left: 30px;
+}
+
+div#footer ul#footNavi li#foot-research {
+	width: 109px;
+	margin-left: 26px;
+}
+
+
+/* === Copyright === */
+
+div#footer address {
+	clear: both;
+	padding-bottom: 20px;
+	background-color: transparent;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 70%;
+	line-height: 1.3;
+	text-align: center;
+}
+
+
+
+
+/* === case No GlobalNavi and Footer === */
+
+body#no-HF div#footer,
+body#popup div#footer {
+	width: 952px;
+	padding-top: 35px;
+	background-image: url(/common/images/no-fg-foot.jpg);
+}
+
+body#no-HF-temp div#footer {
+	width: 952px;
+	padding-top: 0px;
+	background-image: url(/common/images/bg-footer.gif);
+}
+
+/* === case MGB === */
+body#mgb div#footer {
+	clear: both;
+	width: 480px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 35px;
+	background-color: transparent;
+	background-image: url(/common/images/mgb-foot.jpg);
+	background-position: top;
+	background-repeat: no-repeat;
+}
+
+/* === Copyright === */
+
+div#footer address {
+	clear: both;
+	padding-bottom: 20px;
+	background-color: transparent;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 70%;
+	line-height: 1.3;
+	text-align: center;
+}
+
+
+
+/* === Clear Fix List === */
+
+div#footer ul#footNavi:after  {
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+	content: ".";
+}
+div#footer ul#footNavi {
+	display: inline-table;
+	min-height: 1%;
+}
+/* for macIE \*/
+* html div#footer ul#footNavi {
+	height: 1%;
+}
+div#footer ul#footNavi {
+	display: block;
+}
+/* end of for macIE */
+
+/* === Filename is "font.css" ===
+
+### basic fonts settings
+
+*/
+
+
+/* === page anchor link === */
+ul.anchorLink {
+	clear: both;
+	margin-bottom: 15px;
+	text-align: left;
+}
+
+ul.anchorLink li {
+	margin-left: 15px;
+	display: inline;
+}
+
+ul.anchorLink li a {
+	padding-left: 13px;
+	background-image: url(/common/images/icon/delta-btm.gif);
+	background-position: center left;
+	background-repeat: no-repeat;
+}
+
+/* === pagetop === */
+p.pagetop {
+	clear: both;
+	margin: 30px 15px 30px 0;
+	text-align: right;
+}
+
+div#pageEnd p.pagetop {
+	margin-bottom: 0;
+}
+
+p.pagetop a {
+	padding-left: 13px;
+	background-image: url(/common/images/icon/delta-top.gif);
+	background-position: center left;
+	background-repeat: no-repeat;
+}
+
+
+/* === pagetop at middle (ページ途中に出てきた場合) === */
+p.pagetop-m {
+	clear: both;
+	margin-right: 3px;
+	margin: 0 3px 20px 0;
+	text-align: right;
+	line-height: 1;
+}
+
+p.pagetop-m a {
+	padding-left: 13px;
+	background-image: url(/common/images/icon/delta-top.gif);
+	background-position: center left;
+	background-repeat: no-repeat;
+}
+
+
+p.pagetop a:link,
+p.pagetop-m a:link,
+p.pagetop a:visited,
+p.pagetop-m a:visited {
+	text-decoration: none;
+}
+p.pagetop a:hover,
+p.pagetop-m a:hover,
+p.pagetop a:active,
+p.pagetop-m a:active {
+	text-decoration: underline;
+}
+
+
+
+/* === text === */
+
+/* font-size */
+
+/* normal size = 10px */
+
+/* 12px size */
+.m {
+	font-size: 80%;
+}
+
+/* 14px size */
+.l {
+	font-size: 90%;
+}
+
+/* paragraph */
+p.paragraph {
+	margin-bottom: 10px;
+}
+
+/* **-san */
+.san {
+	font-size: 70% !important;
+	vertical-align: baseline !important;
+}
+
+
+
+
+/* lead margin bold */
+p.lead {
+	margin-bottom: 10px;
+	margin-right: 15px;
+	margin-left: 15px;
+	font-size: 80%;
+	line-height: 1.3;
+	font-weight: bold;
+}
+
+/* lead no left margin */
+p.lead2 {
+	margin-bottom: 10px;
+	font-size: 80%;
+	line-height: 1.3;
+	font-weight: bold;
+}
+
+/* lead no left margin normal */
+p.lead3 {
+	margin-bottom: 10px;
+	font-size: 80%;
+	line-height: 1.3;
+	font-weight: normal;
+}
+
+/* lead no left no margin bold */
+p.lead4 {
+	margin-bottom: 5px;
+	font-size: 80%;
+	line-height: 1.3;
+	font-weight: bold;
+}
+
+/* lead center bold */
+p.lead5 {
+	margin-bottom: 10px;
+	font-size: 80%;
+	line-height: 1.3;
+	font-weight: bold;
+	text-align: center;
+}
+
+/* lead center normal */
+p.lead6 {
+	margin-bottom: 10px;
+	font-size: 80%;
+	line-height: 1.3;
+	font-weight: normal;
+	text-align: center;
+}
+
+/* lead left margin normal */
+p.lead7 {
+	margin-bottom: 10px;
+	margin-left: 15px;
+	font-size: 80%;
+	line-height: 1.3;
+	font-weight: normal;
+}
+
+/* lead left margin no bottom margin normal */
+p.lead8 {
+	margin-left: 15px;
+	font-size: 80%;
+	line-height: 1.3;
+	font-weight: normal;
+}
+
+/* 選択・未選択 */
+.choice {
+	font-weight: bold;
+}
+
+.noChoice {
+	color: #ccc;
+}
+
+/* 注意（赤）テキスト */
+p.attention {
+	color: #ff0000;
+}
+
+strong.attention {
+	color: #ff0000;
+}
+
+/* mile */
+p.mile,
+li.mile,
+em.mile,
+dl.mile dt {
+	color: #ff6600;
+	font-weight: bold;
+	letter-spacing: -0.05em;
+}
+
+dl.mile dd img {
+	vertical-align: top;
+}
+
+/* campaign text banner */
+.txtbn {
+	margin-bottom: 5px;
+	line-height: 1.1;
+}
+
+
+
+/* input form text */
+
+
+table.sheet th,
+table.sheet td {
+	vertical-align: top;
+}
+
+table.sheet th p {
+	font-size: 80%;
+}
+
+table.sheet td p {
+	font-size: 80%;
+}
+
+
+th p input,
+td p input,
+th p select,
+td p select {
+	font-size: 100%;
+}
+
+
+
+/* note */
+div#body div#content p.note {
+	text-align: right;
+}
+
+/* sample word */
+table.sheet .sample {
+	margin-top: 2px;
+	font-size: 70%;
+}
+
+/* must for input */
+em.must,
+em.attention {
+	margin: 0 1em 0 0.5em;
+	font-size: 85%;
+	color: #ff6600;
+	font-style: normal;
+	font-weight: normal;
+}
+
+.error {
+	color: #ff0000;
+	font-style: normal;
+	font-weight: bold;
+}
+
+p.error {
+	font-size: 70%;
+}
+
+.errorMessage p {
+	text-align: center;
+}
+
+/* === link text === */
+
+/* instruction */
+.inline a {
+	padding-left: 12px;
+	background-image: url(/common/images/icon/delta-blue.gif);
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+
+span.inline {
+	margin: 0 5px;
+}
+
+h2 span.inline {
+	float: right;
+	display: block;
+	margin: 12px 15px 0 0;
+	font-size: 70%;
+	font-weight: normal;
+	line-height: 1.5;
+}
+
+
+ul.inline li {
+	display: inline;
+	margin-right: 5px;
+}
+
+ul.inline li a {
+	padding-left: 12px;
+	background-image: url(/common/images/icon/delta-blue.gif);
+	background-position: center left;
+	background-repeat: no-repeat;
+}
+
+.inline-prev a {
+	padding-left: 14px;
+	background-image: url(/common/images/icon/delta-blue-left.gif);
+	background-position: center left;
+	background-repeat: no-repeat;
+}
+
+
+
+/* blank */
+.blank a {
+	padding-left: 15px;
+	background-image: url(/common/images/icon/blank.gif);
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+
+span.blank {
+	margin: 0 5px;
+}
+
+h2 span.blank {
+	float: right;
+	display: block;
+	margin: 12px 15px 0 0;
+	font-size: 70%;
+	font-weight: normal;
+}
+
+ul.blank li {
+	display: inline;
+	margin-right: 5px;
+}
+
+ul.blank li a {
+	padding-left: 15px;
+	background-image: url(/common/images/icon/blank.gif);
+	background-position: center left;
+	background-repeat: no-repeat;
+}
+
+
+
+div#body div#content p.more-inline {
+	clear: both;
+	margin-right: 15px;
+	margin-bottom: 20px;
+	text-align: right;
+	line-height: 1.3;
+}
+
+div#body div#content p.more-inline a {
+	padding-left: 10px;
+	background-image: url(/common/images/icon/delta-blue.gif);
+	background-position: center left;
+	background-repeat: no-repeat;
+}
+
+
+* html body div#body div#content p.more-inline a {
+	background-position: 2px left;
+
+}
+/* for ie6 hack */
+
+div#body div#content ul.more-inline {
+	clear: both;
+	float: right;
+	margin: 0 0 20px 0;
+}
+
+
+
+div#body div#content ul.more-inline li {
+	display: inline;
+	margin-right: 15px;
+}
+
+div#body div#content ul.more-inline li {
+	padding-left: 10px;
+	background-image: url(/common/images/icon/delta-blue.gif);
+	background-position: center left;
+	background-repeat: no-repeat;
+}
+
+
+div#body div#content p.more-blank {
+	clear: both;
+	float: right;
+	margin-bottom: 20px;
+	margin-right: 15px;
+}
+
+div#body div#content p.more-blank a {
+	padding-left: 15px;
+	background-image: url(/common/images/icon/blank.gif);
+	background-position: center left;
+	background-repeat: no-repeat;
+}
+
+
+div#body div#content ul.more-blank {
+	clear: both;
+	float: right;
+	margin: 0 0 20px 0;
+}
+
+div#body div#content ul.more-blank li {
+	display: inline;
+	margin-right: 15px;
+}
+
+div#body div#content ul.more-blank li a {
+	padding-left: 15px;
+	background-image: url(/common/images/icon/blank.gif);
+	background-position: center left;
+	background-repeat: no-repeat;
+}
+
+
+
+/* PR */
+.pr {
+	margin-bottom: 10px;
+	line-height: 1.1;
+}
+
+.pr img {
+	margin-right: 3px;
+	margin-bottom: 2px;
+	vertical-align: middle;
+}
+
+
+
+/* #page footer  Area */
+
+div#pageEnd-linkArea ul#guide-list {
+	width: 680px;
+	margin: 0 0 20px 0;
+	border-top: 1px dashed #d6d6d6;
+}
+
+div#pageEnd-linkArea ul#guide-list li {
+	float: left;
+	width: 50%;
+	padding: 5px 0;
+	border-bottom: 1px dashed #d6d6d6;
+}
+
+div#pageEnd-linkArea ul#guide2lcm-list li p.inline {
+	margin: 0 15px;
+}
+
+div#pageEnd-linkArea ul#guide2lcm-list {
+	border-top: 1px dashed #d6d6d6;
+}
+
+div#pageEnd-linkArea ul#guide2lcm-list li {
+	padding: 5px 0;
+	border-bottom: 1px dashed #d6d6d6;
+}
+

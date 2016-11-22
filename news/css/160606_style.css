@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+p{
+	margin-bottom:15px;
+}
+.areaImg{
+	/*border:#cccccc solid 1px;*/
+	padding-top:35px;
+}
+
+.rightbox{
+	text-align:right;
+	margin-bottom:auto;
+}
+
+h2{
+	margin-top:20px;
+}

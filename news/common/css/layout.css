@@ -1,0 +1,671 @@
+@charset "Windows-31J";
+
+/* === Filename is "layout.css" ===
+
+### basic layout settings
+
+=== menu ===
+1.Body
+2.Wrapper
+3.breadClumb
+4.MainContents
+5.Clear Fix List
+
+*/
+
+
+/* === Body === */
+
+body {
+	background-color: #fff;
+	background-image: url(../images/bg-body.jpg);
+	background-position: top;
+	background-repeat: repeat-x;
+	text-align: center;
+}
+
+/* === Wrapper === */
+
+body div#wrapper,
+body#no-HF-s div#wrapper {
+	clear: both;
+	width: 952px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: transparent;
+	background-image: url(/common/images/bg-wrapper.gif);
+	background-position: top;
+	background-repeat: repeat-y;
+}
+/* >>clearfix div#wrapper */
+
+/* === Wrapper-MGB === */
+
+body#mgb div#wrapper {
+	clear: both;
+	width: 480px;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: transparent;
+	background-image: url(/common/images/bg-wrapper-mgb.gif);
+	background-position: top;
+	background-repeat: repeat-y;
+}
+
+/* >>clearfix div#wrapper */
+
+/* === breadClumb === */
+
+ul#breadClumb { margin: 0 1px 10px 20px; }
+
+ul#breadClumb li {
+	display: inline;
+	background-image: url(/common/images/bg-breadclumb.gif);
+	background-position: right center;
+	background-repeat: no-repeat;
+	padding: 0;
+	padding-right: 13px;
+	padding-left: 3px;
+}
+
+ul#breadClumb li a:link,
+ul#breadClumb li a:visited { text-decoration: none; }
+
+ul#breadClumb li a:hover,
+ul#breadClumb2 li a:active { text-decoration: underline; }
+
+ul#breadClumb li.current {
+	display: inline;
+	background-image: none;
+	padding-right: 0;
+}
+
+/* === Page End breadClumb === */
+div#pageEnd {
+	clear: both;
+	margin: 0 16px 10px 20px;
+	padding-bottom: 20px;
+}
+
+/* clearfix div#pageEnd */
+div#pageEnd ul#breadClumb2 {
+	clear: both;
+	margin: 0;
+	border-bottom: 1px solid #75bddd;
+}
+
+div#pageEnd ul#breadClumb2 li {
+	display: inline;
+	background-image: url(/common/images/bg-breadclumb.gif);
+	background-position: right center;
+	background-repeat: no-repeat;
+	padding-right: 13px;
+	padding-left: 3px;
+}
+
+ul#breadClumb2 li a:link,
+ul#breadClumb2 li a:visited { text-decoration: none; }
+
+ul#breadClumb2 li a:hover,
+ul#breadClumb2 li a:active { text-decoration: underline; }
+
+div#pageEnd ul#breadClumb2 li.current {
+	display: inline;
+	background-image: none;
+	padding-right: 0;
+}
+
+div#pageEnd p.pagetop {
+	clear: both;
+	margin-top: -1.5em;
+	margin-right: 3px;
+	padding: 0;
+	text-align: right;
+}
+
+div#pageEnd p.pagetop a {
+	padding-left: 13px;
+	background-image: url(/common/images/icon/delta-top.gif);
+	background-position: center left;
+	background-repeat: no-repeat;
+}
+
+div#pageEnd p.pagetop a:link,
+div#pageEnd p.pagetop a:visited { text-decoration: none; }
+
+div#pageEnd p.pagetop a:hover,
+div#pageEnd p.pagetop a:active { text-decoration: underline; }
+
+/* === MainContents === */
+
+body div#wrapper div#body {
+	clear: both;
+	width: 950px;
+	min-height: 500px;
+	margin: 0 1px;
+	text-align: left;
+}
+
+body div#wrapper div#body.shorter {
+	min-height: 350px;
+}
+
+/* insert ie6.css */
+/* >>clearfix div#body */
+
+
+/* #1column (Top Page) */
+body div#body div#content {
+	float: none;
+	width: 920px;
+	margin-bottom: 20px;
+	margin-left: 15px;
+}
+
+/* >>clearfix div#body */
+
+
+
+/* #mgb (small-popup) */
+body#mgb div#wrapper div#body {
+	clear: both;
+	width: 478px;
+	margin: 0 1px;
+	text-align: left;
+}
+
+/* insert ie6.css */
+/* >>clearfix div#body */
+
+body#mgb div#body div#content {
+	float: none;
+	width: 448px;
+	margin-left: 15px;
+}
+
+/* >>clearfix div#body */
+
+
+
+/* #2column */
+body.clm2 div#body div#content {
+	float: right;
+	width: 715px;
+	margin-right: 15px;
+}
+
+/* insert ie6.css */
+/* >>clearfix body.clm2 div#body div#content */
+
+body.clm2 div#body div#localNavi {
+	float: left;
+	width: 185px;
+	margin-bottom: 20px;
+	margin-left: 15px;
+	padding-top: 4px;
+	background-image: url(/common/images/localnavi/ln-top.gif);
+	background-position: top;
+	background-repeat: no-repeat;
+}
+
+/* insert ie6.css */
+/* >>clearfix body.clm2 div#body div#localNavi */
+
+div#localNavi ul#local-banner-Area li { margin-bottom: 5px; }
+
+/* #2column +2Column (get Detail) */
+body.clm2 div#body div#content div#detailColumn {
+	margin-bottom: 30px;
+	border-bottom: 1px dashed #d6d6d6;
+}
+
+/* >>clearfix body.clm2 div#body div#content div#detailColumn */
+
+
+body.clm2 div#body div#content div#detailColumn div#mainContents {
+	float: left;
+	width: 530px;
+	margin-right: 25px;
+}
+
+* html body.clm2 div#body div#content div#detailColumn div#mainContents { margin-right: 24px; }
+
+/* for ie6 hack*/
+
+body.clm2 div#body div#content div#detailColumn div#bannerColumn {
+	float: left;
+	width: 160px;
+}
+
+/* ƒLƒƒƒ“ƒy[ƒ“Ú× and ’´–Ú‹Ê */
+
+body.clm2 div#bannerColumn div.bannerSection,
+body.clm2 div#bannerColumn div.aboutsSection,
+body.clm2 div#bannerColumn div.pastmedamaSection {
+	margin-bottom: 15px;
+	background-image: url(/common/images/bnArea-bg.jpg);
+	background-position: left;
+	background-repeat: repeat-y;
+}
+
+div.bannerSection p.more-inline,
+div.aboutsSection p.more-inline,
+div.pastmedamaSection p.more-inline { margin: 5px 10px 0 0; }
+
+body.clm2 div#bannerColumn div.bannerSection div.bannerlist,
+body.clm2 div#bannerColumn div.aboutsSection div.aboutgold,
+body.clm2 div#bannerColumn div.bannerSection div.attentionlist,
+body.clm2 div#bannerColumn div.pastmedamaSection div.pastlist {
+	padding-bottom: 6px;
+	background-image: url(/common/images/bnArea-bg-btm.jpg);
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+
+/* >>clearfix div.div.bannerlist */
+/* >>clearfix div.aboutgold */
+/* >>clearfix div.attentionlist */
+/* >>clearfix div.pastlist */
+
+body.clm2 div#bannerColumn div.bannerSection h2 {
+	height: 26px;
+	min-height: 26px;
+	margin-bottom: 15px;
+	padding: 0;
+	background-image: url(/common/images/bnArea-bg.jpg);
+	background-position: left;
+	background-repeat: repeat-y;
+}
+
+body.clm2 div#bannerColumn div.aboutsSection h2,
+body.clm2 div#bannerColumn div.pastmedamaSection h2 {
+	height: 26px;
+	min-height: 26px;
+	margin-bottom: 8px;
+	padding: 0;
+	background-image: url(/common/images/bnArea-bg.jpg);
+	background-position: left;
+	background-repeat: repeat-y;
+}
+
+body.clm2 div#bannerColumn div.aboutsSection h3,
+body.clm2 div#bannerColumn div.pastmedamaSection h3 { margin-bottom: 10px; }
+
+/* localNavi */
+
+body.clm2 div#body div#localNavi h2 {
+	height: 20px;
+	min-height: 20px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	padding: 5px 0 0 0;
+	background: none;
+}
+
+body.clm2 div#body div#localNavi h3 {
+	height: 20px;
+	margin-bottom: 10px;
+	padding: 0 0 0 10px;
+	background: none;
+}
+
+body.clm2 div#body div#navigation ul.special {
+	margin-bottom: 5px;
+	margin-left: 10px;
+}
+
+body.clm2 div#body div#navigation li.contribution {
+	clear: both;
+	margin-bottom: 5px;
+	margin-left: 10px;
+}
+
+body.clm2 div#body div#navigation li.next {
+	float: right;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+
+/* insert ie6.css */
+
+body.clm2 div#body div#navigation li.prev {
+	float: left;
+	margin-top: 5px;
+	margin-left: 10px;
+	margin-bottom: 5px;
+}
+
+/* insert ie6.css */
+
+body.clm2 div#body div#localNavi p.registBtn {
+	height: 51px;
+	background-image: url(/common/images/localnavi/regist-bg.jpg);
+	background-position: left top;
+	background-repeat: no-repeat;
+	margin-bottom: 10px;
+	padding-top: 5px;
+	padding-left: 10px;
+}
+
+html > body.clm2 div#body div#localNavi p.registBtn { height: 46px; }
+
+body.clm2 div#body div#localNavi p.registShopBtn {
+	height: 51px;
+	background-image: url(/common/images/localnavi/regist-bg_store.jpg);
+	background-position: left top;
+	background-repeat: no-repeat;
+	margin-bottom: 10px;
+	padding-top: 5px;
+	padding-left: 10px;
+}
+
+html > body.clm2 div#body div#localNavi p.registShopBtn { height: 46px; }
+
+body.clm2 div#body div#localNavi div#navigation {
+	margin-bottom: 10px;
+	background-image: url(/common/images/localnavi/ln-bg.gif);
+	background-position: left;
+	background-repeat: repeat-y;
+}
+
+body.clm2 div#body div#localNavi div#navigation {
+	background-image: url(/common/images/localnavi/ln-bg.gif);
+	background-position: left;
+	background-repeat: repeat-y;
+}
+
+body.clm2 div#body div#localNavi .btmMenu,
+body.clm2 div#body div#localNavi div#navigation ul.category,
+body.clm2 div#body div#localNavi div#navigation ul.college,
+body.clm2 div#body div#localNavi div#navigation ul.choicemile {
+	padding-bottom: 10px;
+	background-image: url(/common/images/localnavi/ln-btm.gif);
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+
+body.clm2 div#body div#localNavi div#navigation ul.usecategory { padding-bottom: 4px; }
+
+/* #2column-sidebar */
+div#body div#content div#mainContent {
+	float: right;
+	width: 668px;
+}
+
+/* >>clearfix div#body div#content div#mainContent */
+
+div#body div#content div#sideBar {
+	float: left;
+	width: 227px;
+}
+
+/* >>clearfix div#body div#content div#sideBar */
+
+
+div#body div#content div#sideBar table.subContent {
+	width: 227px;
+	margin-bottom: 15px;
+	background-color: #f2f6fd;
+	background-image: url(/common/images/sidebar-bg-btm.jpg);
+	background-position: bottom;
+	background-repeat: repeat-x;
+}
+
+div#body div#content div#sideBar h2 {
+	margin-bottom: 0;
+	padding-bottom: 5px;
+	background-color: #f2f6fd;
+	background-image: none;
+}
+
+div#body div#content div#sideBar table.subContent p.photo { padding-bottom: 10px; }
+
+div#sideBar dl.mile {
+	width: 185px;
+	margin-bottom: 10px;
+}
+
+/* insert ie6.css */
+
+div#sideBar p.date {
+	clear: both;
+	margin-bottom: 10px;
+	margin-right: 2px;
+	text-align: right;
+}
+
+div#sideBar p.detailComment {
+	margin: 0 2px 15px 2px;
+	line-height: 1.3;
+}
+
+div#body div#content div#sideBar table.section0 td,
+div#body div#content div#sideBar table.section05 td,
+div#body div#content div#sideBar table.section10 td,
+div#body div#content div#sideBar table.section15 td,
+div#body div#content div#sideBar table.section20 td,
+div#body div#content div#sideBar table.section25 td,
+div#body div#content div#sideBar table.section30 td,
+div#body div#content div#sideBar table.section40 td { padding: 0 13px; }
+
+div#body div#content div#sideBar table.imgTable { margin-bottom: 10px; }
+
+div#body div#content div#sideBar table.imgTable td { padding: 0; }
+
+/* #1column */
+body.clm1 div#body div#content {
+	float: none;
+	width: 920px;
+	margin: 0 auto 20px 15px;
+	text-align: center;
+}
+
+body.clm1 div#body div#content div#mainContent {
+	float: none;
+	width: 670px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+/* === NO-HF-s === */
+body#no-GN div#body,
+
+body#no-HF-s div#body { padding-top: 10px; }
+
+body#no-HF-s div#wrapper {
+	width: 747px;
+	background-image: url(../images/bg-wrapper-nohf-s.gif);
+}
+
+body#no-HF-s div#wrapper div#body {
+	width: 747px;
+}
+
+body#no-HF-s div#wrapper div#body div#content {
+	width: 717px;
+	margin-top: 20px;
+}
+body#no-GN div#wrapper div#body div#content {
+	margin-top: 20px;
+}
+
+/* attention
+ ================================================== */
+body#result,
+body#attention {
+	background-image: url(/common/images/bg-body-attention.jpg);
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+
+body#result div#wrapper,
+body#attention div#wrapper {
+	margin: 43px auto 5px auto;
+	width: 470px;
+	border: 1px solid #DBDBDB;
+}
+
+body#result div#wrapper div#body,
+body#result div#wrapper div#body div#content,
+body#attention div#wrapper div#body,
+body#attention div#wrapper div#body div#content {
+	width: auto !important;
+	margin-bottom: 0 !important;
+	min-height: 0 !important;
+}
+
+* html body#result div#wrapper div#body { height: 0; }
+* html body#attention div#wrapper div#body { height: 0; }
+
+body#result div#footer,
+body#attention div#footer {
+	background-image: none;
+	width: 470px;
+	height: auto;
+}
+
+body#result div#footer address,
+body#attention div#footer address { padding-bottom: 0; }
+
+body#result h1 {
+	background: none;
+	margin: 22px 0 0 0;
+	text-align: center;
+	font-size: 120%;
+	color: #FF6600;
+}
+
+body#attention h1 {
+	background-image: url(/store/images/h1-bg-shopping.jpg);
+	margin: 22px 15px 15px 15px;
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+
+body#result div#body div#content table,
+body#attention div#body div#content table {
+	width: 440px;
+	margin-right: 15px;
+}
+
+* html body#attention div#body div#content table.section25 { margin-bottom: 15px !important; }
+
+div#body table.step td {
+	padding: 0!important;
+}
+
+
+/* === Clear Fix List === */
+
+div#wrapper:after,
+body#no-HF-s div#wrapper:after,
+div#wrapper div#body:after,
+body div#wrapper div#body div#content:after,
+body#mgb div#wrapper div#body:after,
+body.clm2 div#body div#content:after,
+body.clm2 div#body div#content div#detailColumn:after,
+body.clm2 div#body div#localNavi:after,
+body.clm2 div#body div#content div#detailColumn div#bannerColumn:after,
+div#body div#content div#mainContent:after,
+div#body div#content div#sideBar:after,
+div.bannerlist:after,
+div.aboutgold:after,
+div.attentionlist:after,
+div.pastlist:after,
+dl.mile:after,
+dl.medamamile:after,
+div#pageEnd-linkArea ul#guide-list:after,
+dl.relation:after,
+div#content table.rule td div:after,
+dl.imgTxt:after,
+div#mainContent dl.privacy:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+}
+
+div#wrapper,
+body#no-HF-s div#wrapper,
+div#wrapper div#body,
+body div#wrapper div#body div#content,
+body#mgb div#wrapper div#body,
+body.clm2 div#body div#content,
+body.clm2 div#body div#content div#detailColumn,
+body.clm2 div#body div#localNavi,
+body.clm2 div#body div#content div#detailColumn div#bannerColumn,
+div#body div#content div#mainContent,
+div#body div#content div#sideBar,
+divbannerlist,
+div.aboutgold,
+div.attentionlist,
+div.pastlist,
+dl.mile,
+dl.medamamile,
+div#pageEnd-linkArea ul#guide-list,
+dl.relation,
+div#content table.rule td div,
+dl.imgTxt,
+div#mainContent dl.privacy {
+	display: inline-table;
+	min-height: 1%;
+}
+
+/* for macIE \*/
+* html div#wrapper,
+* html body#no-HF-s div#wrapper,
+* html div#wrapper div#body,
+* html body div#wrapper div#body div#content,
+* html body#mgb div#wrapper div#body,
+* html body.clm2 div#body div#content,
+* html body.clm2 div#body div#content div#detailColumn,
+* html body.clm2 div#body div#localNavi,
+* html body.clm2 div#body div#content div#detailColumn div#bannerColumn,
+* html div#body div#content div#mainContent,
+* html div#body div#content div#sideBar,
+* html div.bannerlist,
+* html div.aboutgold,
+* html div.attentionlist,
+* html div.pastlist,
+* html dl.mile,
+* html dl.medamamile,
+* html div#pageEnd-linkArea ul#guide-list,
+* html dl.relation,
+* html div#content table.rule td div,
+* html dl.imgTxt,
+* html div#mainContent dl.privacy { height: 1%; }
+
+div#wrapper,
+body#no-HF-s div#wrapper,
+div#wrapper div#body,
+body div#wrapper div#body div#content,
+body#mgb div#wrapper div#body,
+body.clm2 div#body div#content,
+body.clm2 div#body div#content div#detailColumn,
+body.clm2 div#body div#localNavi,
+body.clm2 div#body div#content div#detailColumn div#bannerColumn,
+div#body div#content div#mainContent,
+div#body div#content div#sideBar,
+div.bannerlist,
+div.aboutgold,
+div.attentionlist,
+div.pastlist,
+div.bannerSection,
+div.aboutsSection,
+div.pastmedamaSection,
+dl.mile,
+dl.medamamile,
+div#pageEnd-linkArea ul#guide-list,
+dl.relation,
+div#content table.rule td div,
+dl.imgTxt,
+div#mainContent dl.privacy { display: block; }
+
+/* end of for macIE */
+
+/* simple clear */
+.clear { clear: both; }
