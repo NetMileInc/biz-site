@@ -192,7 +192,7 @@ div.twoImg div.imgW450 {
 	margin-bottom:15px;
 	padding-left:25px;
 	list-style-type:decimal;
-	font-weight:bold;
+	/* font-weight:bold; */
 }
 
 #press-template div.summaryBox ol.upperRoman{
