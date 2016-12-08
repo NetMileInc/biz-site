@@ -363,7 +363,19 @@ NEWS
 	float:right;
 	width:76%;
 }
-.NewsBox dl dt.new::after {
+/* .NewsBox dl dt.new::after {
+	content:"NEW";
+	color:#fff;
+	font-size:10px;
+	line-height:1em;
+	display:inline-block;
+	width:25px;
+	height:10px;
+	padding:3px 2px;
+	margin-left:3px;
+	background:#f00;
+} */
+div.news dl:first-child dt::after {
 	content:"NEW";
 	color:#fff;
 	font-size:10px;
