@@ -8,11 +8,12 @@
   <channel rdf:about="http://biz.netmile.co.jp/rss/press.rdf">
     <title>株式会社ネットマイル　新着ニュース</title>
     <link>http://biz.netmile.co.jp/</link>
-    <dc:date>2016-11-25T10:43:52+09:00</dc:date>
+    <dc:date>2016-12-09T17:47:11+09:00</dc:date>
     <description>インターネット上で使える日本最大級の共通ポイント「ネットマイル」。ポイント事業は手間とコストをおさえ会員獲得・顧客維持に利用。広告事業は会員に対してメールやWebを通じアクションに利用。</description>
     <admin:generatorAgent rdf:resource="http://www.infomaker.jp/editorlite/?v=0.93" />
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="http://biz.netmile.co.jp/news/press_2016/press_release161209.html#he20161209"/>
         <rdf:li rdf:resource="http://biz.netmile.co.jp/news/press_2016/press_release161129.html#he20161129"/>
         <rdf:li rdf:resource="http://biz.netmile.co.jp/news/press_2016/press_release161116.html#he20161116"/>
         <rdf:li rdf:resource="http://biz.netmile.co.jp/news/press_2016/press_release161101.html#he20161101"/>
@@ -27,14 +28,20 @@
         <rdf:li rdf:resource="http://biz.netmile.co.jp/news/press_2015/press_release151130.html#he20151130"/>
         <rdf:li rdf:resource="http://biz.netmile.co.jp/news/press_2015/press_release151006.html#he20151006"/>
         <rdf:li rdf:resource="http://biz.netmile.co.jp/news/press_2015/press_release150928.html#he20150928"/>
-        <rdf:li rdf:resource="http://biz.netmile.co.jp/news/press_2015/press_release150915.html#he20150915"/>
       </rdf:Seq>
     </items>
   </channel>
+  <item rdf:about="http://biz.netmile.co.jp/news/press_2016/press_release161209.html#he20161209">
+    <title>「ネットマイル」若しくは類似の名称をかたった不審メールにご注意ください</title>
+    <link>http://biz.netmile.co.jp/news/press_2016/press_release161209.html</link>
+    <dc:date>2016-12-09</dc:date>
+    <description>ネットマイルの社名やメールアドレス等を詐称、若しくは類似の名称を使用した不審なメールが発信されているとの通報がございました。</description>
+  </item>
+
   <item rdf:about="http://biz.netmile.co.jp/news/press_2016/press_release161129.html#he20161129">
     <title>ネットマイル社、エムズコミュニケイトと生活者が支持するポイントサービス調査“ポイントブランド力”ランキング発表</title>
     <link>http://biz.netmile.co.jp/news/press_2016/press_release161129.html</link>
-    <dc:date>2016-12-02</dc:date>
+    <dc:date>2016-11-29</dc:date>
     <description>株式会社ネットマイルは、日本国内の約200のポイントサービスを全国約8,000人の生活者が評価する“ポイントブランド力”ランキングを本日、発表しました。</description>
   </item>
 
@@ -127,13 +134,6 @@
     <link>http://biz.netmile.co.jp/news/press_2015/press_release150928.html</link>
     <dc:date>2015-09-28</dc:date>
     <description>INMホールディングス代表取締役 畑野仁一が「電力自由化における小売りマーケティングの展開・戦略」セミナーで講演　ポイントプログラム戦略について提言、10月13日（火）東京・港区立新商工会館にて</description>
-  </item>
-
-  <item rdf:about="http://biz.netmile.co.jp/news/press_2015/press_release150915.html#he20150915">
-    <title>INMホールディングスがパーパスと提携　自由化直前の電力、ガス等エネルギー業界にポイントプログラム導入システムとマーケティング戦略を共同提案</title>
-    <link>http://biz.netmile.co.jp/news/press_2015/press_release150915.html</link>
-    <dc:date>2015-09-15</dc:date>
-    <description>ポイントプログラムとマーケティングに関するコンサルテーションに特化した株式会社INMホールディングスと、ガス給湯器等の住宅設備機器メーカーのパーパス株式会社は、エネルギー業界におけるポイントプログラムの導入支援を共同で行うことで合意、提携します。</description>
   </item>
 
 </rdf:RDF>
