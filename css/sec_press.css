@@ -247,13 +247,13 @@ div.twoImg div.imgW450 {
 	background:#F6F6F6;
 	color:#666;
 	font-weight:bold;
-	width:20%;
+	/* width:20%; */
 }
 #press-template div.summaryBox table td {
-	width:80%;
+	/* width:80%; */
 }
 #press-template div.summaryBox table td.txt {
-	width:60%;
+	/* width:60%; */
 }
 #press-template div.summaryBox table td ul {
 	margin:0;

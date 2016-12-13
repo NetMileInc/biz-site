@@ -8,11 +8,12 @@
   <channel rdf:about="http://biz.netmile.co.jp/rss/press.rdf">
     <title>株式会社ネットマイル　新着ニュース</title>
     <link>http://biz.netmile.co.jp/</link>
-    <dc:date>2016-12-09T17:47:11+09:00</dc:date>
+    <dc:date>2016-12-13T17:19:54+09:00</dc:date>
     <description>インターネット上で使える日本最大級の共通ポイント「ネットマイル」。ポイント事業は手間とコストをおさえ会員獲得・顧客維持に利用。広告事業は会員に対してメールやWebを通じアクションに利用。</description>
     <admin:generatorAgent rdf:resource="http://www.infomaker.jp/editorlite/?v=0.93" />
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="http://biz.netmile.co.jp/news/press_2016/press_release161215.html#he20161215"/>
         <rdf:li rdf:resource="http://biz.netmile.co.jp/news/press_2016/press_release161209.html#he20161209"/>
         <rdf:li rdf:resource="http://biz.netmile.co.jp/news/press_2016/press_release161129.html#he20161129"/>
         <rdf:li rdf:resource="http://biz.netmile.co.jp/news/press_2016/press_release161116.html#he20161116"/>
@@ -27,10 +28,16 @@
         <rdf:li rdf:resource="http://biz.netmile.co.jp/news/press_2015/press_release151201.html#he20151201"/>
         <rdf:li rdf:resource="http://biz.netmile.co.jp/news/press_2015/press_release151130.html#he20151130"/>
         <rdf:li rdf:resource="http://biz.netmile.co.jp/news/press_2015/press_release151006.html#he20151006"/>
-        <rdf:li rdf:resource="http://biz.netmile.co.jp/news/press_2015/press_release150928.html#he20150928"/>
       </rdf:Seq>
     </items>
   </channel>
+  <item rdf:about="http://biz.netmile.co.jp/news/press_2016/press_release161215.html#he20161215">
+    <title>ネットマイル、クラウドサービスのラクスと提携「配配メール」パッケージ販売でNetMile Gift強化</title>
+    <link>http://biz.netmile.co.jp/news/press_2016/press_release161215.html</link>
+    <dc:date>2016-12-15</dc:date>
+    <description>株式会社ネットマイルは、株式会社ラクスと業務提携し、「配配メール」とのパッケージ販売によりデジタルギフトコード「NetMile Gift」のサービスを強化します。</description>
+  </item>
+
   <item rdf:about="http://biz.netmile.co.jp/news/press_2016/press_release161209.html#he20161209">
     <title>「ネットマイル」若しくは類似の名称をかたった不審メールにご注意ください</title>
     <link>http://biz.netmile.co.jp/news/press_2016/press_release161209.html</link>
@@ -127,13 +134,6 @@
     <link>http://biz.netmile.co.jp/news/press_2015/press_release151006.html</link>
     <dc:date>2015-10-06</dc:date>
     <description>INMホールディングス代表取締役 兼 ネットマイル社取締役 坂井光が「全面自由化で注目される新機軸の電力ビジネス展開」セミナーで講演 ポイントプログラム戦略について提言、10月23日（金）東京・日本橋にて</description>
-  </item>
-
-  <item rdf:about="http://biz.netmile.co.jp/news/press_2015/press_release150928.html#he20150928">
-    <title>INMホールディングス代表取締役 畑野仁一が「電力自由化における小売りマーケティングの展開・戦略」セミナーで講演</title>
-    <link>http://biz.netmile.co.jp/news/press_2015/press_release150928.html</link>
-    <dc:date>2015-09-28</dc:date>
-    <description>INMホールディングス代表取締役 畑野仁一が「電力自由化における小売りマーケティングの展開・戦略」セミナーで講演　ポイントプログラム戦略について提言、10月13日（火）東京・港区立新商工会館にて</description>
   </item>
 
 </rdf:RDF>
