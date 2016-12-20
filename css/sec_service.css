@@ -153,10 +153,10 @@ div.SvcBox div.alliedBox ul.linklist-block{
   padding:0;
 }
 div.SvcBox div.alliedBox ul.linklist-block li{
-  width: 46%;
+  width: 42%;
   float:left;
   padding:2px 0;
-  margin:0 2%;
+  margin:0 4%;
 }
 div.SvcBox div.alliedBox::after,
 div.SvcBox div.alliedBox ul.linklist-block::after {
