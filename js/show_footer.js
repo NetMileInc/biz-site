@@ -60,7 +60,7 @@ document.write('<ul>');
 document.write('<li><img src="/images/pmark-r.png" alt="ネットマイルはプライバシーマークを取得しています。" width="62" height="62" /></li>');
 document.write('<li class="pmarkAreaTitle">ネットマイルはプライバシーマークを取得しています。</li>');
 document.write('</ul></a></li>');
-document.write('<li><a href="http://www.jipc.jp/campaign/" target="_blank" class="noneIcon"><img src="/images/bn_excpn080212.gif" alt="不正撲滅キャンペーン「ポイントの不正獲得は犯罪です!!」 " width="160" height="65" /></a></li>');
+document.write('<li><a href="http://www.jipc.jp/safety/" target="_blank" class="noneIcon"><img src="/images/bn_excpn080212.gif" alt="不正撲滅キャンペーン「ポイントの不正獲得は犯罪です!!」 " width="160" height="65" /></a></li>');
 document.write('</ul></li>');
 document.write('</ul>');
 document.write('</div><!-- footerList -->');
