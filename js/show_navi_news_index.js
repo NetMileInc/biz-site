@@ -1,5 +1,7 @@
 $(window).bind("load", function(){
-	if(document.URL.match("2016") || document.URL.match("index") || document.URL.match("publicity.html")){
+	if(document.URL.match("2017") || document.URL.match("index") || document.URL.match("publicity.html")){
+		$('.bnList12').addClass('now');
+	}else if(document.URL.match("2016")){
 		$('.bnList11').addClass('now');
 	}else if(document.URL.match("2015")){
 		$('.bnList10').addClass('now');
@@ -42,7 +44,8 @@ function writeSubnavi(){
 	html += '<div class="IndexList">';
 	html += '<h4>'+ h4title +' インデックス</h4>';
 	html += '<div class="bnBox"><ul>';
-	html += '<li class="bnList11"><a href="/news/'+topURL+'.html">2016年</a></li>';
+	html += '<li class="bnList12"><a href="/news/'+topURL+'.html">2017年</a></li>';
+	html += '<li class="bnList11"><a href="/news/'+ctURL+'_2016.html">2016年</a></li>';
 	html += '<li class="bnList10"><a href="/news/'+ctURL+'_2015.html">2015年</a></li>';
 	html += '<li class="bnList9"><a href="/news/'+ctURL+'_2014.html">2014年</a></li>';
 	html += '<li class="bnList8"><a href="/news/'+ctURL+'_2013.html">2013年</a></li>';
