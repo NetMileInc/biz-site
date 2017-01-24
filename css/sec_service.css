@@ -815,7 +815,7 @@ div.SvcBox div.alliedBox div.category {
 
 
 .DigitalMeritAreaCase {
-  padding: 20px;
+  padding: 0 20px 20px;
 }
 .DigitalMeritAreaCase dt {
     font-size: 20px;
@@ -1481,4 +1481,8 @@ div.SvcBox div.alliedBox div.category {
 
 .tc {
   text-align: center;
+}
+
+.tl {
+  text-align: left;
 }
