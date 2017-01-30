@@ -812,6 +812,53 @@ div.SvcBox div.alliedBox div.category {
     line-height: 1.4em;
     padding-bottom:5px;
 }
+.DigitalMeritAreaCase {
+  padding: 0 20px 20px;
+}
+.DigitalMeritAreaCase dt {
+  font-size: 20px;
+}
+.DigitalMeritAreaCase dd{
+  padding: 20px 10px;
+}
+.DigitalMeritAreaCase ul,
+.DigitalMeritAreaCase .profileArea {
+  overflow:hidden;
+  display: block;
+}
+.DigitalMeritAreaCase .profileArea {
+ padding-bottom: 20px;
+  overflow:hidden;
+}
+.DigitalMeritAreaCase .photoArea {
+  float: left;
+  width: 30%;
+  max-width: 177px;
+}
+.DigitalMeritAreaCase .logoArea {
+  float: right;
+}
+.DigitalMeritAreaCase .logoArea div {
+  width : 200px;
+  text-align: center;
+}
+.DigitalMeritAreaCase .textArea,
+.DigitalMeritAreaCase .wordArea {
+  padding : 5px 20px;
+  overflow:hidden;
+}
+.DigitalMeritAreaCase .wordArea {
+  font-size: 24px;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+/* marginをoverride */
+.DigitalIntroductionArea .warningText {
+  margin-left: 5%;
+}
+
+
 @-moz-document url-prefix() {
 	.DigitalIntroductionAreaStep::after,
 	.DigitaFaqAreaNo::after{
@@ -1418,4 +1465,12 @@ div.SvcBox div.alliedBox div.category {
     width:70%;
     height: auto;
     /* margin:0 15%; */
+}
+
+.tc {
+  text-align: center;
+}
+
+.tl {
+  text-align: left;
 }
