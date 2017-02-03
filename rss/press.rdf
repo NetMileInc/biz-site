@@ -8,11 +8,12 @@
   <channel rdf:about="http://biz.netmile.co.jp/rss/press.rdf">
     <title>株式会社ネットマイル　新着ニュース</title>
     <link>http://biz.netmile.co.jp/</link>
-    <dc:date>2017-01-17T15:17:53+09:00</dc:date>
+    <dc:date>2017-02-03T19:32:28+09:00</dc:date>
     <description>インターネット上で使える日本最大級の共通ポイント「ネットマイル」。ポイント事業は手間とコストをおさえ会員獲得・顧客維持に利用。広告事業は会員に対してメールやWebを通じアクションに利用。</description>
     <admin:generatorAgent rdf:resource="http://www.infomaker.jp/editorlite/?v=0.93" />
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="http://biz.netmile.co.jp/news/press_2017/press_release170206.html#he20170206"/>
         <rdf:li rdf:resource="http://biz.netmile.co.jp/news/press_2017/press_release170117.html#he20170116"/>
         <rdf:li rdf:resource="http://biz.netmile.co.jp/news/press_2016/press_release161220.html#he20161220"/>
         <rdf:li rdf:resource="http://biz.netmile.co.jp/news/press_2016/press_release161215.html#he20161215"/>
@@ -27,10 +28,16 @@
         <rdf:li rdf:resource="http://biz.netmile.co.jp/news/press_2016/press_release160411.html#he20160411"/>
         <rdf:li rdf:resource="http://biz.netmile.co.jp/news/press_2016/press_release160404.html#he20160401"/>
         <rdf:li rdf:resource="http://biz.netmile.co.jp/news/press_2016/press_release160301.html#he20160301"/>
-        <rdf:li rdf:resource="http://biz.netmile.co.jp/news/press_2015/press_release151201.html#he20151201"/>
       </rdf:Seq>
     </items>
   </channel>
+  <item rdf:about="http://biz.netmile.co.jp/news/press_2017/press_release170206.html#he20170206">
+    <title>ポイント市場の未来と、パッケージ型ゲームコンテンツサービスが顧客行動に与える影響について</title>
+    <link>http://biz.netmile.co.jp/news/press_2017/press_release170206.html</link>
+    <dc:date>2017-02-06</dc:date>
+    <description>謹啓　時下ますます御健勝のこととお慶び申し上げます。平素は格別のお引き立てをいただき、厚く御礼申し上げます。</description>
+  </item>
+
   <item rdf:about="http://biz.netmile.co.jp/news/press_2017/press_release170117.html#he20170116">
     <title>役員人事について</title>
     <link>http://biz.netmile.co.jp/news/press_2017/press_release170117.html</link>
@@ -127,13 +134,6 @@
     <link>http://biz.netmile.co.jp/news/press_2016/press_release160301.html</link>
     <dc:date>2016-03-01</dc:date>
     <description>ネットマイル、WAONポイントへの交換サービス開始 4月には記念キャンペーンも実施予定</description>
-  </item>
-
-  <item rdf:about="http://biz.netmile.co.jp/news/press_2015/press_release151201.html#he20151201">
-    <title>ネットマイル、ゆうちょ銀行口座へのポイント現金化サービス開始</title>
-    <link>http://biz.netmile.co.jp/news/press_2015/press_release151201.html</link>
-    <dc:date>2015-12-01</dc:date>
-    <description>ポイント交換サイト「ネットマイル」で、ゆうちょ銀行の口座へのポイント現金化サービスを本日12月1日（火）より開始します。</description>
   </item>
 
 </rdf:RDF>
