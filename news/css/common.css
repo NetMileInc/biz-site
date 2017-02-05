@@ -1,0 +1,197 @@
+/* フォントサイズ設定 */
+.fSXS {
+  /* このサイズ以下はNG */
+  font-size: 8px;
+}
+
+.fSS {
+  font-size: 10px;
+}
+
+.fSM {
+  font-size: 12px;
+}
+
+.fSL {
+  font-size: 16px;
+}
+
+.fSXL {
+  font-size: 20px;
+}
+
+.fSXXL {
+  font-size: 30px;
+}
+
+/* テキスト配置設定 */
+.txt_right {
+  text-align: right;
+}
+
+.txt_center {
+  text-align: center;
+}
+
+.txt_left {
+  text-align: left;
+}
+
+/* ブロック配置設定 */
+.block {
+  display: block;
+}
+
+.block_center {
+  margin: 0 auto;
+}
+
+/* マージン設定 */
+.mTS {
+  margin-top: 5px;
+}
+
+.mTM {
+  margin-top: 10px;
+}
+
+.mTL {
+  margin-top: 15px;
+}
+
+.mTXL {
+  .margin-top: 20px;
+}
+
+.mBS {
+  margin-bottom: 5px;
+}
+
+.mBM {
+  margin-bottom: 10px;
+}
+
+.mBL {
+  margin-bottom: 15px;
+}
+
+.mBXL {
+  margin-bottom: 20px;
+}
+
+/* パッディング設定 */
+.pTS {
+  padding-top: 5px;
+}
+
+.pTM {
+  padding-top: 10px;
+}
+
+.pTL {
+  padding-top: 15px;
+}
+
+.pTXL {
+  padding-top: 20px;
+}
+
+.pTem {
+  padding-top: 1em;
+}
+
+.pBS {
+  padding-bottom: 5px;
+}
+
+.pBM {
+  padding-bottom: 10px;
+}
+
+.pBL {
+  padding-bottom: 15px;
+}
+
+.pBXL {
+  padding-bottom: 20px;
+}
+
+.pBem {
+  padding-bottom: 1em;
+}
+dl.information dt {
+  width: 100px;
+  float:left;
+}
+
+dl.information dt:before {
+  content: "・";
+}
+
+dl.information dt:after {
+  content: ":";
+}
+
+dl.information dd {
+  padding-bottom: 0.5em;
+  margin-left: 100px;
+}
+
+/* 印刷エリア */
+.print_area {
+  /* A4サイズの指定 */
+  max-width: 700px;
+  padding-top: 30px;
+  border: solid 2px #000;
+  margin: 0 auto;
+}
+
+.print_area .pa_title{
+  font-size: 20px;
+  font-style: bold;
+}
+
+.print_area dl.information {
+  max-width: 600px;
+}
+
+.print_area .entry_area {
+  margin: 0 auto;
+  max-width: 600px;
+  width: 100%;
+}
+
+.print_area .entry_area dt {
+  width: 120px;
+  height: 30px;
+  line-height: 30px;
+  float: left;
+}
+.print_area .entry_area dt:after {
+  content: ":"
+}
+
+.print_area .entry_area dd {
+  margin-left: 120px;
+  height: 30px;
+
+  border-bottom:  solid 2px #000000;
+}
+
+.print_btn {
+  display: block;
+  width: 80px;
+  margin: 0 auto 20px;
+  text-align: center;
+  border-radius: 5px;
+  padding: 0.5em 1em;
+  background-color: #ff6347;
+  color: #FFFFFF;
+}
+
+@media print {
+  .noprint {
+    display: none;
+  }
+}
+
