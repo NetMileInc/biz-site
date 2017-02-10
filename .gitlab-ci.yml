@@ -7,7 +7,7 @@ deploy to production:
   image: python:latest
   script:
   - pip install awscli
-  - aws s3 sync ./ s3://$S3_BUCKET_PRODUCTION/ --recursive --include "*.*" --exclude "*.yml" --exclude ".git"
+  - aws s3 sync ./ s3://$S3_BUCKET_PRODUCTION/ --include "*.*" --exclude "*.yml" --exclude ".git/*"
   when: manual
   only:
   - master
@@ -17,7 +17,7 @@ deploy to staging:
   image: python:latest
   script:
   - pip install awscli
-  - aws s3 sync ./ s3://$S3_BUCKET_STAGING/ --recursive --include "*.*" --exclude "*.yml" --exclude ".git"
+  - aws s3 sync ./ s3://$S3_BUCKET_STAGING/ --include "*.*" --exclude "*.yml" --exclude ".git/*"
   when: manual
   only:
   - dev  
@@ -27,7 +27,7 @@ deploy to dev:
   image: python:latest
   script:
   - pip install awscli
-  - aws s3 sync ./ s3://$S3_BUCKET_DEV/ --recursive --include "*.*" --exclude "*.yml" --exclude ".git"
+  - aws s3 sync ./ s3://$S3_BUCKET_DEV/ --include "*.*" --exclude "*.yml" --exclude ".git/*"
   when: manual
   except:
   - dev
