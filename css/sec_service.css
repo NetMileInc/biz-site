@@ -853,6 +853,12 @@ div.SvcBox div.alliedBox div.category {
   padding-bottom: 1em;
 }
 
+.DigitalMeritAreaCase .txtRight {
+  width: 100%;
+  padding-right: 10px;
+  text-align: right;
+}
+
 /* marginをoverride */
 .DigitalIntroductionArea .warningText {
   margin-left: 5%;
