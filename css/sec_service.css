@@ -1454,8 +1454,6 @@ div.SvcBox div.alliedBox div.category {
     -webkit-box-pack: center;
     -moz-box-pack: center;
     -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
 
     -webkit-box-align: center;
     -moz-box-align: center;
