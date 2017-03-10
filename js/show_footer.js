@@ -55,7 +55,7 @@ document.write('<li><ul>');
 // document.write('<li><h3><a href="https://www.netmile.co.jp/contact/catalog.htm" target="_blank">資料請求・お問い合わせ</a></h3></li>');
 document.write('<li><h3><a href="/policy/privacy.html">プライバシーポリシー</a></h3></li>');
 document.write('<li><h3><a href="/sitemap.html">サイトマップ</a></h3></li>');
-document.write('<li class="pmarkArea"><a href="http://privacymark.jp/" target="_blank" class="noneIcon">');
+document.write('<li class="pmarkArea"><a href="https://privacymark.jp/" target="_blank" class="noneIcon">');
 document.write('<ul>');
 document.write('<li><img src="/images/pmark-r.png" alt="ネットマイルはプライバシーマークを取得しています。" width="62" height="62" /></li>');
 document.write('<li class="pmarkAreaTitle">ネットマイルはプライバシーマークを取得しています。</li>');
