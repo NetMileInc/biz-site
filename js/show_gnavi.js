@@ -34,7 +34,7 @@ document.write('<li><a href="/news/index.html">ニュース<p class="enText">New
 document.write('<ul class="globalNaviSub listNo3"><li><p>プレスリリース</p>');
 document.write('<ul class="globalNaviSubPress">');
 document.write('<li><a href="/news/index.html">2017</a></li>');
-document.write('<li><a href="/news/press_2015.html">2016</a></li>');
+document.write('<li><a href="/news/press_2016.html">2016</a></li>');
 document.write('<li><a href="/news/press_2015.html">2015</a></li>');
 document.write('<li><a href="/news/press_2014.html">2014</a></li>');
 document.write('<li><a href="/news/press_2013.html">2013</a></li>');
@@ -47,7 +47,7 @@ document.write('<li><a href="/news/index.html">2007～</a></li>');
 document.write('</ul></li><li><p>パブリシティ</p>');
 document.write('<ul class="globalNaviSubPublicity">');
 document.write('<li><a href="/news/publicity.html">2017</a></li>');
-document.write('<li><a href="/news/publicity_2015.html">2016</a></li>');
+document.write('<li><a href="/news/publicity_2016.html">2016</a></li>');
 document.write('<li><a href="/news/publicity_2015.html">2015</a></li>');
 document.write('<li><a href="/news/publicity_2014.html">2014</a></li>');
 document.write('<li><a href="/news/publicity_2013.html">2013</a></li>');
