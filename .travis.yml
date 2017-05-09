@@ -4,7 +4,8 @@ python:
 cache: pip
 install:
  - pip install awscli
-
+script:
+ - make build
 deploy:
  on: 
   branch: master
