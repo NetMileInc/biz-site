@@ -1,0 +1,24 @@
+language: python
+python: 
+ - "2.7"
+cache: pip
+install:
+ - pip install awscli
+
+deploy:
+ on: 
+  branch: master
+ provider: s3
+    access_key_id: $AWS_ACCESS_KEY_ID
+    secret_access_key: $AWS_SECRET_ACCESS_KEY
+    bucket: $S3_BUCKET_DEV
+    skip_cleanup: true
+	
+#deploy:	
+# on:
+#  branch: dev
+# provider: s3
+#    access_key_id: $AWS_ACCESS_KEY_ID
+#    secret_access_key: $AWS_SECRET_ACCESS_KEY
+#    bucket: $S3_BUCKET_STAGING
+#    skip_cleanup: true
