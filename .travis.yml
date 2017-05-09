@@ -1,11 +1,6 @@
 language: python
 python: 
  - "2.7"
-cache: pip
-install:
- - pip install awscli
-script:
- - make build
 deploy:
  on: 
   branch: master
