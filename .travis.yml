@@ -1,6 +1,11 @@
 language: python
 python: 
  - "2.7"
+cache: pip
+install:
+ - pip install awscli
+ - pip install -r requirements.txt
+script:"just something"
 deploy:
  on: 
   branch: master
